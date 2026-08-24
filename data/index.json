@@ -1,0 +1,52 @@
+[
+  {
+    "id": "2026-08-24-mcp-roadmap",
+    "slug": "mcp-publishes-updated-roadmap-agentic-messaging-identity",
+    "headline": "MCP publishes updated roadmap focused on agentic messaging and agent identity",
+    "published_at": "2026-08-22T00:00:00.000Z",
+    "category": "Protocols",
+    "organization": ["Anthropic", "Agentic AI Foundation"],
+    "verification_status": "confirmed",
+    "country_code": "GLOBAL"
+  },
+  {
+    "id": "2026-08-24-databricks-agents-report",
+    "slug": "databricks-report-multi-agent-workflows-up-327-percent",
+    "headline": "Databricks report: multi-agent workflows up 327% as enterprises move beyond chatbots",
+    "published_at": "2026-08-24T00:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Databricks"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-24-nvidia-avo-arc",
+    "slug": "nvidia-avo-agent-perfect-score-arc-agi-3",
+    "headline": "NVIDIA AVO agent achieves perfect public ARC-AGI-3 score",
+    "published_at": "2026-08-21T00:00:00.000Z",
+    "category": "Benchmarks",
+    "organization": ["NVIDIA", "Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-24-berkeley-agentic-summit",
+    "slug": "berkeley-agentic-ai-summit-2026-dawn-song",
+    "headline": "UC Berkeley Agentic AI Summit highlights safety and democratization challenges",
+    "published_at": "2026-08-19T00:00:00.000Z",
+    "category": "Safety",
+    "organization": ["UC Berkeley"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-24-payhawk-agent-fetch",
+    "slug": "payhawk-launches-agent-fetch-vendor-invoices",
+    "headline": "Payhawk launches Agent Fetch for automated vendor invoice retrieval",
+    "published_at": "2026-08-22T00:00:00.000Z",
+    "category": "Products",
+    "organization": ["Payhawk"],
+    "verification_status": "reported",
+    "country_code": "GLOBAL"
+  }
+]
