@@ -105,7 +105,6 @@ export default async function HomePage({
           </div>
         </form>
 
-        {/* Horizontal scroll chips on narrow screens — no wrap crush */}
         <div className="-mx-4 mb-5 sm:mx-0 sm:mb-6">
           <div
             className="flex gap-2 overflow-x-auto px-4 pb-1 scrollbar-none sm:flex-wrap sm:overflow-visible sm:px-0"
@@ -118,11 +117,8 @@ export default async function HomePage({
                 href={chip.href}
                 role="listitem"
                 aria-current={chip.active ? "page" : undefined}
-                className={`shrink-0 rounded-full px-3 py-1.5 text-sm font-medium transition-colors sm:px-3.5 ${
-                  chip.active
-                    ? "bg-[var(--accent)] text-white shadow-sm"
-                    : "border border-[var(--border-default)] bg-transparent text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
-                }`}
+                className="chip shrink-0 rounded-full px-3.5 py-1.5 text-sm font-medium transition-colors"
+                data-active={chip.active ? "true" : "false"}
               >
                 {chip.label}
               </a>

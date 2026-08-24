@@ -103,7 +103,27 @@ button {
   outline-offset: 2px;
 }
 
-/* Hide scrollbar on chip row but keep scroll */
+/* Filter chips — forced contrast, no inheritance bugs */
+.chip[data-active="true"] {
+  background-color: #2563eb;
+  color: #ffffff !important;
+  border: 1px solid #2563eb;
+}
+.chip[data-active="false"] {
+  background-color: var(--bg-surface);
+  color: var(--text-secondary) !important;
+  border: 1px solid var(--border-default);
+}
+.chip[data-active="false"]:hover {
+  background-color: var(--bg-hover);
+  color: var(--text-primary) !important;
+}
+html.dark .chip[data-active="true"] {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+  color: #ffffff !important;
+}
+
 .scrollbar-none {
   scrollbar-width: none;
   -ms-overflow-style: none;
