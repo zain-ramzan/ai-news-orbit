@@ -1,6 +1,6 @@
-# AgentSignal
+# AI NEWS ORBIT
 
-**The signal in agentic AI.**
+**The NEWS in agentic AI.**
 
 AgentSignal is a continuously updated public news platform dedicated to AI agents, agentic systems, coding agents, computer-use agents, multi-agent frameworks, protocols (MCP, A2A, …), infrastructure, safety, and enterprise deployments.
 
