@@ -2,7 +2,7 @@ import { getAllStories } from "@/lib/news";
 
 export async function GET() {
   const stories = getAllStories().slice(0, 50);
-  const base = "https://agentsignal.vercel.app";
+  const base = "https://ai-news-orbit.vercel.app";
 
   const items = stories
     .map(
@@ -21,9 +21,9 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AgentSignal</title>
+    <title>AI News Orbit</title>
     <link>${base}</link>
-    <description>The signal in agentic AI — curated news on AI agents, frameworks, protocols, and enterprise deployments.</description>
+    <description>Curated news on AI agents, frameworks, protocols, and enterprise deployments.</description>
     <language>en</language>
     <atom:link href="${base}/feed.xml" rel="self" type="application/rss+xml"/>
     ${items}

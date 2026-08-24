@@ -6,9 +6,9 @@ export function Header() {
       <div className="mx-auto flex h-14 max-w-3xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-2 font-semibold tracking-tight text-[var(--text-primary)]">
           <span className="inline-flex h-7 w-7 items-center justify-center rounded-lg bg-[var(--accent)] text-sm font-bold text-white">
-            A
+            O
           </span>
-          <span>AgentSignal</span>
+          <span>AI News Orbit</span>
         </Link>
         <nav className="flex items-center gap-4 text-sm text-[var(--text-secondary)]">
           <Link href="/?filter=confirmed" className="hover:text-[var(--text-primary)] transition-colors">

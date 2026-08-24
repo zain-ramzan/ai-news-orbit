@@ -1,6 +1,5 @@
 import { Header } from "@/components/Header";
-import { StoryCard } from "@/components/StoryCard";
-import { getAllStories, getLatestDaily, searchStories } from "@/lib/news";
+import { getLatestDaily, searchStories } from "@/lib/news";
 import { NewsFeedClient } from "@/components/NewsFeedClient";
 
 type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>;
@@ -22,9 +21,10 @@ export default async function HomePage({
 
   const { stories, total } = searchStories(q, {
     category,
-    verification: verification === "confirmed" || verification === "reported" || verification === "rumor"
-      ? verification
-      : undefined,
+    verification:
+      verification === "confirmed" || verification === "reported" || verification === "rumor"
+        ? verification
+        : undefined,
     limit: 30,
     offset: 0,
   });
@@ -39,10 +39,10 @@ export default async function HomePage({
       <main className="mx-auto max-w-3xl px-4 pb-24 pt-10 sm:px-6">
         <div className="mb-10">
           <h1 className="mb-2 text-3xl font-semibold tracking-tight text-[var(--text-primary)] sm:text-4xl">
-            AgentSignal
+            AI News Orbit
           </h1>
           <p className="text-[var(--text-secondary)]">
-            The signal in agentic AI. Curated developments in agents, frameworks, protocols, and enterprise systems.
+            Curated developments in agents, frameworks, protocols, and enterprise systems.
           </p>
         </div>
 
@@ -63,9 +63,7 @@ export default async function HomePage({
               Search
             </button>
           </div>
-          {verification && (
-            <input type="hidden" name="filter" value={verification} />
-          )}
+          {verification && <input type="hidden" name="filter" value={verification} />}
           {category && <input type="hidden" name="category" value={category} />}
         </form>
 
@@ -137,7 +135,13 @@ export default async function HomePage({
             </a>
           </div>
         ) : (
-          <NewsFeedClient initialStories={stories} initialTotal={total} query={q} category={category} verification={verification} />
+          <NewsFeedClient
+            initialStories={stories}
+            initialTotal={total}
+            query={q}
+            category={category}
+            verification={verification}
+          />
         )}
       </main>
     </div>

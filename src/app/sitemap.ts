@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllStories } from "@/lib/news";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://agentsignal.vercel.app";
+  const base = "https://ai-news-orbit.vercel.app";
   const stories = getAllStories();
 
   return [

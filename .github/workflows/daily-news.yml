@@ -1,8 +1,7 @@
-name: Daily Agent News
+name: Daily News
 
 on:
   schedule:
-    # ~07:00 Europe/Rome (CEST = UTC+2 in summer)
     - cron: "0 5 * * *"
   workflow_dispatch:
 
@@ -42,12 +41,12 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git config user.name "AgentSignal Bot"
-          git config user.email "bot@agentsignal.local"
+          git config user.name "AI News Orbit Bot"
+          git config user.email "bot@ai-news-orbit.local"
           git add data/
           if git diff --staged --quiet; then
             echo "No news changes to commit."
           else
-            git commit -m "chore(news): daily agent signal update $(date -u +%Y-%m-%d)"
+            git commit -m "chore(news): daily update $(date -u +%Y-%m-%d)"
             git push
           fi
