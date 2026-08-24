@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { NewsStory } from "@/lib/schema";
-import { COUNTRY_FLAGS, formatRelativeDate } from "@/lib/news";
+import { COUNTRY_FLAGS, formatRelativeDate } from "@/lib/format";
 
 function VerificationBadge({ status }: { status: string }) {
   if (status === "confirmed") {
@@ -45,7 +45,8 @@ export function StoryCard({ story }: { story: NewsStory }) {
           <>
             <span aria-hidden>·</span>
             <span title={story.country ?? story.country_code}>
-              {flag} <span className="sr-only">{story.country ?? story.country_code}</span>
+              {flag}{" "}
+              <span className="sr-only">{story.country ?? story.country_code}</span>
             </span>
           </>
         )}

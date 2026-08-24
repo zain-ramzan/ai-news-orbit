@@ -1,5 +1,5 @@
 {
-  "name": "agent-signal",
+  "name": "ai-news-orbit",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,6 +14,7 @@
     "next": "16.3.2",
     "react": "19.2.8",
     "react-dom": "19.2.8",
+    "server-only": "^0.0.1",
     "zod": "^3.24.2"
   },
   "devDependencies": {
