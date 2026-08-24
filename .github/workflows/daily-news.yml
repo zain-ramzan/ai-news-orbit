@@ -2,7 +2,7 @@ name: Daily News
 
 on:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -28,7 +28,7 @@ jobs:
           GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
         run: |
           if [ -z "$GROK_API_KEY" ]; then
-            echo "GROK_API_KEY not set — skipping live research."
+            echo "GROK_API_KEY not set — skipping live research (Grok automation may still update the repo)."
             exit 0
           fi
           npx tsx scripts/daily-ingest.ts
