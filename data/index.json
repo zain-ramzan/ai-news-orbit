@@ -10,6 +10,26 @@
     "country_code": "GLOBAL"
   },
   {
+    "id": "2026-08-24-ox-alpha",
+    "slug": "ox-alpha-stealth-model-openrouter-coding-agentic",
+    "headline": "Anonymous Ox Alpha model lands on OpenRouter for coding and long-horizon agentic work",
+    "published_at": "2026-08-20T00:00:00.000Z",
+    "category": "Models",
+    "organization": ["OpenRouter"],
+    "verification_status": "confirmed",
+    "country_code": "GLOBAL"
+  },
+  {
+    "id": "2026-08-24-gitlab-agentic-controls",
+    "slug": "gitlab-dedicated-ai-gateway-agentic-enterprise-controls",
+    "headline": "GitLab ships Dedicated AI Gateway and agentic controls for regulated software delivery",
+    "published_at": "2026-08-20T00:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["GitLab"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-08-24-databricks-agents-report",
     "slug": "databricks-report-multi-agent-workflows-up-327-percent",
     "headline": "Databricks report: multi-agent workflows up 327% as enterprises move beyond chatbots",
