@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { StoryCard } from "@/components/StoryCard";
+import { StoryImage } from "@/components/StoryImage";
 import {
   COUNTRY_FLAGS,
   formatRelativeDate,
@@ -55,35 +56,40 @@ export default async function StoryPage({ params }: Props) {
           ← Back to feed
         </Link>
 
-        <div className="mb-4 flex flex-wrap items-center gap-2 text-xs text-[var(--text-muted)]">
-          <span
-            className={`inline-flex items-center rounded-full px-2 py-0.5 font-medium ${
-              story.verification_status === "confirmed"
-                ? "bg-emerald-500/10 text-emerald-700 dark:text-emerald-400"
-                : story.verification_status === "reported"
-                  ? "bg-amber-500/10 text-amber-700 dark:text-amber-400"
-                  : "bg-zinc-500/10 text-zinc-600 dark:text-zinc-400"
-            }`}
-          >
-            {story.verification_status === "confirmed"
-              ? "Confirmed"
-              : story.verification_status === "reported"
-                ? "Reported"
-                : "Rumor"}
-          </span>
-          <span>{story.category}</span>
-          {story.organization.map((org) => (
-            <span key={org} className="rounded-md bg-[var(--bg-surface)] px-1.5 py-0.5">
-              {org}
-            </span>
-          ))}
-          {flag && (
-            <span title={story.country ?? story.country_code}>
-              {flag}{" "}
-              <span className="sr-only">{story.country ?? story.country_code}</span>
-            </span>
-          )}
-          <time dateTime={story.published_at}>{formatRelativeDate(story.published_at)}</time>
+        <div className="mb-6 flex gap-4">
+          <StoryImage story={story} size={96} />
+          <div className="min-w-0 flex-1">
+            <div className="mb-2 flex flex-wrap items-center gap-2 text-xs text-[var(--text-muted)]">
+              <span
+                className={`inline-flex items-center rounded-full px-2 py-0.5 font-medium ${
+                  story.verification_status === "confirmed"
+                    ? "bg-emerald-500/10 text-emerald-700 dark:text-emerald-400"
+                    : story.verification_status === "reported"
+                      ? "bg-amber-500/10 text-amber-700 dark:text-amber-400"
+                      : "bg-zinc-500/10 text-zinc-600 dark:text-zinc-400"
+                }`}
+              >
+                {story.verification_status === "confirmed"
+                  ? "Confirmed"
+                  : story.verification_status === "reported"
+                    ? "Reported"
+                    : "Rumor"}
+              </span>
+              <span>{story.category}</span>
+              {story.organization.map((org) => (
+                <span key={org} className="rounded-md bg-[var(--bg-surface)] px-1.5 py-0.5">
+                  {org}
+                </span>
+              ))}
+              {flag && (
+                <span title={story.country ?? story.country_code}>
+                  {flag}{" "}
+                  <span className="sr-only">{story.country ?? story.country_code}</span>
+                </span>
+              )}
+              <time dateTime={story.published_at}>{formatRelativeDate(story.published_at)}</time>
+            </div>
+          </div>
         </div>
 
         <h1 className="mb-8 text-3xl font-semibold leading-tight tracking-tight text-[var(--text-primary)] sm:text-4xl">
@@ -169,7 +175,7 @@ export default async function StoryPage({ params }: Props) {
               <Link
                 key={tag}
                 href={`/?q=${encodeURIComponent(tag)}`}
-                className="rounded-md bg-[var(--bg-app)] px-2 py-1 text-xs text-[var(--text-muted)] hover:bg-[var(--bg-hover)]"
+                className="rounded-md bg-[var(--bg-surface)] px-2 py-1 text-xs text-[var(--text-muted)] hover:bg-[var(--bg-hover)]"
               >
                 {tag}
               </Link>

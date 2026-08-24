@@ -5,17 +5,25 @@ export async function GET() {
   const base = "https://ai-news-orbit.vercel.app";
 
   const items = stories
-    .map(
-      (s) => `
+    .map((s) => {
+      const desc = s.what_happened
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+      const title = s.headline
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+      return `
     <item>
-      <title><![CDATA[${s.headline}]]></title>
+      <title>${title}</title>
       <link>${base}/news/${s.slug}</link>
       <guid isPermaLink="true">${base}/news/${s.slug}</guid>
       <pubDate>${new Date(s.published_at).toUTCString()}</pubDate>
-      <description><![CDATA[${s.what_happened}]]></description>
+      <description>${desc}</description>
       <category>${s.category}</category>
-    </item>`
-    )
+    </item>`;
+    })
     .join("");
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -25,12 +33,13 @@ export async function GET() {
     <link>${base}</link>
     <description>Curated news on AI agents, frameworks, protocols, and enterprise deployments.</description>
     <language>en</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${base}/feed.xml" rel="self" type="application/rss+xml"/>
     ${items}
   </channel>
 </rss>`;
 
-  return new Response(xml, {
+  return new Response(xml.trim(), {
     headers: {
       "Content-Type": "application/rss+xml; charset=utf-8",
       "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600",

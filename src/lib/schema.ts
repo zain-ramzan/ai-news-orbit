@@ -36,6 +36,7 @@ export const NewsStorySchema = z.object({
   tags: z.array(z.string()).default([]),
   country: z.string().optional(),
   country_code: z.string().length(2).or(z.literal("GLOBAL")).optional(),
+  image_url: z.string().url().optional().nullable(),
   published_at: z.string().datetime({ offset: true }).or(z.string().regex(/^\d{4}-\d{2}-\d{2}/)),
   discovered_at: z.string().datetime({ offset: true }).or(z.string()),
   source_name: z.string().min(1),

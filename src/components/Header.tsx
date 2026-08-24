@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { LogoMark } from "./Logo";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function Header() {
   return (
@@ -12,13 +13,14 @@ export function Header() {
           <LogoMark className="h-7 w-7 shrink-0" />
           <span>AI News Orbit</span>
         </Link>
-        <nav className="flex items-center gap-4 text-sm text-[var(--text-secondary)]">
+        <nav className="flex items-center gap-3 text-sm text-[var(--text-secondary)]">
           <Link href="/?filter=confirmed" className="hover:text-[var(--text-primary)] transition-colors">
             Confirmed
           </Link>
-          <Link href="/feed.xml" className="hover:text-[var(--text-primary)] transition-colors">
+          <Link href="/rss" className="hover:text-[var(--text-primary)] transition-colors">
             RSS
           </Link>
+          <ThemeToggle />
         </nav>
       </div>
     </header>

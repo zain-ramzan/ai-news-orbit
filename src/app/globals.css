@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
-:root {
+:root,
+html.light {
   --bg-app: #ffffff;
   --bg-sidebar: #f7f7f5;
   --bg-surface: #f4f4f2;
@@ -33,21 +34,37 @@
     "Helvetica Neue", Arial, sans-serif;
 }
 
+html.dark {
+  --bg-app: #212121;
+  --bg-sidebar: #171717;
+  --bg-surface: #2a2a2a;
+  --bg-hover: #333333;
+  --bg-muted: #262626;
+
+  --text-primary: #ececec;
+  --text-secondary: #a6a6a6;
+  --text-muted: #7f7f7f;
+
+  --border-default: #383838;
+  --border-strong: #474747;
+
+  --accent: #3b82f6;
+  --accent-hover: #60a5fa;
+  --accent-subtle: #1e3a5f;
+}
+
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not(.light):not(.dark) {
     --bg-app: #212121;
     --bg-sidebar: #171717;
     --bg-surface: #2a2a2a;
     --bg-hover: #333333;
     --bg-muted: #262626;
-
     --text-primary: #ececec;
     --text-secondary: #a6a6a6;
     --text-muted: #7f7f7f;
-
     --border-default: #383838;
     --border-strong: #474747;
-
     --accent: #3b82f6;
     --accent-hover: #60a5fa;
     --accent-subtle: #1e3a5f;
@@ -85,15 +102,6 @@ button {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
-
-.bg-app { background: var(--bg-app); }
-.bg-sidebar { background: var(--bg-sidebar); }
-.bg-surface { background: var(--bg-surface); }
-.bg-hover { background: var(--bg-hover); }
-.text-primary { color: var(--text-primary); }
-.text-secondary { color: var(--text-secondary); }
-.text-muted { color: var(--text-muted); }
-.border-default { border-color: var(--border-default); }
 
 @keyframes shimmer {
   0% { background-position: -200% 0; }
