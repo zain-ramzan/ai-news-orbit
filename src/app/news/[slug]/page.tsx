@@ -62,7 +62,7 @@ export default async function StoryPage({ params }: Props) {
                 ? "bg-emerald-500/10 text-emerald-700 dark:text-emerald-400"
                 : story.verification_status === "reported"
                   ? "bg-amber-500/10 text-amber-700 dark:text-amber-400"
-                  : "bg-zinc-500/10 text-zinc-600"
+                  : "bg-zinc-500/10 text-zinc-600 dark:text-zinc-400"
             }`}
           >
             {story.verification_status === "confirmed"
@@ -156,9 +156,10 @@ export default async function StoryPage({ params }: Props) {
             href={story.official_url || story.source_url}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-[var(--accent)] px-4 py-2.5 text-sm font-medium text-white hover:bg-[var(--accent-hover)] transition-colors"
+            className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-[var(--accent)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--accent-hover)] transition-colors"
           >
-            Read original source →
+            Read source
+            <span aria-hidden>↗</span>
           </a>
         </section>
 
@@ -168,7 +169,7 @@ export default async function StoryPage({ params }: Props) {
               <Link
                 key={tag}
                 href={`/?q=${encodeURIComponent(tag)}`}
-                className="rounded-md bg-[var(--bg-surface)] px-2 py-1 text-xs text-[var(--text-muted)] hover:bg-[var(--bg-hover)]"
+                className="rounded-md bg-[var(--bg-app)] px-2 py-1 text-xs text-[var(--text-muted)] hover:bg-[var(--bg-hover)]"
               >
                 {tag}
               </Link>

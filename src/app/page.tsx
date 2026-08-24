@@ -86,10 +86,10 @@ export default async function HomePage({
               <a
                 key={chip.label}
                 href={chip.href}
-                className={`rounded-full px-3 py-1.5 text-sm transition-colors ${
+                className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition-colors ${
                   active
-                    ? "bg-[var(--text-primary)] text-[var(--bg-app)]"
-                    : "bg-[var(--bg-surface)] text-[var(--text-secondary)] hover:bg-[var(--bg-hover)]"
+                    ? "bg-[var(--accent)] text-white shadow-sm"
+                    : "bg-[var(--bg-surface)] text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
                 }`}
               >
                 {chip.label}
