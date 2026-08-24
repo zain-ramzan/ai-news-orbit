@@ -35,6 +35,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+function VerificationBadge({ status }: { status: string }) {
+  if (status === "confirmed") {
+    return (
+      <span className="inline-flex items-center gap-1 rounded-md bg-emerald-600 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-white">
+        <span className="h-1.5 w-1.5 rounded-full bg-white/90" aria-hidden />
+        Confirmed
+      </span>
+    );
+  }
+  if (status === "reported") {
+    return (
+      <span className="inline-flex items-center gap-1 rounded-md bg-amber-500 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-zinc-900">
+        <span className="h-1.5 w-1.5 rounded-full bg-zinc-900/80" aria-hidden />
+        Reported
+      </span>
+    );
+  }
+  return (
+    <span className="inline-flex items-center gap-1 rounded-md bg-zinc-500 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-white">
+      <span className="h-1.5 w-1.5 rounded-full bg-white/80" aria-hidden />
+      Rumor
+    </span>
+  );
+}
+
 export default async function StoryPage({ params }: Props) {
   const { slug } = await params;
   const story = getStoryBySlug(slug);
@@ -61,21 +86,7 @@ export default async function StoryPage({ params }: Props) {
           <StoryImage story={story} size={96} />
           <div className="min-w-0 flex-1">
             <div className="mb-2 flex flex-wrap items-center gap-2 text-xs text-[var(--text-muted)]">
-              <span
-                className={`inline-flex items-center rounded-full px-2 py-0.5 font-medium ${
-                  story.verification_status === "confirmed"
-                    ? "bg-emerald-500/15 text-emerald-700 dark:text-emerald-400"
-                    : story.verification_status === "reported"
-                      ? "bg-amber-500/15 text-amber-800 dark:text-amber-400"
-                      : "bg-zinc-500/15 text-zinc-700 dark:text-zinc-400"
-                }`}
-              >
-                {story.verification_status === "confirmed"
-                  ? "Confirmed"
-                  : story.verification_status === "reported"
-                    ? "Reported"
-                    : "Rumor"}
-              </span>
+              <VerificationBadge status={story.verification_status} />
               <span>{story.category}</span>
               {story.organization.map((org) => (
                 <span key={org} className="rounded-md bg-[var(--bg-surface)] px-1.5 py-0.5">
@@ -176,7 +187,7 @@ export default async function StoryPage({ params }: Props) {
               <Link
                 key={tag}
                 href={`/?q=${encodeURIComponent(tag)}`}
-                className="rounded-md bg-[var(--bg-surface)] px-2 py-1 text-xs text-[var(--text-muted)] hover:bg-[var(--bg-hover)]"
+                className="rounded-md border border-[var(--border-default)] px-2 py-1 text-xs text-[var(--text-muted)] hover:border-[var(--border-strong)] hover:text-[var(--text-primary)]"
               >
                 {tag}
               </Link>

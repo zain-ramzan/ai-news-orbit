@@ -6,20 +6,23 @@ import { StoryImage } from "./StoryImage";
 function VerificationBadge({ status }: { status: string }) {
   if (status === "confirmed") {
     return (
-      <span className="inline-flex items-center rounded-full bg-emerald-500/10 px-2 py-0.5 text-xs font-medium text-emerald-700 dark:text-emerald-400">
+      <span className="inline-flex items-center gap-1 rounded-md bg-emerald-600 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-white">
+        <span className="h-1.5 w-1.5 rounded-full bg-white/90" aria-hidden />
         Confirmed
       </span>
     );
   }
   if (status === "reported") {
     return (
-      <span className="inline-flex items-center rounded-full bg-amber-500/10 px-2 py-0.5 text-xs font-medium text-amber-700 dark:text-amber-400">
+      <span className="inline-flex items-center gap-1 rounded-md bg-amber-500 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-zinc-900">
+        <span className="h-1.5 w-1.5 rounded-full bg-zinc-900/80" aria-hidden />
         Reported
       </span>
     );
   }
   return (
-    <span className="inline-flex items-center rounded-full bg-zinc-500/10 px-2 py-0.5 text-xs font-medium text-zinc-600 dark:text-zinc-400">
+    <span className="inline-flex items-center gap-1 rounded-md bg-zinc-500 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-white">
+      <span className="h-1.5 w-1.5 rounded-full bg-white/80" aria-hidden />
       Rumor
     </span>
   );
@@ -74,7 +77,7 @@ export function StoryCard({ story }: { story: NewsStory }) {
             {story.tags.slice(0, 3).map((tag) => (
               <span
                 key={tag}
-                className="rounded-md bg-[var(--bg-surface)] px-1.5 py-0.5 text-[11px]"
+                className="rounded-md border border-[var(--border-default)] px-1.5 py-0.5 text-[11px] text-[var(--text-muted)]"
               >
                 {tag}
               </span>

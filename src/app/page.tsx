@@ -33,6 +33,46 @@ export default async function HomePage({
   const latest = getLatestDaily();
   const hasFilters = Boolean(q || category || verification);
 
+  const chips = [
+    { id: "latest", label: "Latest", href: "/", active: !hasFilters },
+    {
+      id: "confirmed",
+      label: "Confirmed",
+      href: "/?filter=confirmed",
+      active: verification === "confirmed" && !category && !q,
+    },
+    {
+      id: "protocols",
+      label: "Protocols",
+      href: "/?category=Protocols",
+      active: category === "Protocols",
+    },
+    {
+      id: "coding",
+      label: "Coding Agents",
+      href: "/?category=Coding%20Agents",
+      active: category === "Coding Agents",
+    },
+    {
+      id: "enterprise",
+      label: "Enterprise",
+      href: "/?category=Enterprise",
+      active: category === "Enterprise",
+    },
+    {
+      id: "safety",
+      label: "Safety",
+      href: "/?category=Safety",
+      active: category === "Safety",
+    },
+    {
+      id: "funding",
+      label: "Funding",
+      href: "/?category=Funding",
+      active: category === "Funding",
+    },
+  ];
+
   return (
     <div className="min-h-screen bg-[var(--bg-app)] text-[var(--text-primary)]">
       <Header />
@@ -64,39 +104,24 @@ export default async function HomePage({
               Search
             </button>
           </div>
-          {verification && <input type="hidden" name="filter" value={verification} />}
-          {category && <input type="hidden" name="category" value={category} />}
         </form>
 
-        <div className="mb-6 flex flex-wrap gap-2">
-          {[
-            { label: "Latest", href: "/" },
-            { label: "Confirmed", href: "/?filter=confirmed" },
-            { label: "Protocols", href: "/?category=Protocols" },
-            { label: "Coding Agents", href: "/?category=Coding%20Agents" },
-            { label: "Enterprise", href: "/?category=Enterprise" },
-            { label: "Safety", href: "/?category=Safety" },
-            { label: "Funding", href: "/?category=Funding" },
-          ].map((chip) => {
-            const active =
-              (chip.label === "Latest" && !hasFilters) ||
-              (chip.label === "Confirmed" && verification === "confirmed") ||
-              (chip.href.includes(`category=${encodeURIComponent(chip.label)}`) &&
-                category === chip.label);
-            return (
-              <a
-                key={chip.label}
-                href={chip.href}
-                className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition-colors ${
-                  active
-                    ? "bg-[var(--accent)] text-white shadow-sm"
-                    : "bg-[var(--bg-surface)] text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
-                }`}
-              >
-                {chip.label}
-              </a>
-            );
-          })}
+        <div className="mb-6 flex flex-wrap gap-2" role="list">
+          {chips.map((chip) => (
+            <a
+              key={chip.id}
+              href={chip.href}
+              role="listitem"
+              aria-current={chip.active ? "page" : undefined}
+              className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition-colors ${
+                chip.active
+                  ? "bg-[var(--accent)] text-white shadow-sm ring-2 ring-[var(--accent)]/30"
+                  : "border border-[var(--border-default)] bg-transparent text-[var(--text-secondary)] hover:border-[var(--border-strong)] hover:text-[var(--text-primary)]"
+              }`}
+            >
+              {chip.label}
+            </a>
+          ))}
         </div>
 
         {latest && !hasFilters && latest.key_agent_trends.length > 0 && (

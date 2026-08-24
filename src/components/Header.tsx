@@ -15,12 +15,6 @@ export function Header() {
           <span className="truncate">AI News Orbit</span>
         </Link>
         <nav className="flex shrink-0 items-center gap-2 sm:gap-3">
-          <Link
-            href="/?filter=confirmed"
-            className="hidden text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors sm:inline"
-          >
-            Confirmed
-          </Link>
           <ReminderButton />
           <ThemeToggle />
         </nav>

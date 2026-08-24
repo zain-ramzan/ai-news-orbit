@@ -71,7 +71,7 @@ export function NewsFeedClient({
 
   return (
     <div>
-      <div className="divide-y-0">
+      <div>
         {stories.map((story) => (
           <StoryCard key={story.id} story={story} />
         ))}
@@ -103,12 +103,6 @@ export function NewsFeedClient({
             Try again
           </button>
         </div>
-      )}
-
-      {!loading && offsetRef.current >= total && stories.length > 0 && (
-        <p className="py-8 text-center text-sm text-[var(--text-muted)]">
-          End of results
-        </p>
       )}
     </div>
   );
