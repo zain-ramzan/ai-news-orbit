@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { getLatestDaily, searchStories } from "@/lib/news";
 import { NewsFeedClient } from "@/components/NewsFeedClient";
 
@@ -33,10 +34,10 @@ export default async function HomePage({
   const hasFilters = Boolean(q || category || verification);
 
   return (
-    <div className="min-h-screen bg-[var(--bg-app)]">
+    <div className="min-h-screen bg-[var(--bg-app)] text-[var(--text-primary)]">
       <Header />
 
-      <main className="mx-auto max-w-3xl px-4 pb-24 pt-10 sm:px-6">
+      <main className="mx-auto max-w-3xl px-4 pb-16 pt-10 sm:px-6">
         <div className="mb-10">
           <h1 className="mb-2 text-3xl font-semibold tracking-tight text-[var(--text-primary)] sm:text-4xl">
             AI News Orbit
@@ -144,6 +145,8 @@ export default async function HomePage({
           />
         )}
       </main>
+
+      <Footer />
     </div>
   );
 }

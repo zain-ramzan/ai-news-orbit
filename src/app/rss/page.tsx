@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "RSS feed",
@@ -11,9 +12,9 @@ export default function RssPage() {
   const feedUrl = "https://ai-news-orbit.vercel.app/feed.xml";
 
   return (
-    <div className="min-h-screen bg-[var(--bg-app)]">
+    <div className="min-h-screen bg-[var(--bg-app)] text-[var(--text-primary)]">
       <Header />
-      <main className="mx-auto max-w-3xl px-4 pb-24 pt-10 sm:px-6">
+      <main className="mx-auto max-w-3xl px-4 pb-16 pt-10 sm:px-6">
         <h1 className="mb-2 text-3xl font-semibold tracking-tight text-[var(--text-primary)]">
           RSS feed
         </h1>
@@ -35,23 +36,19 @@ export default function RssPage() {
             </a>
             <Link
               href="/"
-              className="inline-flex items-center rounded-full bg-[var(--bg-app)] px-4 py-2 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] border border-[var(--border-default)]"
+              className="inline-flex items-center rounded-full border border-[var(--border-default)] bg-[var(--bg-app)] px-4 py-2 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
             >
               Back to feed
             </Link>
           </div>
         </div>
 
-        <div className="text-sm text-[var(--text-secondary)] space-y-2">
-          <p>
-            Compatible with Feedly, NewsBlur, NetNewsWire, Inoreader, and most other readers.
-          </p>
-          <p>
-            The raw XML at <code className="text-[var(--text-primary)]">/feed.xml</code> is intentional —
-            that is how RSS works. Your reader parses it; you do not need to read the code.
-          </p>
-        </div>
+        <p className="text-sm text-[var(--text-secondary)]">
+          Compatible with Feedly, NewsBlur, NetNewsWire, Inoreader, and most other readers.
+          The XML at <code className="text-[var(--text-primary)]">/feed.xml</code> is for apps — not for reading in the browser.
+        </p>
       </main>
+      <Footer />
     </div>
   );
 }

@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // News data is read from the filesystem at build/runtime
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "www.google.com" },
+      { protocol: "https", hostname: "**.google.com" },
+      { protocol: "https", hostname: "logo.clearbit.com" },
+    ],
+  },
 };
 
 export default nextConfig;

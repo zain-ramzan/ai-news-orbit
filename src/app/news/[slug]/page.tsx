@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { StoryCard } from "@/components/StoryCard";
 import { StoryImage } from "@/components/StoryImage";
 import {
@@ -46,9 +47,9 @@ export default async function StoryPage({ params }: Props) {
       : "";
 
   return (
-    <div className="min-h-screen bg-[var(--bg-app)]">
+    <div className="min-h-screen bg-[var(--bg-app)] text-[var(--text-primary)]">
       <Header />
-      <main className="mx-auto max-w-3xl px-4 pb-24 pt-10 sm:px-6">
+      <main className="mx-auto max-w-3xl px-4 pb-16 pt-10 sm:px-6">
         <Link
           href="/"
           className="mb-8 inline-flex items-center gap-1 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
@@ -63,10 +64,10 @@ export default async function StoryPage({ params }: Props) {
               <span
                 className={`inline-flex items-center rounded-full px-2 py-0.5 font-medium ${
                   story.verification_status === "confirmed"
-                    ? "bg-emerald-500/10 text-emerald-700 dark:text-emerald-400"
+                    ? "bg-emerald-500/15 text-emerald-700 dark:text-emerald-400"
                     : story.verification_status === "reported"
-                      ? "bg-amber-500/10 text-amber-700 dark:text-amber-400"
-                      : "bg-zinc-500/10 text-zinc-600 dark:text-zinc-400"
+                      ? "bg-amber-500/15 text-amber-800 dark:text-amber-400"
+                      : "bg-zinc-500/15 text-zinc-700 dark:text-zinc-400"
                 }`}
               >
                 {story.verification_status === "confirmed"
@@ -196,6 +197,7 @@ export default async function StoryPage({ params }: Props) {
           </section>
         )}
       </main>
+      <Footer />
     </div>
   );
 }
