@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "RSS feed",
@@ -14,15 +13,13 @@ export default function RssPage() {
   return (
     <div className="min-h-screen bg-[var(--bg-app)] text-[var(--text-primary)]">
       <Header />
-      <main className="mx-auto max-w-3xl px-4 pb-16 pt-10 sm:px-6">
-        <h1 className="mb-2 text-3xl font-semibold tracking-tight text-[var(--text-primary)]">
-          RSS feed
-        </h1>
-        <p className="mb-8 text-[var(--text-secondary)]">
+      <main className="mx-auto max-w-3xl px-4 pb-20 pt-6 sm:px-6 sm:pt-10">
+        <h1 className="mb-2 text-2xl font-semibold tracking-tight sm:text-3xl">RSS feed</h1>
+        <p className="mb-8 text-sm text-[var(--text-secondary)] sm:text-base">
           Subscribe in any RSS reader to get the latest agentic AI stories.
         </p>
 
-        <div className="mb-8 rounded-[var(--radius-lg)] border border-[var(--border-default)] bg-[var(--bg-surface)] p-5">
+        <div className="mb-8 rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-4 sm:p-5">
           <p className="mb-2 text-sm font-medium text-[var(--text-muted)]">Feed URL</p>
           <code className="block break-all rounded-md bg-[var(--bg-app)] px-3 py-2 text-sm text-[var(--text-primary)]">
             {feedUrl}
@@ -36,19 +33,13 @@ export default function RssPage() {
             </a>
             <Link
               href="/"
-              className="inline-flex items-center rounded-full border border-[var(--border-default)] bg-[var(--bg-app)] px-4 py-2 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
+              className="inline-flex items-center rounded-full border border-[var(--border-default)] px-4 py-2 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
             >
               Back to feed
             </Link>
           </div>
         </div>
-
-        <p className="text-sm text-[var(--text-secondary)]">
-          Compatible with Feedly, NewsBlur, NetNewsWire, Inoreader, and most other readers.
-          The XML at <code className="text-[var(--text-primary)]">/feed.xml</code> is for apps — not for reading in the browser.
-        </p>
       </main>
-      <Footer />
     </div>
   );
 }

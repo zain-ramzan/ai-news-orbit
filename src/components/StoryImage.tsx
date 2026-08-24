@@ -4,13 +4,13 @@ import { useState } from "react";
 import type { NewsStory } from "@/lib/schema";
 import { brandLogoUrl, resolveBrandMark } from "@/lib/brands";
 
-/** Fixed square box — story image → org logo → letter fallback */
+/** Responsive square: 56px mobile → 80px desktop (or compact) */
 export function StoryImage({
   story,
-  size = 96,
+  compact = false,
 }: {
   story: NewsStory;
-  size?: 72 | 96 | 120;
+  compact?: boolean;
 }) {
   const brand = resolveBrandMark(story.organization, story.country_code);
   const logoSrc = brandLogoUrl(brand.domain, 128);
@@ -20,42 +20,40 @@ export function StoryImage({
   const showPhoto = story.image_url && !failed;
   const showLogo = !showPhoto && logoSrc && !logoFailed;
 
+  const box = compact
+    ? "h-12 w-12 sm:h-14 sm:w-14"
+    : "h-14 w-14 sm:h-20 sm:w-20";
+
   return (
     <div
-      className="relative shrink-0 overflow-hidden rounded-[var(--radius-md)] border border-[var(--border-default)] bg-[var(--bg-surface)]"
-      style={{ width: size, height: size }}
+      className={`relative shrink-0 overflow-hidden rounded-xl border border-[var(--border-default)] bg-[var(--bg-surface)] ${box}`}
     >
       {showPhoto ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={story.image_url!}
           alt=""
-          width={size}
-          height={size}
           className="h-full w-full object-cover"
           loading="lazy"
           onError={() => setFailed(true)}
         />
       ) : showLogo ? (
-        <div className="flex h-full w-full items-center justify-center bg-white p-3 dark:bg-zinc-100">
+        <div className="flex h-full w-full items-center justify-center bg-white p-2 dark:bg-zinc-100">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={logoSrc!}
             alt={story.organization[0] || "logo"}
-            width={Math.round(size * 0.55)}
-            height={Math.round(size * 0.55)}
-            className="object-contain"
+            className="h-[55%] w-[55%] object-contain"
             loading="lazy"
             onError={() => setLogoFailed(true)}
           />
         </div>
       ) : (
         <div
-          className="flex h-full w-full items-center justify-center font-semibold tracking-tight select-none"
+          className="flex h-full w-full items-center justify-center text-sm font-semibold tracking-tight select-none sm:text-base"
           style={{
             backgroundColor: brand.bg,
             color: brand.fg,
-            fontSize: size >= 96 ? 22 : 18,
           }}
           aria-hidden
         >
