@@ -1,0 +1,54 @@
+name: Daily Agent News
+
+on:
+  schedule:
+    # ~07:00 Europe/Rome (CEST = UTC+2 in summer)
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run news research agent
+        env:
+          GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
+        run: |
+          if [ -z "$GROK_API_KEY" ]; then
+            echo "GROK_API_KEY not set — skipping live research. Use workflow_dispatch with key or manual scripts/ingest."
+            exit 0
+          fi
+          npx tsx scripts/daily-ingest.ts
+
+      - name: Validate data
+        run: npm run validate-data || true
+
+      - name: Rebuild indexes
+        run: npm run rebuild-index || true
+
+      - name: Commit if changed
+        run: |
+          git config user.name "AgentSignal Bot"
+          git config user.email "bot@agentsignal.local"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No news changes to commit."
+          else
+            git commit -m "chore(news): daily agent signal update $(date -u +%Y-%m-%d)"
+            git push
+          fi
