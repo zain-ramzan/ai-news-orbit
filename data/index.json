@@ -1,11 +1,41 @@
 [
   {
-    "id": "2026-08-25-nvidia-vera-rubin-agentic",
-    "slug": "nvidia-vera-rubin-nvl72-30x-throughput-agentic-ai",
-    "headline": "NVIDIA Vera Rubin NVL72 delivers up to 30x throughput per watt on agentic coding workloads",
-    "published_at": "2026-08-24T15:00:00.000Z",
-    "category": "Infrastructure",
-    "organization": ["NVIDIA"],
+    "id": "2026-08-25-anthropic-claude-tag-slack",
+    "slug": "anthropic-claude-tag-full-slack-context-30-percent",
+    "headline": "Anthropic updates Claude Tag so Slack agent reads full channel context, improving proactive decisions ~30%",
+    "published_at": "2026-08-25T03:28:00.000Z",
+    "category": "Products",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-25-meta-hatch-agent-rumor",
+    "slug": "meta-plans-hatch-consumer-ai-agent-paid-tier",
+    "headline": "Meta reportedly plans Hatch consumer AI agent launch within weeks, premium tier up to ~$200/month",
+    "published_at": "2026-08-24T23:00:00.000Z",
+    "category": "Products",
+    "organization": ["Meta"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-25-toyota-deep-agents",
+    "slug": "toyota-scales-enterprise-ai-deep-agents-langsmith",
+    "headline": "Toyota Motor North America scales enterprise agents with Deep Agents, LangGraph, and LangSmith",
+    "published_at": "2026-08-24T19:30:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Toyota Motor North America", "LangChain"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-25-openai-gpt56-kiro",
+    "slug": "openai-gpt-5-6-available-in-kiro-coding-agent",
+    "headline": "OpenAI GPT-5.6 Sol, Terra, and Luna now available in AWS Kiro software development agent",
+    "published_at": "2026-08-24T19:00:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["OpenAI", "Amazon Web Services", "AWS"],
     "verification_status": "confirmed",
     "country_code": "US"
   },
@@ -20,6 +50,26 @@
     "country_code": "US"
   },
   {
+    "id": "2026-08-25-nvidia-vera-rubin-agentic",
+    "slug": "nvidia-vera-rubin-nvl72-30x-throughput-agentic-ai",
+    "headline": "NVIDIA Vera Rubin NVL72 delivers up to 30x throughput per watt on agentic coding workloads",
+    "published_at": "2026-08-24T15:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["NVIDIA"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-24-databricks-agents-report",
+    "slug": "databricks-report-multi-agent-workflows-up-327-percent",
+    "headline": "Databricks report: multi-agent workflows up 327% as enterprises move beyond chatbots",
+    "published_at": "2026-08-24T00:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Databricks"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
     "id": "2026-08-24-mcp-roadmap",
     "slug": "mcp-publishes-updated-roadmap-agentic-messaging-identity",
     "headline": "MCP publishes updated roadmap focused on agentic messaging and agent identity",
@@ -28,6 +78,26 @@
     "organization": ["Anthropic", "Agentic AI Foundation"],
     "verification_status": "confirmed",
     "country_code": "GLOBAL"
+  },
+  {
+    "id": "2026-08-24-payhawk-agent-fetch",
+    "slug": "payhawk-launches-agent-fetch-vendor-invoices",
+    "headline": "Payhawk launches Agent Fetch for automated vendor invoice retrieval",
+    "published_at": "2026-08-22T00:00:00.000Z",
+    "category": "Products",
+    "organization": ["Payhawk"],
+    "verification_status": "reported",
+    "country_code": "GLOBAL"
+  },
+  {
+    "id": "2026-08-24-nvidia-avo-arc",
+    "slug": "nvidia-avo-agent-perfect-score-arc-agi-3",
+    "headline": "NVIDIA AVO agent achieves perfect public ARC-AGI-3 score",
+    "published_at": "2026-08-21T00:00:00.000Z",
+    "category": "Benchmarks",
+    "organization": ["NVIDIA", "Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
   },
   {
     "id": "2026-08-24-ox-alpha",
@@ -50,22 +120,12 @@
     "country_code": "US"
   },
   {
-    "id": "2026-08-24-databricks-agents-report",
-    "slug": "databricks-report-multi-agent-workflows-up-327-percent",
-    "headline": "Databricks report: multi-agent workflows up 327% as enterprises move beyond chatbots",
-    "published_at": "2026-08-24T00:00:00.000Z",
-    "category": "Enterprise",
-    "organization": ["Databricks"],
-    "verification_status": "reported",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-08-24-nvidia-avo-arc",
-    "slug": "nvidia-avo-agent-perfect-score-arc-agi-3",
-    "headline": "NVIDIA AVO agent achieves perfect public ARC-AGI-3 score",
-    "published_at": "2026-08-21T00:00:00.000Z",
-    "category": "Benchmarks",
-    "organization": ["NVIDIA", "Anthropic"],
+    "id": "2026-08-25-aws-agentcore-web-search-eu-apac",
+    "slug": "aws-agentcore-web-search-domain-date-filters-eu-apac",
+    "headline": "AWS AgentCore Web Search adds domain and date filters, expands to EU and APAC regions",
+    "published_at": "2026-08-19T00:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["Amazon Web Services", "AWS"],
     "verification_status": "confirmed",
     "country_code": "US"
   },
@@ -78,15 +138,5 @@
     "organization": ["UC Berkeley"],
     "verification_status": "confirmed",
     "country_code": "US"
-  },
-  {
-    "id": "2026-08-24-payhawk-agent-fetch",
-    "slug": "payhawk-launches-agent-fetch-vendor-invoices",
-    "headline": "Payhawk launches Agent Fetch for automated vendor invoice retrieval",
-    "published_at": "2026-08-22T00:00:00.000Z",
-    "category": "Products",
-    "organization": ["Payhawk"],
-    "verification_status": "reported",
-    "country_code": "GLOBAL"
   }
 ]
