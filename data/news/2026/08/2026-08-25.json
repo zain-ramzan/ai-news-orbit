@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T04:10:00.000Z",
+  "key_agent_trends": [
+    "Hardware vendors are publishing agentic-workload-specific efficiency metrics (throughput per watt, cost per token on long multi-step trajectories) rather than generic chat benchmarks.",
+    "Cloud providers are shipping governed agent registries and open discovery specs so multi-agent fleets can be catalogued, approved, and federated across environments.",
+    "Protocol work (MCP roadmap) continues to prioritize long-running tasks, agent identity, and enterprise auth as production agent scale increases.",
+    "Enterprise platforms emphasize discovery, governance, and runtime controls alongside model capability.",
+    "Real-world agentic coding trajectories are becoming the preferred way to measure inference systems for autonomous agents."
+  ],
+  "stories": [
+    {
+      "id": "2026-08-25-nvidia-vera-rubin-agentic",
+      "slug": "nvidia-vera-rubin-nvl72-30x-throughput-agentic-ai",
+      "headline": "NVIDIA Vera Rubin NVL72 delivers up to 30x throughput per watt on agentic coding workloads",
+      "what_happened": "NVIDIA published first on-silicon performance results for Vera Rubin NVL72 measured on SemiAnalysis AgentX real-world agentic coding trajectories (DeepSeek V4 Pro). The system showed up to 30x higher throughput per megawatt and up to 35x lower cost per million tokens versus GB300 NVL72. Agentic sessions involve growing context, tool calls, and sub-agent spawning that differ sharply from single-turn chat.",
+      "why_it_matters": "As agentic workloads consume far more tokens than chat, AI-factory economics hinge on efficiency under long multi-step trajectories. Hardware and software codesigned for prefill/decode split, expert parallelism, and distributed KV cache directly determine how many autonomous agents an organization can run sustainably.",
+      "organization": ["NVIDIA"],
+      "product": ["Vera Rubin NVL72", "Vera Rubin"],
+      "category": "Infrastructure",
+      "tags": ["infrastructure", "agentic", "inference", "efficiency", "coding-agents"],
+      "country_code": "US",
+      "country": "United States",
+      "published_at": "2026-08-24T15:00:00.000Z",
+      "discovered_at": "2026-08-25T04:00:00.000Z",
+      "source_name": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "official_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-08-25-aws-ard-agent-registry",
+      "slug": "aws-agent-registry-ard-open-spec-agent-discovery",
+      "headline": "AWS details Agent Registry and Agentic Resource Discovery for cross-environment agent catalogs",
+      "what_happened": "AWS published how Amazon Bedrock AgentCore’s Agent Registry (central catalog for agents, MCP servers, tools, and skills) works with the open Agentic Resource Discovery (ARD) specification. ARD is an Apache-2.0 open standard for federating discovery across registries without bilateral connectors. The post describes registries, approval workflows, hybrid search, and an MCP endpoint for discovery.",
+      "why_it_matters": "Multi-agent production systems need discoverability and governance beyond a single account or cloud. A managed registry plus an open federation layer reduces reinventing catalogs and supports safer, auditable agent fleets across hybrid environments.",
+      "organization": ["Amazon Web Services", "AWS"],
+      "product": ["Amazon Bedrock AgentCore", "AWS Agent Registry", "Agentic Resource Discovery"],
+      "category": "Infrastructure",
+      "tags": ["aws", "agent-registry", "mcp", "discovery", "governance", "enterprise"],
+      "country_code": "US",
+      "country": "United States",
+      "published_at": "2026-08-24T16:22:00.000Z",
+      "discovered_at": "2026-08-25T04:05:00.000Z",
+      "source_name": "AWS Machine Learning Blog",
+      "source_url": "https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/",
+      "official_url": "https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    }
+  ]
+}
