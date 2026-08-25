@@ -1,5 +1,5 @@
 import { Header } from "@/components/Header";
-import { getLatestDaily, searchStories } from "@/lib/news";
+import { searchStories } from "@/lib/news";
 import { NewsFeedClient } from "@/components/NewsFeedClient";
 
 type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>;
@@ -29,7 +29,6 @@ export default async function HomePage({
     offset: 0,
   });
 
-  const latest = getLatestDaily();
   const hasFilters = Boolean(q || category || verification);
 
   const chips = [
@@ -125,22 +124,6 @@ export default async function HomePage({
             ))}
           </div>
         </div>
-
-        {latest && !hasFilters && latest.key_agent_trends.length > 0 && (
-          <section className="mb-8 rounded-2xl border border-[var(--border-default)] bg-[var(--bg-surface)] p-4 sm:mb-10 sm:p-5">
-            <h2 className="mb-2.5 text-xs font-medium uppercase tracking-wide text-[var(--text-muted)] sm:mb-3 sm:text-sm">
-              Key agent trends · {latest.date}
-            </h2>
-            <ul className="space-y-2">
-              {latest.key_agent_trends.map((trend, i) => (
-                <li key={i} className="flex gap-2 text-sm text-[var(--text-secondary)] sm:text-[15px]">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent)]" />
-                  <span>{trend}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
 
         {hasFilters && (
           <p className="mb-4 text-sm text-[var(--text-secondary)]">
