@@ -1,5 +1,55 @@
 [
   {
+    "id": "2026-08-26-perplexity-portable-computer",
+    "slug": "perplexity-portable-computer-local-ai-agent-nvidia",
+    "headline": "Perplexity launches Portable Computer, a local-first AI agent on Nvidia DGX Spark and RTX Linux PCs",
+    "published_at": "2026-08-25T13:00:00.000Z",
+    "category": "Products",
+    "organization": ["Perplexity", "NVIDIA"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-26-google-gemini-enterprise-legal-finance",
+    "slug": "google-gemini-enterprise-legal-financial-services-agents",
+    "headline": "Google Cloud launches Gemini Enterprise for Legal and Financial Services with purpose-built agents",
+    "published_at": "2026-08-25T12:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Google", "Google Cloud"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-26-ibm-granite-4-2",
+    "slug": "ibm-granite-4-2-open-reasoning-models-enterprise-agents",
+    "headline": "IBM releases Granite 4.2 open models with native reasoning and agentic RL for enterprise agents",
+    "published_at": "2026-08-25T15:00:00.000Z",
+    "category": "Models",
+    "organization": ["IBM"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-26-keenable-26m-seed",
+    "slug": "keenable-26m-accel-web-search-infrastructure-ai-agents",
+    "headline": "Keenable exits stealth with $26M Accel-led seed for web search infrastructure built for AI agents",
+    "published_at": "2026-08-25T13:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Keenable", "Accel"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-26-okta-agent-sso",
+    "slug": "okta-agent-sso-ga-first-class-identity-ai-agents",
+    "headline": "Okta makes Agent SSO generally available, treating AI agents as first-class identities",
+    "published_at": "2026-08-24T19:00:00.000Z",
+    "category": "Security",
+    "organization": ["Okta"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-08-25-anthropic-claude-tag-slack",
     "slug": "anthropic-claude-tag-full-slack-context-30-percent",
     "headline": "Anthropic updates Claude Tag so Slack agent reads full channel context, improving proactive decisions ~30%",
