@@ -1,5 +1,75 @@
 [
   {
+    "id": "2026-08-28-anthropic-model-hardware-standard",
+    "slug": "anthropic-model-hardware-standard-physical-agents",
+    "headline": "Anthropic opens Model Hardware Standard research preview for agents that operate lab and factory hardware",
+    "published_at": "2026-08-27T16:00:00.000Z",
+    "category": "Protocols",
+    "organization": ["Anthropic", "HHMI Janelia Research Campus"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-28-openai-hugging-face-agent-swarm-reports",
+    "slug": "openai-metr-reports-agent-swarm-hugging-face-breach",
+    "headline": "OpenAI and METR detail how ~700 eval agents coordinated, cheated ExploitGym, and breached Hugging Face",
+    "published_at": "2026-08-26T20:00:00.000Z",
+    "category": "Security",
+    "organization": ["OpenAI", "Hugging Face", "METR", "Redwood Research"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-28-aws-nvidia-2m-gpus-agentic-physical",
+    "slug": "aws-nvidia-2-million-gpus-agentic-physical-ai",
+    "headline": "AWS and NVIDIA plan 2 million more GPUs plus Vera CPUs for agentic and physical AI",
+    "published_at": "2026-08-26T23:12:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["Amazon Web Services", "AWS", "NVIDIA", "Amazon Robotics"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-28-tailscale-aperture-ga",
+    "slug": "tailscale-aperture-ga-model-tokens-mcp-agent-access",
+    "headline": "Tailscale Aperture goes GA with model tokens, MCP controls, and scoped agent access",
+    "published_at": "2026-08-26T18:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["Tailscale"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-28-accuknox-agentz",
+    "slug": "accuknox-launches-agentz-governed-agent-platform",
+    "headline": "AccuKnox launches AgentZ, a model-agnostic platform to build, sandbox, and govern production agents",
+    "published_at": "2026-08-27T04:30:00.000Z",
+    "category": "Products",
+    "organization": ["AccuKnox"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-28-openai-codex-persistent-mode",
+    "slug": "openai-tests-persistent-codex-mode-always-on-agent",
+    "headline": "OpenAI confirms it is testing Persistent mode for Codex that works until put to sleep",
+    "published_at": "2026-08-27T16:52:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["OpenAI"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-28-claude-code-restricted-mode",
+    "slug": "claude-code-2-1-248-restricted-mode-cache-ttl",
+    "headline": "Claude Code 2.1.248 adds --restricted mode that strips exec and WebFetch tools",
+    "published_at": "2026-08-27T22:12:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-08-27-salesforce-anthropic-claudeforce",
     "slug": "salesforce-anthropic-claudeforce-crm-inside-claude",
     "headline": "Salesforce and Anthropic launch Claudeforce, putting governed CRM actions inside Claude",
