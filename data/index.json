@@ -1,5 +1,65 @@
 [
   {
+    "id": "2026-08-29-anthropic-automated-alignment-researchers",
+    "slug": "anthropic-automated-researchers-mitigate-alignment-failures",
+    "headline": "Anthropic: Claude agents mitigated 10 alignment failures without hurting capabilities",
+    "published_at": "2026-08-28T16:00:00.000Z",
+    "category": "Research",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-29-terminal-bench-science",
+    "slug": "terminal-bench-science-0-1-agents-fail-lab-workflows",
+    "headline": "Terminal-Bench-Science 0.1: best agent solves only 30% of real research workflows",
+    "published_at": "2026-08-27T18:23:00.000Z",
+    "category": "Benchmarks",
+    "organization": ["Stanford University", "Terminal-Bench"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-29-workday-ai-agents-acv",
+    "slug": "workday-q2-ai-agents-25-percent-new-acv",
+    "headline": "Workday: AI agents drove more than 25% of new ACV; 5,500+ customers live",
+    "published_at": "2026-08-27T22:08:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Workday"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-29-openai-coalition-ai-cyber-letter",
+    "slug": "openai-anthropic-google-letter-ai-cyberattacks",
+    "headline": "OpenAI, Anthropic, Google and 100+ firms warn of a months-long window before AI cyberattacks scale",
+    "published_at": "2026-08-27T19:00:00.000Z",
+    "category": "Security",
+    "organization": ["OpenAI", "Anthropic", "Google", "Microsoft", "Amazon"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-29-socure-fravity-acquisition",
+    "slug": "socure-156m-acquires-fravity-riskos-agents",
+    "headline": "Socure raises $156M at $5.2B and buys Fravity to ship RiskOS Agents",
+    "published_at": "2026-08-27T16:21:00.000Z",
+    "category": "Acquisitions",
+    "organization": ["Socure", "Fravity", "Summit Partners"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-08-29-instinct-2-5b-valuation",
+    "slug": "instinct-ai-assistant-250m-series-b-2-5b-valuation",
+    "headline": "Instinct reportedly raising ~$250M at a $2.5B valuation for a consumer AI assistant",
+    "published_at": "2026-08-28T17:21:00.000Z",
+    "category": "Funding",
+    "organization": ["Instinct", "Spear Street Technology"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
     "id": "2026-08-28-anthropic-model-hardware-standard",
     "slug": "anthropic-model-hardware-standard-physical-agents",
     "headline": "Anthropic opens Model Hardware Standard research preview for agents that operate lab and factory hardware",
