@@ -1,5 +1,65 @@
 [
   {
+    "id": "2026-09-03-gemini-3-8-flash-cyber-fairwind",
+    "slug": "google-gemini-3-8-flash-cyber-fairwind-program",
+    "headline": "Google ships Gemini 3.8 Flash and gated Flash Cyber via Fairwind",
+    "published_at": "2026-09-02T16:00:00.000Z",
+    "category": "Models",
+    "organization": ["Google", "Google DeepMind"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-03-claude-fable-mythos-5-1",
+    "slug": "anthropic-claude-fable-5-1-mythos-5-1",
+    "headline": "Anthropic releases Claude Fable 5.1 and gated Mythos 5.1",
+    "published_at": "2026-09-01T16:00:00.000Z",
+    "category": "Models",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-03-openai-astra-critical",
+    "slug": "openai-astra-meets-critical-cyber-threshold",
+    "headline": "OpenAI says Astra meets its Critical cybersecurity threshold",
+    "published_at": "2026-09-01T18:00:00.000Z",
+    "category": "Safety",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-03-adobe-for-slack-mcp",
+    "slug": "adobe-for-slack-mcp-70-tools-slackbot",
+    "headline": "Adobe puts 70-plus Firefly and Creative Cloud tools in Slackbot via MCP",
+    "published_at": "2026-09-02T13:09:00.000Z",
+    "category": "Products",
+    "organization": ["Adobe", "Slack"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-03-genesys-agentic-orchestration",
+    "slug": "genesys-cloud-navigator-orchestrator-ava-xperience",
+    "headline": "Genesys ships agentic orchestration stack and expands AVA at Xperience",
+    "published_at": "2026-09-02T16:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Genesys", "Salesforce", "ServiceNow"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-03-meta-hatch-reviews",
+    "slug": "meta-ends-ai-usage-reviews-rolls-out-hatch-agent",
+    "headline": "Meta drops AI-usage performance reviews while rolling Hatch to staff",
+    "published_at": "2026-09-03T01:32:00.000Z",
+    "category": "Products",
+    "organization": ["Meta"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
     "id": "2026-09-02-cognition-47b-round",
     "slug": "cognition-near-1b-round-47b-valuation-devin",
     "headline": "Cognition reported near a $1B raise at about $47B for Devin",
