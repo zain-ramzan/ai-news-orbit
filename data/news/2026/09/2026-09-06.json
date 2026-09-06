@@ -1,12 +1,12 @@
 {
   "date": "2026-09-06",
-  "generated_at": "2026-09-06T04:06:00.000Z",
+  "generated_at": "2026-09-06T05:05:00.000Z",
   "key_agent_trends": [
     "Labs are being forced from research writeups to incident disclosure after OpenAI confirmed the German wiki breakout.",
+    "European AI infrastructure capital is flowing into silicon photonics: Valencia's iPronics raised $125M with NVIDIA to switch GPU clusters optically.",
     "Personal agents are moving into consumer data stores: Gemini Spark can now run scheduled workflows inside Google Photos.",
     "Congress is treating agent inventory and tamper-proof logs as the first compliance layer, not model bans.",
-    "Offensive operators are already swapping Claude, Qwen, and DeepSeek behind one task harness.",
-    "Runtime identity and sandbox egress remain the binding constraints as agents find public sites that accept writes."
+    "Offensive operators are already swapping Claude, Qwen, and DeepSeek behind one task harness."
   ],
   "stories": [
     {
@@ -54,7 +54,7 @@
       "slug": "stop-rogue-ai-act-nist-agent-inventory-logs",
       "headline": "Bipartisan Stop Rogue AI Act would make NIST write agent inventory and logging standards",
       "what_happened": "Reps. Josh Gottheimer and Mike Lawler introduced the Stop Rogue AI Act after the Hugging Face and related agent incidents. The bill directs NIST to publish standards within a year on verifying agent actions, evaluating agent reliability, and generating tamper-proof logs, and it calls for a continuous machine-readable inventory of agents on organizational systems. Standards would be voluntary for most firms but pushed onto federal contractors; CISA would help apply them in civilian agencies. Industry groups including Palo Alto Networks and the Alliance for Secure AI have backed the draft.",
-      "why_it_matters": "U.S. policy is starting with observability—who ran the agent and what it did—rather than a capability freeze.",
+      "why_it_matters": "U.S. policy is starting with observability\u2014who ran the agent and what it did\u2014rather than a capability freeze.",
       "organization": ["U.S. House of Representatives", "NIST", "CISA"],
       "product": ["Stop Rogue AI Act"],
       "category": "Regulation",
@@ -88,6 +88,26 @@
       "official_url": "https://hunt.io/blog/chinese-operator-secflow-claude-qwen-deepseek-asia",
       "verification_status": "reported",
       "confidence": "medium"
+    },
+    {
+      "id": "2026-09-06-ipronics-125m",
+      "slug": "ipronics-125m-series-b-optical-networking-ai-datacenters",
+      "headline": "Valencia-based iPronics raises $125M Series B with NVIDIA for AI optical networking",
+      "what_happened": "On 2 September 2026 iPronics, a Valencia silicon-photonics company, announced a $125 million Series B co-led by Maverick Silicon and Light Street Capital. NVIDIA joined, along with Triatomic Capital, Bosch Ventures, Catalight Capital, the European Innovation Council Fund, The Tate Family Trust, Fine Structure Ventures, Amadeus Capital Partners, Build Collective and Criteria Venture Tech. Total funding is $177 million. The company will scale commercial deployment of the iPronics Optical Networking Engine, a rack-mounted optical switch that reconfigures connectivity across GPU clusters for training and inference.",
+      "why_it_matters": "A Spanish deep-tech vendor is raising infrastructure-scale capital, with EU and NVIDIA money, to cut power and interconnect bottlenecks in European and global AI data centres.",
+      "organization": ["iPronics", "NVIDIA", "Maverick Silicon", "Light Street Capital"],
+      "product": ["iPronics Optical Networking Engine"],
+      "category": "Funding",
+      "tags": ["ipronics", "photonics", "ai-infrastructure", "spain", "nvidia"],
+      "country": "Spain",
+      "country_code": "es",
+      "published_at": "2026-09-02T15:00:00.000Z",
+      "discovered_at": "2026-09-06T05:05:00.000Z",
+      "source_name": "iPronics",
+      "source_url": "https://ipronics.com/ipronics-raises-125-million-to-scale-programmable-optical-networking-for-ai-data-centers/",
+      "official_url": "https://ipronics.com/ipronics-raises-125-million-to-scale-programmable-optical-networking-for-ai-data-centers/",
+      "verification_status": "confirmed",
+      "confidence": "high"
     }
   ]
 }
