@@ -1,1 +1,73 @@
-PLACEHOLDER_NEWS
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T04:10:00.000Z",
+  "key_agent_trends": [
+    "OpenAI says research agents now deliver 3.1 agent-workdays per human day and claims its September 2026 'automated research intern' target.",
+    "The same lab's chief scientist says no frontier lab has solved alignment well enough to keep scaling at full speed.",
+    "Large financial groups are running internal agent competitions to move prototypes into production ops.",
+    "Safety disclosure and research acceleration are arriving in the same news cycle.",
+    "Enterprise coding-agent build-vs-buy pressure remains, but that finding was already indexed from the August McKinsey survey."
+  ],
+  "stories": [
+    {
+      "id": "2026-09-07-openai-research-intern",
+      "slug": "openai-hits-automated-research-intern-milestone",
+      "headline": "OpenAI says it hit its automated research intern goal; agents log 3.1 workdays per human day",
+      "what_happened": "On September 6, 2026 OpenAI published 'Research acceleration: The view inside OpenAI' and said that by its measurements it has reached the goal Sam Altman set last fall of an automated research intern by September 2026. It defines that intern as a system that can carry out well-defined research tasks under human direction, including work that would take a skilled researcher a few days. The post says the research org now uses 3.1 agent-workdays for every human workday as of mid-August, with the median researcher spending more than $600 per day of inference at API prices and the 90th percentile above $7,000. The next stated target is an automated AI researcher by March 2028. OpenAI also wrote that it does not yet know how to safely reach aligned full recursive self-improvement.",
+      "why_it_matters": "A leading lab is now measuring research labor in agent-days rather than headcount, which is a concrete step toward AI that accelerates AI research. The same post flags that safety for a fully automated researcher remains unsolved.",
+      "organization": ["OpenAI"],
+      "product": ["OpenAI coding agents", "automated research intern"],
+      "category": "Research",
+      "tags": ["openai", "research-intern", "coding-agents", "rsi", "research-acceleration"],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-09-06T16:00:00.000Z",
+      "discovered_at": "2026-09-07T04:07:00.000Z",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "official_url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-09-07-pachocki-alien-mind",
+      "slug": "pachocki-no-lab-solved-alignment-voluntary-slowdowns",
+      "headline": "OpenAI chief scientist: no lab has solved alignment; expect voluntary slowdowns",
+      "what_happened": "OpenAI Chief Scientist Jakub Pachocki published the essay 'An Alien Mind' on September 6, 2026. He wrote that no lab, including OpenAI, has solved alignment and monitoring well enough to keep scaling at maximum speed for much longer. He said he expects and hopes voluntary slowdowns become commonplace until the industry agrees on shared safety bars, and that international coordination on AI development should become a governmental priority. The essay splits alignment into goal alignment and value alignment and notes that chain-of-thought monitoring is becoming less reliable as models control their written reasoning.",
+      "why_it_matters": "A sitting frontier-lab chief scientist is publicly arguing that capability is outrunning verification tools, on the same day the company claimed a research-intern milestone. That pairing will shape regulator and enterprise questions about when labs should pause.",
+      "organization": ["OpenAI"],
+      "product": ["GPT-6 Astra"],
+      "category": "Safety",
+      "tags": ["pachocki", "alignment", "slowdown", "cot-monitoring", "openai"],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-09-06T16:02:00.000Z",
+      "discovered_at": "2026-09-07T04:07:00.000Z",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/an-alien-mind/",
+      "official_url": "https://openai.com/index/an-alien-mind/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-09-07-kb-financial-agent-competition",
+      "slug": "kb-financial-group-integrated-ai-agent-competition",
+      "headline": "KB Financial Group runs a 316-person AI agent competition across seven affiliates",
+      "what_happened": "KB Financial Group said on September 7 that it held its 2026 Group Integrated AI Agent Competition on September 3 at KB Kookmin Bank's Yeouido headquarters in Seoul. One hundred sixteen teams and 316 people from seven affiliates entered cases spanning security-log analysis, anomaly detection, VOC and consumer-risk detection, insurance product work, customer consultation, and used-car purchase support. The grand prize went to KB Insurance's Customer Care AI Control Center, which uses 20 AI agents to score consultation quality, compliance, and claims standards.",
+      "why_it_matters": "A major Asian bank holding company is treating internal agent contests as a production pipeline, not a hackathon sideshow, with judging focused on live operational use.",
+      "organization": ["KB Financial Group", "KB Insurance", "KB Kookmin Bank"],
+      "product": ["Customer Care AI Control Center"],
+      "category": "Enterprise",
+      "tags": ["kb-financial", "korea", "insurance", "competition", "enterprise-agents"],
+      "country": "South Korea",
+      "country_code": "KR",
+      "published_at": "2026-09-07T00:11:00.000Z",
+      "discovered_at": "2026-09-07T04:07:00.000Z",
+      "source_name": "Financial News",
+      "source_url": "https://en.fnnews.com/news/202609070911253509",
+      "official_url": "https://en.fnnews.com/news/202609070911253509",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    }
+  ]
+}
