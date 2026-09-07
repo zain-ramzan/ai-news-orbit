@@ -1,1 +1,122 @@
-[{"id":"2026-09-07-openai-research-intern","slug":"openai-hits-automated-research-intern-milestone","headline":"OpenAI says it hit its automated research intern goal; agents log 3.1 workdays per human day","published_at":"2026-09-06T16:00:00.000Z","category":"Research","organization":["OpenAI"],"verification_status":"confirmed","country_code":"US"},{"id":"2026-09-07-pachocki-alien-mind","slug":"pachocki-no-lab-solved-alignment-voluntary-slowdowns","headline":"OpenAI chief scientist: no lab has solved alignment; expect voluntary slowdowns","published_at":"2026-09-06T16:02:00.000Z","category":"Safety","organization":["OpenAI"],"verification_status":"confirmed","country_code":"US"},{"id":"2026-09-07-kb-financial-agent-competition","slug":"kb-financial-group-integrated-ai-agent-competition","headline":"KB Financial Group runs a 316-person AI agent competition across seven affiliates","published_at":"2026-09-07T00:11:00.000Z","category":"Enterprise","organization":["KB Financial Group","KB Insurance","KB Kookmin Bank"],"verification_status":"confirmed","country_code":"KR"},{"id":"2026-09-06-openai-wiki-incident","slug":"openai-confirms-german-wiki-incident-disclosure-framework","headline":"OpenAI confirms German wiki incident and pledges a misalignment disclosure framework","published_at":"2026-09-05T18:05:00.000Z","category":"Safety","organization":["OpenAI","Nightingale Collective"],"verification_status":"confirmed","country_code":"de"},{"id":"2026-09-05-cisa-litellm-mcp-kev","slug":"cisa-adds-litellm-mcp-auth-bypass-cve-2026-59822-kev","headline":"CISA adds LiteLLM MCP auth-bypass CVE-2026-59822 to KEV amid exploitation","published_at":"2026-09-04T16:50:00.000Z","category":"Security","organization":["CISA","BerriAI","LiteLLM"],"verification_status":"confirmed","country_code":"US"},{"id":"2026-09-05-github-hydrafusion","slug":"github-hydrafusion-multi-model-copilot-cli-preview","headline":"GitHub opens HydraFusion preview for multi-model coding workflows","published_at":"2026-09-04T16:04:00.000Z","category":"Coding Agents","organization":["GitHub","Microsoft"],"verification_status":"confirmed","country_code":"US"},{"id":"2026-09-06-gemini-spark-photos","slug":"google-gemini-spark-manages-google-photos-library","headline":"Gemini Spark can now search, edit, and schedule workflows in Google Photos","published_at":"2026-09-04T14:47:00.000Z","category":"Products","organization":["Google"],"verification_status":"confirmed","country_code":"US"}]
+[
+  {
+    "id": "2026-09-07-kb-financial-agent-competition",
+    "slug": "kb-financial-group-integrated-ai-agent-competition",
+    "headline": "KB Financial Group runs a 316-person AI agent competition across seven affiliates",
+    "published_at": "2026-09-07T00:11:00.000Z",
+    "category": "Enterprise",
+    "organization": ["KB Financial Group", "KB Insurance", "KB Kookmin Bank"],
+    "verification_status": "confirmed",
+    "country_code": "KR"
+  },
+  {
+    "id": "2026-09-07-pachocki-alien-mind",
+    "slug": "pachocki-no-lab-solved-alignment-voluntary-slowdowns",
+    "headline": "OpenAI chief scientist: no lab has solved alignment; expect voluntary slowdowns",
+    "published_at": "2026-09-06T16:02:00.000Z",
+    "category": "Safety",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-07-openai-research-intern",
+    "slug": "openai-hits-automated-research-intern-milestone",
+    "headline": "OpenAI says it hit its automated research intern goal; agents log 3.1 workdays per human day",
+    "published_at": "2026-09-06T16:00:00.000Z",
+    "category": "Research",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-06-openai-wiki-incident",
+    "slug": "openai-confirms-german-wiki-incident-disclosure-framework",
+    "headline": "OpenAI confirms German wiki incident and pledges a misalignment disclosure framework",
+    "published_at": "2026-09-05T18:05:00.000Z",
+    "category": "Safety",
+    "organization": ["OpenAI", "Nightingale Collective"],
+    "verification_status": "confirmed",
+    "country_code": "de"
+  },
+  {
+    "id": "2026-09-07-atira-17-5m",
+    "slug": "atira-raises-17-5m-industrial-sales-engineering-agents",
+    "headline": "Munich startup Atira raises $17.5M for industrial sales-engineering agents",
+    "published_at": "2026-09-03T12:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Atira", "Accel"],
+    "verification_status": "confirmed",
+    "country_code": "de"
+  },
+  {
+    "id": "2026-09-07-prague-declaration-cee-ai",
+    "slug": "nine-cee-states-sign-prague-declaration-on-ai",
+    "headline": "Nine CEE states sign Prague Declaration to coordinate AI policy and infrastructure",
+    "published_at": "2026-09-03T14:49:00.000Z",
+    "category": "Partnerships",
+    "organization": ["Government of Czechia", "CEE AI Summit"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-09-07-zeit-ai-5m",
+    "slug": "zeit-ai-raises-5m-autonomous-data-engineer",
+    "headline": "Munich startup Zeit AI raises €5M for an autonomous data engineer",
+    "published_at": "2026-09-03T10:15:00.000Z",
+    "category": "Funding",
+    "organization": ["Zeit AI", "Y Combinator"],
+    "verification_status": "confirmed",
+    "country_code": "de"
+  },
+  {
+    "id": "2026-09-07-commission-ai-act-rfis",
+    "slug": "commission-sends-ai-act-information-requests-to-30-plus-firms",
+    "headline": "Commission sends first AI Act information requests to more than 30 companies",
+    "published_at": "2026-09-01T13:50:00.000Z",
+    "category": "Regulation",
+    "organization": ["European Commission", "European AI Office"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-09-07-chatgpt-dsa-vlose",
+    "slug": "commission-designates-chatgpt-vlose-under-dsa",
+    "headline": "Commission designates ChatGPT as a very large search engine under the DSA",
+    "published_at": "2026-08-31T10:00:00.000Z",
+    "category": "Regulation",
+    "organization": ["European Commission", "OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-09-05-cisa-litellm-mcp-kev",
+    "slug": "cisa-adds-litellm-mcp-auth-bypass-cve-2026-59822-kev",
+    "headline": "CISA adds LiteLLM MCP auth-bypass CVE-2026-59822 to KEV amid exploitation",
+    "published_at": "2026-09-04T16:50:00.000Z",
+    "category": "Security",
+    "organization": ["CISA", "BerriAI", "LiteLLM"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-05-github-hydrafusion",
+    "slug": "github-hydrafusion-multi-model-copilot-cli-preview",
+    "headline": "GitHub opens HydraFusion preview for multi-model coding workflows",
+    "published_at": "2026-09-04T16:04:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["GitHub", "Microsoft"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-06-gemini-spark-photos",
+    "slug": "google-gemini-spark-manages-google-photos-library",
+    "headline": "Gemini Spark can now search, edit, and schedule workflows in Google Photos",
+    "published_at": "2026-09-04T14:47:00.000Z",
+    "category": "Products",
+    "organization": ["Google"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  }
+]
