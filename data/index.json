@@ -40,6 +40,26 @@
     "country_code": "US"
   },
   {
+    "id": "2026-09-08-hiasynth-angel",
+    "slug": "hiasynth-angel-round-synthetic-europe-population-mcp",
+    "headline": "Hiasynth raises angel funding for a queryable synthetic model of Europe",
+    "published_at": "2026-09-02T14:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Hiasynth", "Further Than Capital"],
+    "verification_status": "reported",
+    "country_code": "se"
+  },
+  {
+    "id": "2026-09-08-flower-endeavor",
+    "slug": "flower-labs-launches-endeavor-1-0-sovereign-model",
+    "headline": "Flower Labs launches Endeavor 1.0 as a locally deployable generalist model",
+    "published_at": "2026-09-01T12:00:00.000Z",
+    "category": "Models",
+    "organization": ["Flower Labs"],
+    "verification_status": "reported",
+    "country_code": "gb"
+  },
+  {
     "id": "2026-09-07-kb-financial-agent-competition",
     "slug": "kb-financial-group-integrated-ai-agent-competition",
     "headline": "KB Financial Group runs a 316-person AI agent competition across seven affiliates",
