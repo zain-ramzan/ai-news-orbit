@@ -1,5 +1,45 @@
 [
   {
+    "id": "2026-09-08-allspark-iris-search-agents",
+    "slug": "allspark-iris-pro-browsecomp-88-6-open-weight-search-agents",
+    "headline": "AllSpark ships Iris search agents; Iris-pro hits 88.6 on BrowseComp",
+    "published_at": "2026-09-07T07:11:00.000Z",
+    "category": "Research",
+    "organization": ["AllSpark Research"],
+    "verification_status": "confirmed",
+    "country_code": ""
+  },
+  {
+    "id": "2026-09-08-sembly-3-0",
+    "slug": "sembly-ai-launches-sembly-3-0-agentic-deliverables",
+    "headline": "Sembly AI launches Sembly 3.0 as an agentic deliverable factory",
+    "published_at": "2026-09-07T23:00:00.000Z",
+    "category": "Products",
+    "organization": ["Sembly AI"],
+    "verification_status": "confirmed",
+    "country_code": "AU"
+  },
+  {
+    "id": "2026-09-08-nomads-mcp",
+    "slug": "nomads-com-ships-no-auth-mcp-server-for-city-data",
+    "headline": "Nomads.com ships a no-auth MCP server for live city data",
+    "published_at": "2026-09-07T00:00:00.000Z",
+    "category": "Protocols",
+    "organization": ["Nomads.com"],
+    "verification_status": "confirmed",
+    "country_code": ""
+  },
+  {
+    "id": "2026-09-08-anthropic-labs-profile",
+    "slug": "business-insider-profiles-anthropic-labs-claude-code-mcp",
+    "headline": "Business Insider: Anthropic Labs, a ~20-person incubator, built Claude Code and MCP",
+    "published_at": "2026-09-07T05:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Anthropic"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
     "id": "2026-09-07-kb-financial-agent-competition",
     "slug": "kb-financial-group-integrated-ai-agent-competition",
     "headline": "KB Financial Group runs a 316-person AI agent competition across seven affiliates",
