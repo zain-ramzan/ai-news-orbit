@@ -10,32 +10,22 @@
     "country_code": "US"
   },
   {
-    "id": "2026-09-09-cognition-series-e",
-    "slug": "cognition-raises-2b-series-e-48b-valuation-devin",
-    "headline": "Cognition raises $2B Series E at $48B as Devin ARR nears $900M",
-    "published_at": "2026-09-08T17:32:00.000Z",
-    "category": "Funding",
-    "organization": ["Cognition", "Andreessen Horowitz", "Accel"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-09-09-accenture-google-gemini-enterprise",
-    "slug": "accenture-google-cloud-gemini-enterprise-business-group",
-    "headline": "Accenture and Google Cloud form a 1,000-FDE Gemini Enterprise group",
-    "published_at": "2026-09-08T08:59:00.000Z",
-    "category": "Partnerships",
-    "organization": ["Accenture", "Google Cloud"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
     "id": "2026-09-09-backblaze-b2-mcp",
     "slug": "backblaze-ships-open-source-b2-mcp-server",
     "headline": "Backblaze ships an open-source B2 MCP server for agent object storage",
     "published_at": "2026-09-08T18:13:00.000Z",
     "category": "Infrastructure",
     "organization": ["Backblaze"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-09-cognition-series-e",
+    "slug": "cognition-raises-2b-series-e-48b-valuation-devin",
+    "headline": "Cognition raises $2B Series E at $48B as Devin ARR nears $900M",
+    "published_at": "2026-09-08T17:32:00.000Z",
+    "category": "Funding",
+    "organization": ["Cognition", "Andreessen Horowitz", "Accel"],
     "verification_status": "confirmed",
     "country_code": "US"
   },
@@ -48,6 +38,46 @@
     "organization": ["Mastercard"],
     "verification_status": "confirmed",
     "country_code": "US"
+  },
+  {
+    "id": "2026-09-09-tellia-pre-seed",
+    "slug": "tellia-raises-4-3m-voice-ai-agriculture",
+    "headline": "French AgTech startup Tellia raises €4.3M for voice field-data capture",
+    "published_at": "2026-09-08T12:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Tellia", "Revent", "Grey Silo Ventures"],
+    "verification_status": "reported",
+    "country_code": "fr"
+  },
+  {
+    "id": "2026-09-09-cee-digital-ai-roadmap",
+    "slug": "cee-digital-coalition-publishes-ai-roadmap",
+    "headline": "CEE Digital Coalition calls for a regional AI fund and faster SME adoption",
+    "published_at": "2026-09-08T12:00:00.000Z",
+    "category": "Partnerships",
+    "organization": ["CEE Digital Coalition", "Cyfrowa Polska", "ANIS", "AI Slovakia", "AAVIT", "Infobalt"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-09-09-accenture-google-gemini-enterprise",
+    "slug": "accenture-google-cloud-gemini-enterprise-business-group",
+    "headline": "Accenture and Google Cloud form a 1,000-FDE Gemini Enterprise group",
+    "published_at": "2026-09-08T08:59:00.000Z",
+    "category": "Partnerships",
+    "organization": ["Accenture", "Google Cloud"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-09-mistral-series-d",
+    "slug": "mistral-raises-3bn-series-d-21bn-valuation",
+    "headline": "Mistral raises €3B Series D at more than €21B valuation",
+    "published_at": "2026-09-08T07:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Mistral AI", "Samsung Electronics", "Scaleup Europe Fund", "PSG Equity"],
+    "verification_status": "confirmed",
+    "country_code": "fr"
   },
   {
     "id": "2026-09-08-allspark-iris-search-agents",
@@ -172,7 +202,7 @@
   {
     "id": "2026-09-07-zeit-ai-5m",
     "slug": "zeit-ai-raises-5m-autonomous-data-engineer",
-    "headline": "Munich startup Zeit AI raises \u20ac5M for an autonomous data engineer",
+    "headline": "Munich startup Zeit AI raises €5M for an autonomous data engineer",
     "published_at": "2026-09-03T10:15:00.000Z",
     "category": "Funding",
     "organization": ["Zeit AI", "Y Combinator"],
