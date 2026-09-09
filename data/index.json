@@ -1,5 +1,55 @@
 [
   {
+    "id": "2026-09-09-meta-muse",
+    "slug": "meta-launches-muse-personal-ai-agent-us",
+    "headline": "Meta launches Muse, a consumer personal agent with a Secure VM",
+    "published_at": "2026-09-08T19:00:00.000Z",
+    "category": "Products",
+    "organization": ["Meta"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-09-cognition-series-e",
+    "slug": "cognition-raises-2b-series-e-48b-valuation-devin",
+    "headline": "Cognition raises $2B Series E at $48B as Devin ARR nears $900M",
+    "published_at": "2026-09-08T17:32:00.000Z",
+    "category": "Funding",
+    "organization": ["Cognition", "Andreessen Horowitz", "Accel"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-09-accenture-google-gemini-enterprise",
+    "slug": "accenture-google-cloud-gemini-enterprise-business-group",
+    "headline": "Accenture and Google Cloud form a 1,000-FDE Gemini Enterprise group",
+    "published_at": "2026-09-08T08:59:00.000Z",
+    "category": "Partnerships",
+    "organization": ["Accenture", "Google Cloud"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-09-backblaze-b2-mcp",
+    "slug": "backblaze-ships-open-source-b2-mcp-server",
+    "headline": "Backblaze ships an open-source B2 MCP server for agent object storage",
+    "published_at": "2026-09-08T18:13:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["Backblaze"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-09-mastercard-agentic-commerce",
+    "slug": "mastercard-forecasts-agentic-commerce-surge",
+    "headline": "Mastercard says AI agents will move from assistants to buyers",
+    "published_at": "2026-09-08T14:17:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Mastercard"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-09-08-allspark-iris-search-agents",
     "slug": "allspark-iris-pro-browsecomp-88-6-open-weight-search-agents",
     "headline": "AllSpark ships Iris search agents; Iris-pro hits 88.6 on BrowseComp",
@@ -122,7 +172,7 @@
   {
     "id": "2026-09-07-zeit-ai-5m",
     "slug": "zeit-ai-raises-5m-autonomous-data-engineer",
-    "headline": "Munich startup Zeit AI raises €5M for an autonomous data engineer",
+    "headline": "Munich startup Zeit AI raises \u20ac5M for an autonomous data engineer",
     "published_at": "2026-09-03T10:15:00.000Z",
     "category": "Funding",
     "organization": ["Zeit AI", "Y Combinator"],
