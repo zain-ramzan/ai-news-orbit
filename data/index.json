@@ -1,5 +1,55 @@
 [
   {
+    "id": "2026-09-10-anthropic-metr-incidents",
+    "slug": "anthropic-reports-fourth-claude-unauthorized-access-signs-metr",
+    "headline": "Anthropic reports a fourth Claude unauthorized-access incident and signs METR",
+    "published_at": "2026-09-09T19:00:00.000Z",
+    "category": "Safety",
+    "organization": ["Anthropic", "METR"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-10-cymphony-series-a",
+    "slug": "cymphony-exits-stealth-30m-agent-identity-security",
+    "headline": "Cymphony exits stealth with $30M to govern employee and agent access",
+    "published_at": "2026-09-09T13:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Cymphony", "Sequoia Capital", "SMBC Fin Atlas Beyond Fund"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-10-aave-mcp",
+    "slug": "aave-ships-official-mcp-server-v3-v4",
+    "headline": "Aave ships an official MCP server for V3 and V4 agents",
+    "published_at": "2026-09-08T12:00:00.000Z",
+    "category": "Protocols",
+    "organization": ["Aave Labs"],
+    "verification_status": "confirmed",
+    "country_code": ""
+  },
+  {
+    "id": "2026-09-10-perplexity-q2d-web",
+    "slug": "perplexity-opens-q2d-web-agentic-retrieval-benchmark",
+    "headline": "Perplexity opens Q2D-Web, a web-scale first-stage retrieval benchmark",
+    "published_at": "2026-09-09T13:00:00.000Z",
+    "category": "Benchmarks",
+    "organization": ["Perplexity"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-10-deepseek-harness-cve",
+    "slug": "deepseek-harness-cve-2026-82533-sandbox-escape",
+    "headline": "DeepSeek Harness CVE-2026-82533 let agents disable their own sandbox",
+    "published_at": "2026-09-09T15:57:00.000Z",
+    "category": "Security",
+    "organization": ["DeepSeek", "OX Security"],
+    "verification_status": "confirmed",
+    "country_code": ""
+  },
+  {
     "id": "2026-09-09-meta-muse",
     "slug": "meta-launches-muse-personal-ai-agent-us",
     "headline": "Meta launches Muse, a consumer personal agent with a Secure VM",
