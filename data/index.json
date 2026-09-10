@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-09-10-loft-marlan-mistral-altair",
+    "slug": "loft-marlan-mistral-1b-ai-satellite-constellation",
+    "headline": "Loft Orbital, Marlan and Mistral plan a $1B AI satellite constellation",
+    "published_at": "2026-09-09T21:20:00.000Z",
+    "category": "Partnerships",
+    "organization": ["Loft Orbital", "Marlan Space", "Mistral AI", "Orbitworks", "BlackSky"],
+    "verification_status": "reported",
+    "country_code": "fr"
+  },
+  {
     "id": "2026-09-10-anthropic-metr-incidents",
     "slug": "anthropic-reports-fourth-claude-unauthorized-access-signs-metr",
     "headline": "Anthropic reports a fourth Claude unauthorized-access incident and signs METR",
@@ -8,6 +18,16 @@
     "organization": ["Anthropic", "METR"],
     "verification_status": "confirmed",
     "country_code": "US"
+  },
+  {
+    "id": "2026-09-10-deepseek-harness-cve",
+    "slug": "deepseek-harness-cve-2026-82533-sandbox-escape",
+    "headline": "DeepSeek Harness CVE-2026-82533 let agents disable their own sandbox",
+    "published_at": "2026-09-09T15:57:00.000Z",
+    "category": "Security",
+    "organization": ["DeepSeek", "OX Security"],
+    "verification_status": "confirmed",
+    "country_code": ""
   },
   {
     "id": "2026-09-10-cymphony-series-a",
@@ -20,16 +40,6 @@
     "country_code": "US"
   },
   {
-    "id": "2026-09-10-aave-mcp",
-    "slug": "aave-ships-official-mcp-server-v3-v4",
-    "headline": "Aave ships an official MCP server for V3 and V4 agents",
-    "published_at": "2026-09-08T12:00:00.000Z",
-    "category": "Protocols",
-    "organization": ["Aave Labs"],
-    "verification_status": "confirmed",
-    "country_code": ""
-  },
-  {
     "id": "2026-09-10-perplexity-q2d-web",
     "slug": "perplexity-opens-q2d-web-agentic-retrieval-benchmark",
     "headline": "Perplexity opens Q2D-Web, a web-scale first-stage retrieval benchmark",
@@ -40,12 +50,32 @@
     "country_code": "US"
   },
   {
-    "id": "2026-09-10-deepseek-harness-cve",
-    "slug": "deepseek-harness-cve-2026-82533-sandbox-escape",
-    "headline": "DeepSeek Harness CVE-2026-82533 let agents disable their own sandbox",
-    "published_at": "2026-09-09T15:57:00.000Z",
-    "category": "Security",
-    "organization": ["DeepSeek", "OX Security"],
+    "id": "2026-09-10-limetax-36m",
+    "slug": "limetax-raises-36m-agentic-german-tax-rollup",
+    "headline": "Berlin's Limetax raises €36M to roll up German tax firms with AI agents",
+    "published_at": "2026-09-09T08:33:00.000Z",
+    "category": "Funding",
+    "organization": ["Limetax", "Motive Partners", "Activant", "Heliad"],
+    "verification_status": "reported",
+    "country_code": "de"
+  },
+  {
+    "id": "2026-09-10-fusionality-preseed",
+    "slug": "fusionality-raises-chf-3m-fusion-control-software",
+    "headline": "Lausanne's Fusionality raises CHF 3M for fusion-reactor control software",
+    "published_at": "2026-09-09T06:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Fusionality", "Founderful", "Playfair", "EPFL"],
+    "verification_status": "reported",
+    "country_code": "ch"
+  },
+  {
+    "id": "2026-09-10-aave-mcp",
+    "slug": "aave-ships-official-mcp-server-v3-v4",
+    "headline": "Aave ships an official MCP server for V3 and V4 agents",
+    "published_at": "2026-09-08T12:00:00.000Z",
+    "category": "Protocols",
+    "organization": ["Aave Labs"],
     "verification_status": "confirmed",
     "country_code": ""
   },

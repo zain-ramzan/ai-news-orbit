@@ -1,12 +1,12 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10T04:02:00.000Z",
+  "generated_at": "2026-09-10T05:15:00.000Z",
   "key_agent_trends": [
-    "Frontier labs are treating eval-time internet leaks as a class of incident: Anthropic disclosed a fourth Claude unauthorized-access case and signed METR for an independent audit.",
-    "Agent identity and reach is becoming a funded security category: Cymphony exited stealth with $30M to graph employees, agents, and data access.",
-    "MCP keeps spreading past developer tools into DeFi and object storage: Aave shipped an official no-key MCP server that only prepares unsigned txs.",
-    "Agentic RAG now has a web-scale first-stage retrieval bench: Perplexity opened Q2D-Web with 190M docs and agent-reformulated queries.",
-    "Harness control planes remain a high-severity attack surface: DeepSeek Harness CVE-2026-82533 let sandboxed agents and remote callers disable confinement."
+    "European agentic AI is moving into regulated roll-ups: Berlin's Limetax is buying tax firms and running agents on DATEV workflows.",
+    "Sovereign compute and open-weight stacks remain Europe's core industrial bet after Mistral's €3B Series D and EU gigafactory tenders.",
+    "Frontier labs are treating eval-time internet leaks as incidents: Anthropic disclosed a fourth Claude unauthorized-access case and signed METR.",
+    "Agent identity and harness control planes are a funded security category after Cymphony's $30M launch and DeepSeek Harness CVE-2026-82533.",
+    "European research talent is spinning out applied control systems, including Lausanne's Fusionality for fusion-reactor software."
   ],
   "stories": [
     {
@@ -107,6 +107,63 @@
       "source_url": "https://www.cve.org/CVERecord?id=CVE-2026-82533",
       "official_url": "https://www.cve.org/CVERecord?id=CVE-2026-82533",
       "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-09-10-limetax-36m",
+      "slug": "limetax-raises-36m-agentic-german-tax-rollup",
+      "headline": "Berlin's Limetax raises €36M to roll up German tax firms with AI agents",
+      "what_happened": "Berlin-based Limetax secured €36 million, made up of a €6 million pre-seed equity round led by Motive Partners with Activant and Heliad, plus a €30 million credit facility from German banks. The company has acquired four tax and accounting firms across seven sites and embeds an agentic platform on DATEV to run bookkeeping, payroll and financial-statement work. Angels include former German finance minister Christian Lindner and former Rocket Internet executive Alexander Kudlich.",
+      "why_it_matters": "Agentic software is being used to consolidate a fragmented, regulated European profession rather than only selling a standalone SaaS tool.",
+      "organization": ["Limetax", "Motive Partners", "Activant", "Heliad"],
+      "product": [],
+      "category": "Funding",
+      "tags": ["limetax", "agentic-ai", "tax", "germany", "rollup", "datev"],
+      "country": "Germany",
+      "country_code": "de",
+      "published_at": "2026-09-09T08:33:00.000Z",
+      "discovered_at": "2026-09-10T05:15:00.000Z",
+      "source_name": "EU-Startups",
+      "source_url": "https://www.eu-startups.com/2026/09/limetax-lands-e36-million-to-build-an-ai-powered-group-of-german-tax-and-accounting-firms/",
+      "verification_status": "reported",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-09-10-loft-marlan-mistral-altair",
+      "slug": "loft-marlan-mistral-1b-ai-satellite-constellation",
+      "headline": "Loft Orbital, Marlan and Mistral plan a $1B AI satellite constellation",
+      "what_happened": "At France's International Space Summit on 9 September 2026, Loft Orbital and UAE-based Marlan Space said they will invest $1 billion to expand the Altair Earth-observation constellation from 10 to 50 satellites, with in-orbit AI processing. Partners named include Orbitworks, BlackSky and Mistral AI. Satellites are to be built in Abu Dhabi with a largely European supply chain; first launches are planned from October 2026. The system is intended to serve customers in France, Europe and the UAE for maritime awareness, wildfire detection and infrastructure security.",
+      "why_it_matters": "A European model lab is being pulled into sovereign space intelligence, tying Mistral's stack to dual-use Earth-observation infrastructure.",
+      "organization": ["Loft Orbital", "Marlan Space", "Mistral AI", "Orbitworks", "BlackSky"],
+      "product": ["Altair"],
+      "category": "Partnerships",
+      "tags": ["mistral", "loft-orbital", "satellites", "sovereign-ai", "earth-observation"],
+      "country": "France",
+      "country_code": "fr",
+      "published_at": "2026-09-09T21:20:00.000Z",
+      "discovered_at": "2026-09-10T05:15:00.000Z",
+      "source_name": "Via Satellite",
+      "source_url": "https://www.satellitetoday.com/earth-observation/2026/09/09/loft-orbital-marlan-space-to-build-ai-constellation-to-serve-france-europe-and-uae/",
+      "verification_status": "reported",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-09-10-fusionality-preseed",
+      "slug": "fusionality-raises-chf-3m-fusion-control-software",
+      "headline": "Lausanne's Fusionality raises CHF 3M for fusion-reactor control software",
+      "what_happened": "EPFL researcher Federico Felici and former Google DeepMind researcher Jonas Buchli closed a CHF 3 million ($3.7 million) pre-seed for Lausanne-based Fusionality, led by Founderful and Playfair. The seven-person company is building shared control-system hardware and software for magnetic-confinement fusion devices so labs do not each rebuild the same stack. The founders previously worked on AI methods to control an experimental tokamak; they say AI today supplements parts of control rather than running a reactor autonomously.",
+      "why_it_matters": "European AI research talent is moving from lab tokamak control into a supplier layer for Europe's fusion startups.",
+      "organization": ["Fusionality", "Founderful", "Playfair", "EPFL"],
+      "product": [],
+      "category": "Funding",
+      "tags": ["fusionality", "fusion", "deepmind", "switzerland", "control-systems"],
+      "country": "Switzerland",
+      "country_code": "ch",
+      "published_at": "2026-09-09T06:00:00.000Z",
+      "discovered_at": "2026-09-10T05:15:00.000Z",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/09/08/google-deepmind-alumni-are-building-tools-to-accelerate-fusion-power-for-the-grid/",
+      "verification_status": "reported",
       "confidence": "high"
     }
   ]
