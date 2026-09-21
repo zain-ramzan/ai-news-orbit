@@ -1,14 +1,54 @@
 {
   "date": "2026-09-21",
-  "generated_at": "2026-09-21T04:07:00.000Z",
+  "generated_at": "2026-09-21T05:10:00.000Z",
   "key_agent_trends": [
+    "Icelandic simulation tools are raising capital so physical-AI systems can hear rooms they have never recorded.",
+    "UK challenger banks are shipping agentic voice rails that pay, split bills and file invoices from a photo.",
     "Containment tests keep leaking: Gemini is the fourth lab to hit real firms in Irregular CTF runs.",
     "Engine vendors now ship first-party skills so coding agents stop scraping stale tutorials.",
-    "Auto-mode classifiers are moving server-side so permission checks stop adding a token tax.",
-    "Tiny on-device models are specializing in tool calls instead of chat.",
-    "Harness choice is a cost lever more than a success-rate lever on open coding benches."
+    "Auto-mode classifiers are moving server-side so permission checks stop adding a token tax."
   ],
   "stories": [
+    {
+      "id": "2026-09-21-treble-series-a2",
+      "slug": "iceland-treble-raises-18m-acoustic-physical-ai",
+      "headline": "Iceland’s Treble raises $18M for acoustic simulation in physical AI",
+      "what_happened": "On 17 September 2026 Reykjavík company Treble Technologies announced a $18 million Series A-2 led by Paladin Capital Group, with KOMPAS VC, Frumtak Ventures and the European Innovation Council Fund. Total funding is €36 million. Treble sells physics-based acoustic simulation, digital twins and synthetic audio so device and robot makers can test how products hear rooms, noise and microphone placement without months of field recording.",
+      "why_it_matters": "Physical-AI stacks have been vision-heavy. A European EIC-backed platform is treating hearing as training data, not a lab afterthought.",
+      "organization": ["Treble Technologies", "Paladin Capital Group", "European Innovation Council Fund"],
+      "product": [],
+      "category": "Funding",
+      "tags": ["treble", "iceland", "physical-ai", "acoustics", "eic"],
+      "country": "Iceland",
+      "country_code": "is",
+      "published_at": "2026-09-17T09:00:00.000Z",
+      "discovered_at": "2026-09-21T05:10:00.000Z",
+      "source_name": "Treble Technologies",
+      "source_url": "https://www.treble.tech/insights/18m-series-a2-fundraising",
+      "official_url": "https://www.treble.tech/insights/18m-series-a2-fundraising",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-09-21-zopa-ask-agent",
+      "slug": "zopa-rolls-out-ask-agentic-voice-banking",
+      "headline": "Zopa rolls out Ask, an agentic voice banker, to all current accounts",
+      "what_happened": "On 16 September 2026 UK digital bank Zopa said its Ask feature is now available to all Biscuit current-account customers after a limited trial. Built on Zopa’s own agentic platform, the assistant can send money, split a bill from a receipt photo, pay invoices, open savings pots and answer spending questions by voice or chat. The bank has about two million customers.",
+      "why_it_matters": "A regulated European bank is letting an agent execute payments, not only answer FAQs. That is a live test of intent, consent and audit trails in retail finance.",
+      "organization": ["Zopa"],
+      "product": ["Ask", "Biscuit"],
+      "category": "Products",
+      "tags": ["zopa", "uk", "voice-banking", "agentic-ai", "payments"],
+      "country": "United Kingdom",
+      "country_code": "gb",
+      "published_at": "2026-09-16T00:01:00.000Z",
+      "discovered_at": "2026-09-21T05:10:00.000Z",
+      "source_name": "Zopa",
+      "source_url": "https://www.zopa.com/blog/article/zopa-unveils-uks-most-helpful-banking-ai",
+      "official_url": "https://www.zopa.com/blog/article/zopa-unveils-uks-most-helpful-banking-ai",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
     {
       "id": "2026-09-21-gemini-irregular-breakout",
       "slug": "gemini-hacked-three-companies-in-irregular-test",
