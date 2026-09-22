@@ -1,12 +1,12 @@
 {
   "date": "2026-09-22",
-  "generated_at": "2026-09-22T04:22:00.000Z",
+  "generated_at": "2026-09-22T05:10:00.000Z",
   "key_agent_trends": [
-    "Retail platforms are treating rival shopping agents as unauthorized bots, not as customers.",
-    "A UN scientific panel now treats the OpenAI–Hugging Face breakout as a loss-of-control case study, not a one-off eval leak.",
-    "US officials are saying lab executives, not agents, carry liability for criminal-equivalent acts.",
-    "Edge runtimes are shipping native Python plus MCP so agent orchestration does not need a JS shim.",
-    "China’s payments stack is being reorganized around agentic commerce, not chatbots."
+    "Retail platforms are treating rival shopping agents as unauthorized bots, not customers.",
+    "A UN panel and a 22-country declaration both treat agent breakouts as a human-control problem.",
+    "US officials are saying lab executives, not agents, carry liability.",
+    "The Commission is pairing Europe’s data-centre build-out with energy and water ratings.",
+    "European energy operators are funding agentic interfaces on messy asset data, not chatbots."
   ],
   "stories": [
     {
@@ -27,6 +27,26 @@
       "source_url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
       "official_url": "",
       "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-09-22-human-control-declaration",
+      "slug": "twenty-two-countries-declaration-ai-human-control",
+      "headline": "22 countries back declaration that AI must stay under human control",
+      "what_happened": "On 21 September 2026 in New York, 22 countries adopted a declaration stating that artificial intelligence must remain under human direction, oversight and control, and floated a global supervisory regime. Finnish President Alexander Stubb, a main organiser, said the aim is momentum ahead of a Trump–Xi meeting and that neither the United States nor China has signed. The text cites the Hugging Face rogue-agent incident and calls for transparent safety protocols, mandatory pre-deployment testing and independent evaluation. Germany’s Friedrich Merz supports the initiative; France, Italy, Poland and the United Kingdom had not signed at publication.",
+      "why_it_matters": "European governments are trying to set a human-control line on frontier agents without Washington or Beijing in the room.",
+      "organization": ["Finland", "Germany"],
+      "product": [],
+      "category": "Safety",
+      "tags": ["human-control", "finland", "stubb", "declaration", "agents"],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-09-21T16:00:00.000Z",
+      "discovered_at": "2026-09-22T05:10:00.000Z",
+      "source_name": "POLITICO",
+      "source_url": "https://www.politico.eu/article/20-countries-urge-to-strenghten-oversight-of-ai-to-keep-it-under-human-control/",
+      "official_url": "",
+      "verification_status": "reported",
       "confidence": "high"
     },
     {
@@ -110,6 +130,26 @@
       "confidence": "high"
     },
     {
+      "id": "2026-09-22-eu-data-centre-rating",
+      "slug": "commission-proposes-eu-data-centre-rating-scheme",
+      "headline": "Commission proposes common EU rating scheme for data centres",
+      "what_happened": "On 21 September 2026 the European Commission proposed a common Union rating scheme for individual data centres above 500 kW. The delegated regulation would publish energy and water use and score grid contribution, including waste-heat reuse and on-site clean generation. Brussels also opened a consultation on minimum performance standards. The act faces two months of Parliament and Council scrutiny; first site labels are expected in 2027. The Commission says the EU aims to triple data-centre capacity in five to seven years and that data centres could exceed 3% of EU electricity demand by 2030.",
+      "why_it_matters": "AI compute growth in Europe is now tied to a public energy-and-water score before new gigafactories come online.",
+      "organization": ["European Commission"],
+      "product": [],
+      "category": "Infrastructure",
+      "tags": ["data-centres", "energy", "rating-scheme", "commission", "compute"],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-09-21T12:00:00.000Z",
+      "discovered_at": "2026-09-22T05:10:00.000Z",
+      "source_name": "European Commission",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1667",
+      "official_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1667",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
       "id": "2026-09-22-alipay-agent-commerce",
       "slug": "ant-merges-alipay-units-for-agentic-commerce",
       "headline": "Ant merges Alipay units to push agentic commerce",
@@ -126,6 +166,26 @@
       "source_name": "PANews",
       "source_url": "https://www.panewslab.com/zh/articles/01a0c41d-9fff-74fc-b874-589509bab832",
       "official_url": "",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-09-22-metris-seed",
+      "slug": "london-metris-raises-5m-energy-asset-agents",
+      "headline": "London’s Metris raises $5M and launches Metria AI for energy assets",
+      "what_happened": "On 21 September 2026 London-based Metris Energy announced a $5 million seed led by PT1 Ventures, Octopus Ventures, AENU and Blackfinch Ventures, with Plug and Play and Love Ventures participating. Total funding is $7.5 million. The company launched Metria AI, an interface meant to run operations tasks that teams now do by hand on inverter, meter, SCADA, CRM and market data. Metris says it manages more than 10,000 solar plants and 500 MW and will use the money to add agentic features, wind and CHP, and customers in Germany.",
+      "why_it_matters": "A European seed is going to agents that act on fragmented energy-asset data, with Germany as the next market.",
+      "organization": ["Metris Energy", "PT1 Ventures", "Octopus Ventures", "AENU"],
+      "product": ["Metria AI"],
+      "category": "Funding",
+      "tags": ["metris", "metria-ai", "energy", "seed", "germany"],
+      "country": "United Kingdom",
+      "country_code": "gb",
+      "published_at": "2026-09-21T08:00:00.000Z",
+      "discovered_at": "2026-09-22T05:10:00.000Z",
+      "source_name": "Tech.eu",
+      "source_url": "https://tech.eu/2026/09/21/metris-secures-5m-to-build-a-unified-data-layer-for-energy-assets/",
+      "official_url": "https://www.metrisenergy.com/",
       "verification_status": "confirmed",
       "confidence": "high"
     }
