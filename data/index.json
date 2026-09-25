@@ -1,1 +1,102 @@
-[{"id":"2026-09-25-transluce-openai-agent-probes","slug":"transluce-links-openai-agents-unm-data-usa","headline":"Transluce links more OpenAI agent probes to UNM and Data USA","published_at":"2026-09-24T20:25:00.000Z","category":"Security","organization":["OpenAI","Transluce","University of New Mexico","Data USA"],"verification_status":"confirmed","country_code":"US"},{"id":"2026-09-25-meta-muse-glasses-avatar","slug":"meta-connect-muse-glasses-realtime-avatar","headline":"Meta brings Muse to AI glasses and adds realtime avatars","published_at":"2026-09-24T21:15:00.000Z","category":"Products","organization":["Meta"],"verification_status":"confirmed","country_code":"US"},{"id":"2026-09-25-google-call-for-me","slug":"google-gemini-call-for-me-pixel-11","headline":"Google starts Gemini Call for Me on Pixel 11","published_at":"2026-09-24T16:00:00.000Z","category":"Computer Use","organization":["Google"],"verification_status":"confirmed","country_code":"US"},{"id":"2026-09-25-dataiku-agent-management","slug":"dataiku-launches-cross-platform-agent-management","headline":"Dataiku launches cross-platform Agent Management","published_at":"2026-09-24T13:00:00.000Z","category":"Enterprise","organization":["Dataiku"],"verification_status":"confirmed","country_code":"US"},{"id":"2026-09-25-claude-code-cloud-sessions-ga","slug":"claude-code-cloud-sessions-generally-available","headline":"Claude Code cloud sessions leave research preview","published_at":"2026-09-24T19:41:00.000Z","category":"Coding Agents","organization":["Anthropic"],"verification_status":"confirmed","country_code":"US"},{"id":"2026-09-25-caveat-computer-use","slug":"caveat-benchmark-steered-shopping-agents","headline":"CAVEAT finds shopping agents collapse under marketplace steering","published_at":"2026-09-23T00:00:00.000Z","category":"Benchmarks","organization":[],"verification_status":"confirmed","country_code":"US"},{"id":"2026-09-25-outerlimit-16m","slug":"outerlimit-raises-16m-agent-action-zero-trust","headline":"Outerlimit raises $16M for agent-action Zero Trust","published_at":"2026-09-22T07:00:00.000Z","category":"Funding","organization":["Outerlimit","AlbionVC","Evolution Equity Partners"],"verification_status":"confirmed","country_code":"GB"}]
+[
+  {
+    "id": "2026-09-25-meta-muse-glasses-avatar",
+    "slug": "meta-connect-muse-glasses-realtime-avatar",
+    "headline": "Meta brings Muse to AI glasses and adds realtime avatars",
+    "published_at": "2026-09-24T21:15:00.000Z",
+    "category": "Products",
+    "organization": ["Meta"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-25-transluce-openai-agent-probes",
+    "slug": "transluce-links-openai-agents-unm-data-usa",
+    "headline": "Transluce links more OpenAI agent probes to UNM and Data USA",
+    "published_at": "2026-09-24T20:25:00.000Z",
+    "category": "Security",
+    "organization": ["OpenAI", "Transluce", "University of New Mexico", "Data USA"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-25-claude-code-cloud-sessions-ga",
+    "slug": "claude-code-cloud-sessions-generally-available",
+    "headline": "Claude Code cloud sessions leave research preview",
+    "published_at": "2026-09-24T19:41:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-25-google-call-for-me",
+    "slug": "google-gemini-call-for-me-pixel-11",
+    "headline": "Google starts Gemini Call for Me on Pixel 11",
+    "published_at": "2026-09-24T16:00:00.000Z",
+    "category": "Computer Use",
+    "organization": ["Google"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-25-dataiku-agent-management",
+    "slug": "dataiku-launches-cross-platform-agent-management",
+    "headline": "Dataiku launches cross-platform Agent Management",
+    "published_at": "2026-09-24T13:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Dataiku"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-25-50skills-funding",
+    "slug": "reykjavik-50skills-raises-5-3m-hr-agents",
+    "headline": "Reykjavík’s 50skills raises €5.3M for HR workflow agents",
+    "published_at": "2026-09-24T08:30:00.000Z",
+    "category": "Funding",
+    "organization": ["50skills", "Frumtak Ventures", "Swiss Post Ventures"],
+    "verification_status": "reported",
+    "country_code": "is"
+  },
+  {
+    "id": "2026-09-25-clastix-seed",
+    "slug": "italy-clastix-raises-2-9m-mistral-kubernetes",
+    "headline": "Italy’s Clastix raises €2.9M with Mistral for sovereign Kubernetes",
+    "published_at": "2026-09-24T08:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Clastix", "Mistral AI", "CDP Venture Capital"],
+    "verification_status": "reported",
+    "country_code": "it"
+  },
+  {
+    "id": "2026-09-25-klang-pianissimo",
+    "slug": "klang-opensources-pianissimo-swedish-speech-model",
+    "headline": "Klang open-sources Pianissimo and raises SEK 15M",
+    "published_at": "2026-09-23T07:00:00.000Z",
+    "category": "Open Source",
+    "organization": ["Klang", "Berget AI"],
+    "verification_status": "confirmed",
+    "country_code": "se"
+  },
+  {
+    "id": "2026-09-25-caveat-computer-use",
+    "slug": "caveat-benchmark-steered-shopping-agents",
+    "headline": "CAVEAT finds shopping agents collapse under marketplace steering",
+    "published_at": "2026-09-23T00:00:00.000Z",
+    "category": "Benchmarks",
+    "organization": [],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-25-outerlimit-16m",
+    "slug": "outerlimit-raises-16m-agent-action-zero-trust",
+    "headline": "Outerlimit raises $16M for agent-action Zero Trust",
+    "published_at": "2026-09-22T07:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Outerlimit", "AlbionVC", "Evolution Equity Partners"],
+    "verification_status": "confirmed",
+    "country_code": "GB"
+  }
+]
