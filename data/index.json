@@ -1,102 +1,42 @@
 [
   {
-    "id": "2026-09-25-meta-muse-glasses-avatar",
-    "slug": "meta-connect-muse-glasses-realtime-avatar",
-    "headline": "Meta brings Muse to AI glasses and adds realtime avatars",
-    "published_at": "2026-09-24T21:15:00.000Z",
-    "category": "Products",
-    "organization": ["Meta"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-09-25-transluce-openai-agent-probes",
-    "slug": "transluce-links-openai-agents-unm-data-usa",
-    "headline": "Transluce links more OpenAI agent probes to UNM and Data USA",
-    "published_at": "2026-09-24T20:25:00.000Z",
-    "category": "Security",
-    "organization": ["OpenAI", "Transluce", "University of New Mexico", "Data USA"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-09-25-claude-code-cloud-sessions-ga",
-    "slug": "claude-code-cloud-sessions-generally-available",
-    "headline": "Claude Code cloud sessions leave research preview",
-    "published_at": "2026-09-24T19:41:00.000Z",
-    "category": "Coding Agents",
-    "organization": ["Anthropic"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-09-25-google-call-for-me",
-    "slug": "google-gemini-call-for-me-pixel-11",
-    "headline": "Google starts Gemini Call for Me on Pixel 11",
-    "published_at": "2026-09-24T16:00:00.000Z",
-    "category": "Computer Use",
-    "organization": ["Google"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-09-25-dataiku-agent-management",
-    "slug": "dataiku-launches-cross-platform-agent-management",
-    "headline": "Dataiku launches cross-platform Agent Management",
-    "published_at": "2026-09-24T13:00:00.000Z",
-    "category": "Enterprise",
-    "organization": ["Dataiku"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-09-25-50skills-funding",
-    "slug": "reykjavik-50skills-raises-5-3m-hr-agents",
-    "headline": "Reykjavík’s 50skills raises €5.3M for HR workflow agents",
-    "published_at": "2026-09-24T08:30:00.000Z",
+    "id": "2026-09-26-nscale-pre-ipo",
+    "slug": "nscale-raises-3-36b-pre-ipo-convertible",
+    "headline": "London’s Nscale raises $3.36B in pre-IPO convertible notes",
+    "published_at": "2026-09-25T15:00:00.000Z",
     "category": "Funding",
-    "organization": ["50skills", "Frumtak Ventures", "Swiss Post Ventures"],
-    "verification_status": "reported",
-    "country_code": "is"
+    "organization": ["Nscale", "Third Point", "NVIDIA"],
+    "verification_status": "confirmed",
+    "country_code": "gb"
   },
   {
-    "id": "2026-09-25-clastix-seed",
-    "slug": "italy-clastix-raises-2-9m-mistral-kubernetes",
-    "headline": "Italy’s Clastix raises €2.9M with Mistral for sovereign Kubernetes",
-    "published_at": "2026-09-24T08:00:00.000Z",
+    "id": "2026-09-26-kontext-funding",
+    "slug": "munich-kontext-raises-4m-agent-runtime-security",
+    "headline": "Munich’s Kontext raises $4M for AI agent runtime security",
+    "published_at": "2026-09-24T12:00:00.000Z",
     "category": "Funding",
-    "organization": ["Clastix", "Mistral AI", "CDP Venture Capital"],
-    "verification_status": "reported",
-    "country_code": "it"
-  },
-  {
-    "id": "2026-09-25-klang-pianissimo",
-    "slug": "klang-opensources-pianissimo-swedish-speech-model",
-    "headline": "Klang open-sources Pianissimo and raises SEK 15M",
-    "published_at": "2026-09-23T07:00:00.000Z",
-    "category": "Open Source",
-    "organization": ["Klang", "Berget AI"],
+    "organization": ["Kontext", "42CAP", "HTGF"],
     "verification_status": "confirmed",
-    "country_code": "se"
+    "country_code": "de"
   },
   {
-    "id": "2026-09-25-caveat-computer-use",
-    "slug": "caveat-benchmark-steered-shopping-agents",
-    "headline": "CAVEAT finds shopping agents collapse under marketplace steering",
-    "published_at": "2026-09-23T00:00:00.000Z",
-    "category": "Benchmarks",
-    "organization": [],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-09-25-outerlimit-16m",
-    "slug": "outerlimit-raises-16m-agent-action-zero-trust",
-    "headline": "Outerlimit raises $16M for agent-action Zero Trust",
-    "published_at": "2026-09-22T07:00:00.000Z",
+    "id": "2026-09-26-reecall-funding",
+    "slug": "lyon-reecall-raises-3-5m-white-label-voice-ai",
+    "headline": "Lyon’s Reecall raises €3.5M for white-label voice AI",
+    "published_at": "2026-09-24T07:33:00.000Z",
     "category": "Funding",
-    "organization": ["Outerlimit", "AlbionVC", "Evolution Equity Partners"],
+    "organization": ["Reecall", "Founders Future"],
     "verification_status": "confirmed",
-    "country_code": "GB"
+    "country_code": "fr"
+  },
+  {
+    "id": "2026-09-26-commission-education-ai",
+    "slug": "commission-reports-generative-ai-european-education",
+    "headline": "Commission reports find generative AI entering EU classrooms",
+    "published_at": "2026-09-22T08:00:00.000Z",
+    "category": "Research",
+    "organization": ["European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
   }
 ]
