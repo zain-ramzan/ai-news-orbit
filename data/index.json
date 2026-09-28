@@ -1,1 +1,192 @@
-SEE_INDEX
+[
+  {
+    "id": "2026-09-28-openai-always-on-o-rumor",
+    "slug": "openai-always-on-agent-o-devday-rumor",
+    "headline": "Reports say OpenAI may show an always-on agent called o at DevDay",
+    "published_at": "2026-09-28T00:00:00.000Z",
+    "category": "Products",
+    "organization": ["OpenAI"],
+    "verification_status": "rumor",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-openai-agents-unctad",
+    "slug": "openai-agents-scanned-unctad-data-hub",
+    "headline": "OpenAI-linked agents hit a UN data hub more than 16,000 times",
+    "published_at": "2026-09-27T17:21:00.000Z",
+    "category": "Security",
+    "organization": ["OpenAI", "UNCTAD", "Transluce"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-australia-senate-altman-amodei",
+    "slug": "australia-senate-asks-altman-amodei-after-medicare-agent",
+    "headline": "Australia Senate asks Altman and Amodei to appear after Medicare agent probe",
+    "published_at": "2026-09-27T08:53:00.000Z",
+    "category": "Regulation",
+    "organization": ["OpenAI", "Anthropic", "Australian Senate", "Services Australia"],
+    "verification_status": "reported",
+    "country_code": "AU"
+  },
+  {
+    "id": "2026-09-28-kt-agentic-on",
+    "slug": "kt-unveils-agentic-on-enterprise-platform",
+    "headline": "KT unveils Agentic On to wire agents into existing systems",
+    "published_at": "2026-09-27T08:27:00.000Z",
+    "category": "Enterprise",
+    "organization": ["KT"],
+    "verification_status": "confirmed",
+    "country_code": "KR"
+  },
+  {
+    "id": "2026-09-28-claude-code-2-1-283",
+    "slug": "claude-code-2-1-283-model-allow-deny-prompt-audit",
+    "headline": "Claude Code 2.1.283 adds exact model allow/deny and prompt audit",
+    "published_at": "2026-09-25T23:50:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-snabe-industrial-ai-envoy",
+    "slug": "eu-ai-envoy-snabe-urges-industrial-uptake",
+    "headline": "EU AI envoy tells commissioners to prioritise industrial uptake",
+    "published_at": "2026-09-24T21:46:00.000Z",
+    "category": "Enterprise",
+    "organization": ["European Commission", "Siemens"],
+    "verification_status": "reported",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-09-28-gemini-4-post-training",
+    "slug": "deepmind-gemini-4-early-post-training",
+    "headline": "DeepMind chief says Gemini 4 is in early post-training",
+    "published_at": "2026-09-24T20:55:00.000Z",
+    "category": "Models",
+    "organization": ["Google DeepMind", "Google"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-kontext-4m-seed",
+    "slug": "munich-kontext-raises-4m-agent-runtime-security",
+    "headline": "Munich’s Kontext raises $4M for agent runtime security",
+    "published_at": "2026-09-24T13:27:00.000Z",
+    "category": "Funding",
+    "organization": ["Kontext", "42CAP", "High-Tech Gründerfonds"],
+    "verification_status": "confirmed",
+    "country_code": "de"
+  },
+  {
+    "id": "2026-09-28-biolevate-series-a",
+    "slug": "paris-biolevate-raises-30m-life-sciences-agents",
+    "headline": "Paris’s Biolevate raises €30M for life-sciences agents",
+    "published_at": "2026-09-22T07:30:00.000Z",
+    "category": "Funding",
+    "organization": ["Biolevate", "Orange Ventures", "RAISE France", "EQT Ventures"],
+    "verification_status": "confirmed",
+    "country_code": "fr"
+  },
+  {
+    "id": "2026-09-28-bitkom-germany-ai-market",
+    "slug": "germany-ai-market-287-billion-2026-bitkom",
+    "headline": "Bitkom: Germany’s AI market to hit €28.7 billion in 2026",
+    "published_at": "2026-09-22T02:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Bitkom", "IDC"],
+    "verification_status": "confirmed",
+    "country_code": "de"
+  },
+  {
+    "id": "2026-09-27-openai-pauses-training-dns-escape",
+    "slug": "openai-pauses-training-after-dns-sandbox-escape",
+    "headline": "OpenAI pauses top-model training after a second sandbox escape",
+    "published_at": "2026-09-26T15:25:00.000Z",
+    "category": "Safety",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-27-microsoft-saas-os-agents",
+    "slug": "microsoft-vp-saas-operating-system-for-agents",
+    "headline": "Microsoft VP: SaaS is becoming the operating system for agents",
+    "published_at": "2026-09-26T14:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Microsoft"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-27-openai-agents-leaked-images",
+    "slug": "openai-research-agents-posted-53-user-images",
+    "headline": "OpenAI says research agents posted 53 user images online",
+    "published_at": "2026-09-26T12:00:00.000Z",
+    "category": "Safety",
+    "organization": ["OpenAI"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-27-cognition-devin-1b-arr",
+    "slug": "cognition-says-devin-crossed-1b-arr",
+    "headline": "Cognition says Devin crossed a $1B annualized run rate",
+    "published_at": "2026-09-25T16:00:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["Cognition"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-27-microsoft-copilot-autopilot",
+    "slug": "microsoft-copilot-super-app-autopilot",
+    "headline": "Microsoft ships Copilot super app with always-on Autopilot",
+    "published_at": "2026-09-25T14:00:00.000Z",
+    "category": "Products",
+    "organization": ["Microsoft"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-27-commission-education-ai-reports",
+    "slug": "commission-reports-generative-ai-european-education",
+    "headline": "Commission reports find generative AI entering EU classrooms",
+    "published_at": "2026-09-22T00:00:00.000Z",
+    "category": "Research",
+    "organization": ["European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-09-27-ai-board-ninth-meeting",
+    "slug": "ai-board-ninth-meeting-enforcement-cybersecurity",
+    "headline": "AI Board reviews Act enforcement and cybersecurity plan",
+    "published_at": "2026-09-18T00:00:00.000Z",
+    "category": "Regulation",
+    "organization": ["European Commission", "AI Board"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-09-27-eu-kids-act",
+    "slug": "commission-proposes-eu-kids-act-ai-companions",
+    "headline": "Commission proposes EU KIDS Act rules for AI companions",
+    "published_at": "2026-09-17T10:00:00.000Z",
+    "category": "Regulation",
+    "organization": ["European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-09-28-ipcei-ai",
+    "slug": "nineteen-member-states-design-first-ai-ipcei",
+    "headline": "19 Member States design the first AI IPCEI",
+    "published_at": "2026-09-16T00:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  }
+]
