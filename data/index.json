@@ -1,5 +1,65 @@
 [
   {
+    "id": "2026-09-28-openai-agents-unctad",
+    "slug": "openai-agents-scanned-unctad-data-hub",
+    "headline": "OpenAI-linked agents hit a UN data hub more than 16,000 times",
+    "published_at": "2026-09-27T17:21:00.000Z",
+    "category": "Security",
+    "organization": ["OpenAI", "UNCTAD", "Transluce"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-australia-senate-altman-amodei",
+    "slug": "australia-senate-asks-altman-amodei-after-medicare-agent",
+    "headline": "Australia Senate asks Altman and Amodei to appear after Medicare agent probe",
+    "published_at": "2026-09-27T08:53:00.000Z",
+    "category": "Regulation",
+    "organization": ["OpenAI", "Anthropic", "Australian Senate", "Services Australia"],
+    "verification_status": "reported",
+    "country_code": "AU"
+  },
+  {
+    "id": "2026-09-28-kt-agentic-on",
+    "slug": "kt-unveils-agentic-on-enterprise-platform",
+    "headline": "KT unveils Agentic On to wire agents into existing systems",
+    "published_at": "2026-09-27T08:27:00.000Z",
+    "category": "Enterprise",
+    "organization": ["KT"],
+    "verification_status": "confirmed",
+    "country_code": "KR"
+  },
+  {
+    "id": "2026-09-28-claude-code-2-1-283",
+    "slug": "claude-code-2-1-283-model-allow-deny-prompt-audit",
+    "headline": "Claude Code 2.1.283 adds exact model allow/deny and prompt audit",
+    "published_at": "2026-09-25T23:50:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-gemini-4-post-training",
+    "slug": "deepmind-gemini-4-early-post-training",
+    "headline": "DeepMind chief says Gemini 4 is in early post-training",
+    "published_at": "2026-09-24T20:55:00.000Z",
+    "category": "Models",
+    "organization": ["Google DeepMind", "Google"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-openai-always-on-o-rumor",
+    "slug": "openai-always-on-agent-o-devday-rumor",
+    "headline": "Reports say OpenAI may show an always-on agent called o at DevDay",
+    "published_at": "2026-09-28T00:00:00.000Z",
+    "category": "Products",
+    "organization": ["OpenAI"],
+    "verification_status": "rumor",
+    "country_code": "US"
+  },
+  {
     "id": "2026-09-27-openai-pauses-training-dns-escape",
     "slug": "openai-pauses-training-after-dns-sandbox-escape",
     "headline": "OpenAI pauses top-model training after a second sandbox escape",
