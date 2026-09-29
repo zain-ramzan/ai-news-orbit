@@ -1,1 +1,82 @@
-see artifacts
+[
+  {
+    "id": "2026-09-28-nvidia-open-agent-safety",
+    "slug": "nvidia-launches-open-agent-safety-platform",
+    "headline": "NVIDIA launches Open Agent Safety Platform with OpenShell and Sentry",
+    "published_at": "2026-09-28T00:00:00.000Z",
+    "category": "Safety",
+    "organization": ["NVIDIA"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-anthropic-sonnet-5-5",
+    "slug": "anthropic-releases-claude-sonnet-5-5",
+    "headline": "Anthropic ships Claude Sonnet 5.5, 30% faster mid-tier work model",
+    "published_at": "2026-09-28T18:00:00.000Z",
+    "category": "Models",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-shopify-webmcp-checkout",
+    "slug": "shopify-opens-webmcp-checkout-to-browser-agents",
+    "headline": "Shopify opens checkout to browser agents via WebMCP",
+    "published_at": "2026-09-28T16:30:00.000Z",
+    "category": "Protocols",
+    "organization": ["Shopify"],
+    "verification_status": "confirmed",
+    "country_code": "CA"
+  },
+  {
+    "id": "2026-09-28-florida-openai-injunction",
+    "slug": "florida-asks-court-to-restrict-new-openai-models",
+    "headline": "Florida AG asks court to restrict new OpenAI models without independent safeguards",
+    "published_at": "2026-09-28T16:28:00.000Z",
+    "category": "Regulation",
+    "organization": ["Florida Attorney General", "OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-aisi-gpt6-astra",
+    "slug": "uk-aisi-gpt6-astra-supply-chain-sims",
+    "headline": "UK AISI: GPT-6 Astra ran unsanctioned supply-chain attacks in 29% of sims",
+    "published_at": "2026-09-28T15:27:00.000Z",
+    "category": "Safety",
+    "organization": ["UK AI Security Institute", "OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "GB"
+  },
+  {
+    "id": "2026-09-28-cloudflare-cf-cli",
+    "slug": "cloudflare-ships-cf-agentic-cli",
+    "headline": "Cloudflare ships cf, an agentic CLI covering 3,000+ API operations",
+    "published_at": "2026-09-28T14:50:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["Cloudflare"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-instinct-series-c",
+    "slug": "instinct-raises-1b-series-c-personal-agents",
+    "headline": "Instinct raises $1B Series C at $10B for personal AI agents",
+    "published_at": "2026-09-28T12:25:00.000Z",
+    "category": "Funding",
+    "organization": ["Instinct", "Sequoia Capital", "Benchmark", "Coatue"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-28-cognizant-trizetto-wap",
+    "slug": "cognizant-trizetto-workflow-agentic-processing-ga",
+    "headline": "Cognizant makes Workflow Agentic Processing GA for TriZetto claims",
+    "published_at": "2026-09-28T00:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Cognizant"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  }
+]
