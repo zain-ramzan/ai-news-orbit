@@ -1,82 +1,82 @@
 [
   {
-    "id": "2026-09-28-nvidia-open-agent-safety",
-    "slug": "nvidia-launches-open-agent-safety-platform",
-    "headline": "NVIDIA launches Open Agent Safety Platform with OpenShell and Sentry",
-    "published_at": "2026-09-28T00:00:00.000Z",
-    "category": "Safety",
-    "organization": ["NVIDIA"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-09-28-anthropic-sonnet-5-5",
-    "slug": "anthropic-releases-claude-sonnet-5-5",
-    "headline": "Anthropic ships Claude Sonnet 5.5, 30% faster mid-tier work model",
-    "published_at": "2026-09-28T18:00:00.000Z",
-    "category": "Models",
-    "organization": ["Anthropic"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-09-28-shopify-webmcp-checkout",
-    "slug": "shopify-opens-webmcp-checkout-to-browser-agents",
-    "headline": "Shopify opens checkout to browser agents via WebMCP",
-    "published_at": "2026-09-28T16:30:00.000Z",
-    "category": "Protocols",
-    "organization": ["Shopify"],
-    "verification_status": "confirmed",
-    "country_code": "CA"
-  },
-  {
-    "id": "2026-09-28-florida-openai-injunction",
-    "slug": "florida-asks-court-to-restrict-new-openai-models",
-    "headline": "Florida AG asks court to restrict new OpenAI models without independent safeguards",
-    "published_at": "2026-09-28T16:28:00.000Z",
-    "category": "Regulation",
-    "organization": ["Florida Attorney General", "OpenAI"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-09-28-aisi-gpt6-astra",
-    "slug": "uk-aisi-gpt6-astra-supply-chain-sims",
-    "headline": "UK AISI: GPT-6 Astra ran unsanctioned supply-chain attacks in 29% of sims",
-    "published_at": "2026-09-28T15:27:00.000Z",
-    "category": "Safety",
-    "organization": ["UK AI Security Institute", "OpenAI"],
-    "verification_status": "confirmed",
-    "country_code": "GB"
-  },
-  {
-    "id": "2026-09-28-cloudflare-cf-cli",
-    "slug": "cloudflare-ships-cf-agentic-cli",
-    "headline": "Cloudflare ships cf, an agentic CLI covering 3,000+ API operations",
-    "published_at": "2026-09-28T14:50:00.000Z",
-    "category": "Infrastructure",
-    "organization": ["Cloudflare"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-09-28-instinct-series-c",
-    "slug": "instinct-raises-1b-series-c-personal-agents",
-    "headline": "Instinct raises $1B Series C at $10B for personal AI agents",
-    "published_at": "2026-09-28T12:25:00.000Z",
+    "id": "2026-09-29-dod-solution-aura",
+    "slug": "dod-solution-raises-1-8m-aura-ai-autonomy",
+    "headline": "Estonian-Ukrainian DOD Solution raises €1.8M for AURA onboard AI autonomy",
+    "published_at": "2026-09-28T17:12:00.000Z",
     "category": "Funding",
-    "organization": ["Instinct", "Sequoia Capital", "Benchmark", "Coatue"],
+    "organization": ["DOD Solution", "Draganfly"],
     "verification_status": "confirmed",
-    "country_code": "US"
+    "country_code": "ee"
   },
   {
-    "id": "2026-09-28-cognizant-trizetto-wap",
-    "slug": "cognizant-trizetto-workflow-agentic-processing-ga",
-    "headline": "Cognizant makes Workflow Agentic Processing GA for TriZetto claims",
-    "published_at": "2026-09-28T00:00:00.000Z",
-    "category": "Enterprise",
-    "organization": ["Cognizant"],
+    "id": "2026-09-29-snabe-industrial-ai",
+    "slug": "commission-advisor-urges-industrial-ai-over-frontier-race",
+    "headline": "Commission AI advisor Snabe urges industrial deployment over frontier-model race",
+    "published_at": "2026-09-28T12:59:00.000Z",
+    "category": "Regulation",
+    "organization": ["European Commission"],
+    "verification_status": "reported",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-09-29-humanos-agent-risk-seed",
+    "slug": "lisbon-humanos-raises-3-2m-ai-agent-risk-scores",
+    "headline": "Lisbon’s Humanos raises $3.2M seed for live AI-agent risk scores",
+    "published_at": "2026-09-28T08:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Humanos", "Anthemis"],
     "verification_status": "confirmed",
-    "country_code": "US"
+    "country_code": "pt"
+  },
+  {
+    "id": "2026-09-29-klang-pianissimo",
+    "slug": "klang-raises-1-32m-open-swedish-speech-model",
+    "headline": "Sweden’s Klang raises €1.32M and opens Pianissimo Swedish speech model",
+    "published_at": "2026-09-28T07:25:00.000Z",
+    "category": "Open Source",
+    "organization": ["Klang"],
+    "verification_status": "confirmed",
+    "country_code": "se"
+  },
+  {
+    "id": "2026-09-29-clastix-mistral-seed",
+    "slug": "italy-clastix-raises-2-9m-with-mistral-cdp",
+    "headline": "Italy’s Clastix raises €2.9M seed with Mistral and CDP for AI Kubernetes",
+    "published_at": "2026-09-24T08:27:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["Clastix", "Mistral", "CDP Venture Capital", "Vertis SGR"],
+    "verification_status": "confirmed",
+    "country_code": "it"
+  },
+  {
+    "id": "2026-09-29-sprind-nadi-chips",
+    "slug": "sprind-nadi-launch-40m-ai-native-chip-challenge",
+    "headline": "Germany and the Netherlands launch €40M AI-native chip design challenge",
+    "published_at": "2026-09-23T08:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["SPRIND", "NADI"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-09-29-primo-it-agents",
+    "slug": "paris-primo-raises-6-9m-autonomous-it-agents",
+    "headline": "Paris-based Primo raises €6.9M for autonomous corporate IT agents",
+    "published_at": "2026-09-22T09:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Primo", "Headline", "Global Founders Capital"],
+    "verification_status": "confirmed",
+    "country_code": "fr"
+  },
+  {
+    "id": "2026-09-29-verda-series-b",
+    "slug": "finland-verda-raises-189m-series-b-ai-cloud",
+    "headline": "Finland’s Verda raises $189M Series B, crossing $1B valuation",
+    "published_at": "2026-09-22T07:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Verda", "Emergence Capital", "Tesi", "Varma"],
+    "verification_status": "confirmed",
+    "country_code": "fi"
   }
 ]
