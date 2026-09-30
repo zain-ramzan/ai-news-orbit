@@ -1,5 +1,65 @@
 [
   {
+    "id": "2026-09-30-openai-dots",
+    "slug": "openai-launches-dots-always-on-agents",
+    "headline": "OpenAI launches Dots, always-on GPT-6 Astra agents at DevDay",
+    "published_at": "2026-09-29T17:08:00.000Z",
+    "category": "Products",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-30-openclaw-enterprise",
+    "slug": "openclaw-enterprise-control-plane",
+    "headline": "OpenClaw ships free enterprise control plane for persistent agents",
+    "published_at": "2026-09-29T12:00:00.000Z",
+    "category": "Open Source",
+    "organization": ["OpenClaw Foundation", "OpenAI", "Red Hat", "NVIDIA"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-30-mongodb-atlas-agent-engine",
+    "slug": "mongodb-launches-atlas-agent-engine",
+    "headline": "MongoDB launches Atlas Agent Engine for production agents",
+    "published_at": "2026-09-29T14:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["MongoDB"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-30-okta-agent-gateway",
+    "slug": "okta-adds-ai-agent-runtime-gateway",
+    "headline": "Okta adds runtime gateway to police AI agent actions",
+    "published_at": "2026-09-29T08:00:00.000Z",
+    "category": "Security",
+    "organization": ["Okta"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-30-meta-muse-smb",
+    "slug": "meta-expands-muse-to-small-business",
+    "headline": "Meta expands Muse agent into small-business workflows",
+    "published_at": "2026-09-29T16:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Meta"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-09-30-openai-codex-open-models",
+    "slug": "openai-codex-natively-runs-open-models",
+    "headline": "OpenAI lets enterprise Codex teams run open models natively",
+    "published_at": "2026-09-29T18:00:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["OpenAI"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
     "id": "2026-09-29-dod-solution-aura",
     "slug": "dod-solution-raises-1-8m-aura-ai-autonomy",
     "headline": "Estonian-Ukrainian DOD Solution raises €1.8M for AURA onboard AI autonomy",
