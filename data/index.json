@@ -1,5 +1,75 @@
 [
   {
+    "id": "2026-10-01-openai-moonshot-distillation",
+    "slug": "openai-disrupts-distillation-campaign-cites-moonshot",
+    "headline": "OpenAI says it disrupted a reasoning-extraction campaign tied to Moonshot",
+    "published_at": "2026-09-30T00:00:00.000Z",
+    "category": "Security",
+    "organization": ["OpenAI", "Moonshot AI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-01-restate-series-a",
+    "slug": "restate-raises-20m-durable-agent-runtime",
+    "headline": "Restate raises $20M Series A for durable AI-agent workflows",
+    "published_at": "2026-09-30T14:27:00.000Z",
+    "category": "Funding",
+    "organization": ["Restate", "Singular", "Redpoint Ventures", "Capital One Ventures"],
+    "verification_status": "confirmed",
+    "country_code": "DE"
+  },
+  {
+    "id": "2026-10-01-doordash-imessage-agent",
+    "slug": "doordash-launches-imessage-text-to-order-agent",
+    "headline": "DoorDash launches an iMessage text-to-order AI agent",
+    "published_at": "2026-09-30T16:00:00.000Z",
+    "category": "Products",
+    "organization": ["DoorDash", "Apple"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-01-cloudflare-monetization-gateway",
+    "slug": "cloudflare-monetization-gateway-charges-agents-x402",
+    "headline": "Cloudflare opens Monetization Gateway beta to charge AI agents",
+    "published_at": "2026-09-30T13:00:00.000Z",
+    "category": "Protocols",
+    "organization": ["Cloudflare", "Coinbase"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-01-robinhood-agents",
+    "slug": "robinhood-embeds-in-app-trading-agents",
+    "headline": "Robinhood embeds in-app AI trading agents after HOOD Summit",
+    "published_at": "2026-09-29T12:00:00.000Z",
+    "category": "Products",
+    "organization": ["Robinhood", "OpenAI", "Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-01-oracle-fusion-claw",
+    "slug": "oracle-launches-fusion-claw-agentic-runtime",
+    "headline": "Oracle launches Fusion Claw, a governed agentic ERP runtime",
+    "published_at": "2026-09-29T13:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Oracle", "Google", "OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-01-glow-pixelleak",
+    "slug": "glow-pixelleak-coding-agents-github-screenshots",
+    "headline": "Glow PixelLeak: coding agents posted 13,000 internal screenshots to GitHub",
+    "published_at": "2026-09-29T16:00:00.000Z",
+    "category": "Security",
+    "organization": ["Glow Labs", "GitHub"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-09-30-openai-codex-open-models",
     "slug": "openai-codex-natively-runs-open-models",
     "headline": "OpenAI lets enterprise Codex teams run open models natively",
