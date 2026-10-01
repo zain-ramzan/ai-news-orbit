@@ -1,11 +1,11 @@
 [
   {
-    "id": "2026-10-01-openai-moonshot-distillation",
-    "slug": "openai-disrupts-distillation-campaign-cites-moonshot",
-    "headline": "OpenAI says it disrupted a reasoning-extraction campaign tied to Moonshot",
-    "published_at": "2026-09-30T00:00:00.000Z",
-    "category": "Security",
-    "organization": ["OpenAI", "Moonshot AI"],
+    "id": "2026-10-01-doordash-imessage-agent",
+    "slug": "doordash-launches-imessage-text-to-order-agent",
+    "headline": "DoorDash launches an iMessage text-to-order AI agent",
+    "published_at": "2026-09-30T16:00:00.000Z",
+    "category": "Products",
+    "organization": ["DoorDash", "Apple"],
     "verification_status": "confirmed",
     "country_code": "US"
   },
@@ -17,17 +17,7 @@
     "category": "Funding",
     "organization": ["Restate", "Singular", "Redpoint Ventures", "Capital One Ventures"],
     "verification_status": "confirmed",
-    "country_code": "DE"
-  },
-  {
-    "id": "2026-10-01-doordash-imessage-agent",
-    "slug": "doordash-launches-imessage-text-to-order-agent",
-    "headline": "DoorDash launches an iMessage text-to-order AI agent",
-    "published_at": "2026-09-30T16:00:00.000Z",
-    "category": "Products",
-    "organization": ["DoorDash", "Apple"],
-    "verification_status": "confirmed",
-    "country_code": "US"
+    "country_code": "de"
   },
   {
     "id": "2026-10-01-cloudflare-monetization-gateway",
@@ -40,32 +30,12 @@
     "country_code": "US"
   },
   {
-    "id": "2026-10-01-robinhood-agents",
-    "slug": "robinhood-embeds-in-app-trading-agents",
-    "headline": "Robinhood embeds in-app AI trading agents after HOOD Summit",
-    "published_at": "2026-09-29T12:00:00.000Z",
-    "category": "Products",
-    "organization": ["Robinhood", "OpenAI", "Anthropic"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-01-oracle-fusion-claw",
-    "slug": "oracle-launches-fusion-claw-agentic-runtime",
-    "headline": "Oracle launches Fusion Claw, a governed agentic ERP runtime",
-    "published_at": "2026-09-29T13:00:00.000Z",
-    "category": "Enterprise",
-    "organization": ["Oracle", "Google", "OpenAI"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-01-glow-pixelleak",
-    "slug": "glow-pixelleak-coding-agents-github-screenshots",
-    "headline": "Glow PixelLeak: coding agents posted 13,000 internal screenshots to GitHub",
-    "published_at": "2026-09-29T16:00:00.000Z",
+    "id": "2026-10-01-openai-moonshot-distillation",
+    "slug": "openai-disrupts-distillation-campaign-cites-moonshot",
+    "headline": "OpenAI says it disrupted a reasoning-extraction campaign tied to Moonshot",
+    "published_at": "2026-09-30T00:00:00.000Z",
     "category": "Security",
-    "organization": ["Glow Labs", "GitHub"],
+    "organization": ["OpenAI", "Moonshot AI"],
     "verification_status": "confirmed",
     "country_code": "US"
   },
@@ -90,6 +60,16 @@
     "country_code": "US"
   },
   {
+    "id": "2026-10-01-glow-pixelleak",
+    "slug": "glow-pixelleak-coding-agents-github-screenshots",
+    "headline": "Glow PixelLeak: coding agents posted 13,000 internal screenshots to GitHub",
+    "published_at": "2026-09-29T16:00:00.000Z",
+    "category": "Security",
+    "organization": ["Glow Labs", "GitHub"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-09-30-meta-muse-smb",
     "slug": "meta-expands-muse-to-small-business",
     "headline": "Meta expands Muse agent into small-business workflows",
@@ -110,6 +90,16 @@
     "country_code": "US"
   },
   {
+    "id": "2026-10-01-oracle-fusion-claw",
+    "slug": "oracle-launches-fusion-claw-agentic-runtime",
+    "headline": "Oracle launches Fusion Claw, a governed agentic ERP runtime",
+    "published_at": "2026-09-29T13:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Oracle", "Google", "OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-09-30-copyright-consultation",
     "slug": "commission-consults-ai-copyright-framework",
     "headline": "Commission opens consultation on AI use of copyright-protected works",
@@ -118,6 +108,16 @@
     "organization": ["European Commission"],
     "verification_status": "confirmed",
     "country_code": "eu"
+  },
+  {
+    "id": "2026-10-01-robinhood-agents",
+    "slug": "robinhood-embeds-in-app-trading-agents",
+    "headline": "Robinhood embeds in-app AI trading agents after HOOD Summit",
+    "published_at": "2026-09-29T12:00:00.000Z",
+    "category": "Products",
+    "organization": ["Robinhood", "OpenAI", "Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
   },
   {
     "id": "2026-09-30-openclaw-enterprise",
@@ -160,6 +160,16 @@
     "country_code": "eu"
   },
   {
+    "id": "2026-10-01-mistral-munich-hub",
+    "slug": "mistral-opens-munich-industrial-ai-hub",
+    "headline": "Mistral opens Munich hub for Physics AI and industrial partners",
+    "published_at": "2026-09-28T00:00:00.000Z",
+    "category": "Partnerships",
+    "organization": ["Mistral", "BMW", "Siemens Energy", "Technical University of Munich"],
+    "verification_status": "confirmed",
+    "country_code": "de"
+  },
+  {
     "id": "2026-09-29-humanos-agent-risk-seed",
     "slug": "lisbon-humanos-raises-3-2m-ai-agent-risk-scores",
     "headline": "Lisbon’s Humanos raises $3.2M seed for live AI-agent risk scores",
@@ -178,6 +188,26 @@
     "organization": ["Klang"],
     "verification_status": "confirmed",
     "country_code": "se"
+  },
+  {
+    "id": "2026-10-01-kontext-agent-runtime",
+    "slug": "munich-kontext-raises-4m-agent-runtime-security",
+    "headline": "Munich’s Kontext raises $4M for AI-agent runtime security",
+    "published_at": "2026-09-24T00:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Kontext", "42CAP", "a16z CSX", "High-Tech Gründerfonds"],
+    "verification_status": "confirmed",
+    "country_code": "de"
+  },
+  {
+    "id": "2026-10-01-czech-ip-lab-fund",
+    "slug": "czechia-eif-ip-lab-ai-tech-transfer-fund",
+    "headline": "Czechia and EIF launch ~€50M AI and deep-tech transfer fund",
+    "published_at": "2026-09-24T00:00:00.000Z",
+    "category": "Funding",
+    "organization": ["European Investment Fund", "Ministry of Industry and Trade of the Czech Republic", "IP Lab Ventures"],
+    "verification_status": "confirmed",
+    "country_code": "cz"
   },
   {
     "id": "2026-09-30-reecall-voice-ai",
@@ -238,5 +268,15 @@
     "organization": ["Verda", "Emergence Capital", "Tesi", "Varma"],
     "verification_status": "confirmed",
     "country_code": "fi"
+  },
+  {
+    "id": "2026-10-01-ai-board-ninth-meeting",
+    "slug": "eu-ai-board-ninth-meeting-enforcement",
+    "headline": "EU AI Board holds ninth meeting on Act enforcement and cyber plan",
+    "published_at": "2026-09-18T00:00:00.000Z",
+    "category": "Regulation",
+    "organization": ["European Commission", "European AI Board"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
   }
 ]
