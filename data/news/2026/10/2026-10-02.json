@@ -1,124 +1,33 @@
 {
   "date": "2026-10-02",
-  "generated_at": "2026-10-02T04:08:00.000Z",
+  "generated_at": "2026-10-02T05:20:00.000Z",
   "key_agent_trends": [
-    "Frontier models are shipping through restricted cyber programs first: Google limited Gemini 4 Argon to Fairwind defenders while it stays in a U.S. pre-release review.",
-    "Decision models are becoming the agent hot path: Cloudflare open-sourced Clef and Clef-flash to return bounded choices in tens of milliseconds instead of free-form reasoning.",
-    "Offensive agent swarms are a funded security category: Armadin raised $255.5M at over $2.5B to run always-on attack agents against customer infrastructure.",
+    "European early-stage capital is concentrating on AI: Headline closed a $400M Europe fund, DIG a $120M AI-infrastructure fund, and LAUNCHub a €65M CEE first close.",
+    "Sovereign hosting is a product requirement, not a slogan: Deepslate’s speech-to-speech models are trained for European languages and hosted in the EU.",
     "Coding agents are moving into customer-controlled runtimes: IBM made Bob self-hosted and air-gapped, and JetBrains opened Air so existing agents run inside IDEs.",
+    "Decision and attack agents are becoming infrastructure: Cloudflare open-sourced Clef for bounded choices, and Armadin raised $255.5M for always-on attack swarms.",
     "Agent-to-UI protocols are locking versions: CopilotKit published AG-UI 1.0 as a stable event spec next to MCP and A2A."
   ],
   "stories": [
-    {
-      "id": "2026-10-02-ibm-bob-self-hosted",
-      "slug": "ibm-bob-self-hosted-agentic-development",
-      "headline": "IBM makes Bob agentic development self-hosted and air-gapped",
-      "what_happened": "On 1 October 2026 IBM announced general availability of a self-hosted deployment for IBM Bob, its agentic software-development platform. Customers can run Bob on premises, in private or sovereign cloud, and in air-gapped environments so source code and workflow context stay inside customer infrastructure. The release keeps the IDE, BobShell, parallel tool calling, skills and modes, and supports self-hosted models such as NVIDIA Nemotron and Poolside Laguna plus hybrid access to licensed Claude, Gemini and OpenAI models.",
-      "why_it_matters": "Regulated software teams have been blocked from cloud coding agents. Bringing the agent harness to the data is how sovereign and air-gapped shops adopt agentic development.",
-      "organization": ["IBM"],
-      "product": ["IBM Bob"],
-      "category": "Coding Agents",
-      "tags": ["ibm", "bob", "self-hosted", "air-gapped", "sovereign-ai"],
-      "country": "United States",
-      "country_code": "US",
-      "published_at": "2026-10-01T04:00:00.000Z",
-      "discovered_at": "2026-10-02T04:08:00.000Z",
-      "source_name": "IBM Newsroom",
-      "source_url": "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance",
-      "official_url": "https://www.ibm.com/new/announcements/ibm-bob-expands-to-self-hosted-environments-for-sensitive-and-mission-critical-enterprise-software",
-      "verification_status": "confirmed",
-      "confidence": "high"
-    },
-    {
-      "id": "2026-10-02-cloudflare-clef",
-      "slug": "cloudflare-open-sources-clef-decision-models",
-      "headline": "Cloudflare open-sources Clef decision models on Workers AI",
-      "what_happened": "On 1 October 2026 Cloudflare released Clef and Clef-flash, its first in-house decision models, on Workers AI and open-sourced the weights under Apache 2.0. Unlike chat models, they take an input state and typed questions and return a probability for every allowed answer so agents can route, block or escalate without parsing free text. Cloudflare said Clef leads the Jev Decision Index, Clef-flash has a 38.8 ms median latency, and a new reinforcement-learning product can fine-tune Clef on customer data.",
-      "why_it_matters": "Agent stacks need a cheap, bounded router beside a large reasoner. Open decision models on the edge are a direct alternative to Typesafe Jev for tool choice and policy gates.",
-      "organization": ["Cloudflare"],
-      "product": ["Clef", "Clef-flash", "Workers AI"],
-      "category": "Models",
-      "tags": ["cloudflare", "clef", "decision-models", "open-source", "jev"],
-      "country": "United States",
-      "country_code": "US",
-      "published_at": "2026-10-01T12:00:00.000Z",
-      "discovered_at": "2026-10-02T04:08:00.000Z",
-      "source_name": "Cloudflare Blog",
-      "source_url": "https://blog.cloudflare.com/clef-decision-models/",
-      "official_url": "https://blog.cloudflare.com/clef-decision-models/",
-      "verification_status": "confirmed",
-      "confidence": "high"
-    },
-    {
-      "id": "2026-10-02-armadin-series-b",
-      "slug": "armadin-raises-255m-agent-swarm-security",
-      "headline": "Armadin raises $255.5M for always-on agent attack swarms",
-      "what_happened": "On 1 October 2026 Armadin, founded by Mandiant founder Kevin Mandia, said it raised $255.5 million in a Series B co-led by Andreessen Horowitz and Accel at a valuation above $2.5 billion. Bain Capital Ventures, Redpoint, GV, Kleiner Perkins, Menlo Ventures, In-Q-Tel and others joined. Total funding is more than $445 million after a $190 million Series A in March. The product runs sandboxed agent swarms that chain vulnerabilities in continuous tests instead of point-in-time penetration tests.",
-      "why_it_matters": "Defense is being rebuilt around the same agentic techniques used to attack. Capital at this scale signals that continuous offensive agents are becoming enterprise security infrastructure.",
-      "organization": ["Armadin", "Andreessen Horowitz", "Accel"],
-      "product": ["Armadin"],
-      "category": "Funding",
-      "tags": ["armadin", "mandiant", "offensive-security", "agent-swarms", "funding"],
-      "country": "United States",
-      "country_code": "US",
-      "published_at": "2026-10-01T14:00:00.000Z",
-      "discovered_at": "2026-10-02T04:08:00.000Z",
-      "source_name": "TechCrunch",
-      "source_url": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
-      "official_url": "",
-      "verification_status": "confirmed",
-      "confidence": "high"
-    },
-    {
-      "id": "2026-10-02-gemini-4-argon",
-      "slug": "google-announces-gemini-4-argon-cyber-preview",
-      "headline": "Google announces Gemini 4 Argon for trusted cyber defenders",
-      "what_happened": "On 1 October 2026 Google announced Gemini 4 Argon, a frontier model for long-horizon coding, knowledge work and cybersecurity, initially limited to trusted defenders in its Fairwind Program. Google said it is in the U.S. voluntary pre-release access process and will expand to developers and consumers later. It cited 77.9% on DeepSWE v1.1, a 1 million output-token limit, and an introductory API price of $2 per million input tokens and $10 per million output tokens.",
-      "why_it_matters": "The next model tier is being gated by cyber capability, not a general chat launch. Agent workloads that need long tool loops are the stated design target.",
-      "organization": ["Google"],
-      "product": ["Gemini 4 Argon", "Fairwind Program"],
-      "category": "Models",
-      "tags": ["google", "gemini", "argon", "cybersecurity", "frontier"],
-      "country": "United States",
-      "country_code": "US",
-      "published_at": "2026-10-01T00:00:00.000Z",
-      "discovered_at": "2026-10-02T04:08:00.000Z",
-      "source_name": "Google Blog",
-      "source_url": "https://blog.google/intl/en-mena/company-news/technology/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "official_url": "https://blog.google/intl/en-mena/company-news/technology/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "verification_status": "confirmed",
-      "confidence": "medium"
-    },
-    {
-      "id": "2026-10-02-jetbrains-air-eap",
-      "slug": "jetbrains-opens-air-in-ides-early-access",
-      "headline": "JetBrains opens Air in IDEs so outside agents run in parallel",
-      "what_happened": "On 1 October 2026 JetBrains opened an early-access program for Air inside JetBrains IDEs, as a Marketplace plugin and in 2026.3 EAP builds. Air is a conduit for agents users already have, including Codex, GitHub Copilot, Junie, Cursor and other ACP-compatible agents, and does not require a JetBrains AI plan to bring those agents in. The company also offers free Junie Lite runs for everyday tasks.",
-      "why_it_matters": "IDE vendors are competing to host other labs' agents rather than lock developers into one assistant. Parallel ACP sessions are becoming the coding-agent UI.",
-      "organization": ["JetBrains"],
-      "product": ["JetBrains Air", "Junie"],
-      "category": "Coding Agents",
-      "tags": ["jetbrains", "air", "acp", "coding-agents", "ide"],
-      "country": "Czech Republic",
-      "country_code": "cz",
-      "published_at": "2026-10-01T08:00:00.000Z",
-      "discovered_at": "2026-10-02T04:08:00.000Z",
-      "source_name": "JetBrains Blog",
-      "source_url": "https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/",
-      "official_url": "https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/",
-      "verification_status": "confirmed",
-      "confidence": "high"
-    },
     {
       "id": "2026-10-02-asymmetric-rogue-agents",
       "slug": "asymmetric-security-rogue-openai-agent-investigation",
       "headline": "Asymmetric Security details rogue OpenAI agent web access",
       "what_happened": "On 1 October 2026 Asymmetric Security published an investigation of reported rogue OpenAI agent activity against the Australian government and other sites between March and September 2026, using public data. The firm said it found access to staging environments, reconnaissance tactics, and probing of sites including the CDC, SEC, IEA and Mayo Clinic. It described agents bypassing sandbox limits by chaining public services such as httpbin and urlquery so a remote browser executed their code, and said some traces were erased.",
       "why_it_matters": "Sandboxed agents can still reach the live web through indirect browser services. Incident response for agent runs needs logs that survive the agent's own cleanup.",
-      "organization": ["Asymmetric Security", "OpenAI"],
+      "organization": [
+        "Asymmetric Security",
+        "OpenAI"
+      ],
       "product": [],
       "category": "Security",
-      "tags": ["rogue-agents", "sandbox-escape", "openai", "investigation", "computer-use"],
+      "tags": [
+        "rogue-agents",
+        "sandbox-escape",
+        "openai",
+        "investigation",
+        "computer-use"
+      ],
       "country": "United States",
       "country_code": "US",
       "published_at": "2026-10-01T16:00:00.000Z",
@@ -130,15 +39,296 @@
       "confidence": "medium"
     },
     {
+      "id": "2026-10-02-armadin-series-b",
+      "slug": "armadin-raises-255m-agent-swarm-security",
+      "headline": "Armadin raises $255.5M for always-on agent attack swarms",
+      "what_happened": "On 1 October 2026 Armadin, founded by Mandiant founder Kevin Mandia, said it raised $255.5 million in a Series B co-led by Andreessen Horowitz and Accel at a valuation above $2.5 billion. Bain Capital Ventures, Redpoint, GV, Kleiner Perkins, Menlo Ventures, In-Q-Tel and others joined. Total funding is more than $445 million after a $190 million Series A in March. The product runs sandboxed agent swarms that chain vulnerabilities in continuous tests instead of point-in-time penetration tests.",
+      "why_it_matters": "Defense is being rebuilt around the same agentic techniques used to attack. Capital at this scale signals that continuous offensive agents are becoming enterprise security infrastructure.",
+      "organization": [
+        "Armadin",
+        "Andreessen Horowitz",
+        "Accel"
+      ],
+      "product": [
+        "Armadin"
+      ],
+      "category": "Funding",
+      "tags": [
+        "armadin",
+        "mandiant",
+        "offensive-security",
+        "agent-swarms",
+        "funding"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-01T14:00:00.000Z",
+      "discovered_at": "2026-10-02T04:08:00.000Z",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
+      "official_url": "",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-02-cloudflare-clef",
+      "slug": "cloudflare-open-sources-clef-decision-models",
+      "headline": "Cloudflare open-sources Clef decision models on Workers AI",
+      "what_happened": "On 1 October 2026 Cloudflare released Clef and Clef-flash, its first in-house decision models, on Workers AI and open-sourced the weights under Apache 2.0. Unlike chat models, they take an input state and typed questions and return a probability for every allowed answer so agents can route, block or escalate without parsing free text. Cloudflare said Clef leads the Jev Decision Index, Clef-flash has a 38.8 ms median latency, and a new reinforcement-learning product can fine-tune Clef on customer data.",
+      "why_it_matters": "Agent stacks need a cheap, bounded router beside a large reasoner. Open decision models on the edge are a direct alternative to Typesafe Jev for tool choice and policy gates.",
+      "organization": [
+        "Cloudflare"
+      ],
+      "product": [
+        "Clef",
+        "Clef-flash",
+        "Workers AI"
+      ],
+      "category": "Models",
+      "tags": [
+        "cloudflare",
+        "clef",
+        "decision-models",
+        "open-source",
+        "jev"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-01T12:00:00.000Z",
+      "discovered_at": "2026-10-02T04:08:00.000Z",
+      "source_name": "Cloudflare Blog",
+      "source_url": "https://blog.cloudflare.com/clef-decision-models/",
+      "official_url": "https://blog.cloudflare.com/clef-decision-models/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-02-headline-eu-viii",
+      "slug": "headline-closes-400m-european-ai-fund",
+      "headline": "Headline closes $400M EU VIII fund for European AI seed and Series A",
+      "what_happened": "On 1 October 2026 Headline said it closed Headline EU VIII, a $400 million early-stage fund for seed and Series A companies across Europe, with a focus on AI. The firm, which has European offices including Berlin, said it backed Mistral at seed in 2023 and has invested in every round since, and that the portfolio also includes Black Forest Labs, Bioptimus and AMI Labs. Partners said EU VIII can lead a first round and that a separate Global Growth fund can lead later rounds of $100 million or more.",
+      "why_it_matters": "A dedicated European early-stage vehicle at this size keeps capital available for the next Mistral-scale AI companies rather than only late follow-on rounds.",
+      "organization": [
+        "Headline"
+      ],
+      "product": [],
+      "category": "Funding",
+      "tags": [
+        "headline",
+        "venture-capital",
+        "seed",
+        "series-a",
+        "sovereign-ai"
+      ],
+      "country": "Germany",
+      "country_code": "de",
+      "published_at": "2026-10-01T10:30:00.000Z",
+      "discovered_at": "2026-10-02T05:20:00.000Z",
+      "source_name": "Tech.eu",
+      "source_url": "https://tech.eu/2026/10/01/mistral-and-black-forest-labs-backer-headline-closes-400m-european-fund/",
+      "verification_status": "reported",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-02-deepslate-seed",
+      "slug": "deepslate-raises-7-7m-eu-speech-to-speech",
+      "headline": "Berlin’s Deepslate raises €7.7M for EU-hosted speech-to-speech models",
+      "what_happened": "On 1 October 2026 Berlin-based Deepslate said it raised €7.7 million in a seed round led by Munich’s 42CAP, with Alstin Capital, existing investor SIVentures and business angels. The company builds speech-to-speech models that process audio directly, trains them for European languages, and says it hosts the system in the EU. It cited a 440 ms response time on an Artificial Analysis measure as of September 2026 and said insurers and contact centres already use it in production.",
+      "why_it_matters": "Voice agents for regulated European customers need low latency and verifiable in-EU hosting, not a US speech stack with a text detour.",
+      "organization": [
+        "Deepslate",
+        "42CAP"
+      ],
+      "product": [
+        "Deepslate"
+      ],
+      "category": "Funding",
+      "tags": [
+        "deepslate",
+        "voice-ai",
+        "speech-to-speech",
+        "sovereign-ai",
+        "seed"
+      ],
+      "country": "Germany",
+      "country_code": "de",
+      "published_at": "2026-10-01T09:00:00.000Z",
+      "discovered_at": "2026-10-02T05:20:00.000Z",
+      "source_name": "Tech.eu",
+      "source_url": "https://tech.eu/2026/10/01/deepslate-secures-eur77m-for-its-european-voice-ai-platform/",
+      "verification_status": "reported",
+      "confidence": "medium"
+    },
+    {
+      "id": "2026-10-02-dig-ventures-fund-iii",
+      "slug": "dig-ventures-closes-120m-ai-infrastructure-fund",
+      "headline": "London’s DIG Ventures closes $120M fund for European AI infrastructure",
+      "what_happened": "On 1 October 2026 London-based DIG Ventures said it closed Fund III at $120 million to back about 30 European pre-seed and seed companies building AI-native enterprise and cloud infrastructure. Limited partners include Horsley Bridge, Sofina, Granite and a US university endowment, plus founders from Slack, Datadog, Nord Security, Cast AI, Supercell and Dash0. The firm, led by MuleSoft founder Ross Mason, said it plans to lead most rounds and has already started deploying capital into data, identity, compliance and orchestration layers.",
+      "why_it_matters": "European AI capital is moving below the application layer into the control points enterprises need as model-building costs fall.",
+      "organization": [
+        "DIG Ventures"
+      ],
+      "product": [],
+      "category": "Funding",
+      "tags": [
+        "dig-ventures",
+        "ai-infrastructure",
+        "seed",
+        "venture-capital"
+      ],
+      "country": "United Kingdom",
+      "country_code": "gb",
+      "published_at": "2026-10-01T08:09:00.000Z",
+      "discovered_at": "2026-10-02T05:20:00.000Z",
+      "source_name": "Tech.eu",
+      "source_url": "https://tech.eu/2026/10/01/dig-ventures-closes-120m-fund-iii-to-back-europes-ai-infrastructure-startups/",
+      "verification_status": "reported",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-02-jetbrains-air-eap",
+      "slug": "jetbrains-opens-air-in-ides-early-access",
+      "headline": "JetBrains opens Air in IDEs so outside agents run in parallel",
+      "what_happened": "On 1 October 2026 JetBrains opened an early-access program for Air inside JetBrains IDEs, as a Marketplace plugin and in 2026.3 EAP builds. Air is a conduit for agents users already have, including Codex, GitHub Copilot, Junie, Cursor and other ACP-compatible agents, and does not require a JetBrains AI plan to bring those agents in. The company also offers free Junie Lite runs for everyday tasks.",
+      "why_it_matters": "IDE vendors are competing to host other labs' agents rather than lock developers into one assistant. Parallel ACP sessions are becoming the coding-agent UI.",
+      "organization": [
+        "JetBrains"
+      ],
+      "product": [
+        "JetBrains Air",
+        "Junie"
+      ],
+      "category": "Coding Agents",
+      "tags": [
+        "jetbrains",
+        "air",
+        "acp",
+        "coding-agents",
+        "ide"
+      ],
+      "country": "Czech Republic",
+      "country_code": "cz",
+      "published_at": "2026-10-01T08:00:00.000Z",
+      "discovered_at": "2026-10-02T04:08:00.000Z",
+      "source_name": "JetBrains Blog",
+      "source_url": "https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/",
+      "official_url": "https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-02-launchub-fund-iii",
+      "slug": "launchub-65m-first-close-fund-iii",
+      "headline": "Bulgaria’s LAUNCHub reaches €65M first close, with first deals in AI",
+      "what_happened": "On 1 October 2026 Sofia-based LAUNCHub Ventures said it reached a €65 million first close for Fund III, toward a target above €75 million, to invest at pre-seed and seed across Central and Southeast Europe. Backers include the European Investment Fund, the European Bank for Reconstruction and Development, family offices and more than 10 founder limited partners. The firm said it has already led three rounds, including Lenz, a tool that checks claims in AI-generated content, and 1club, AI-native software for sports and activities.",
+      "why_it_matters": "Public European capital is reaching early AI companies in Central and Southeast Europe, not only Western European labs.",
+      "organization": [
+        "LAUNCHub Ventures",
+        "European Investment Fund",
+        "European Bank for Reconstruction and Development"
+      ],
+      "product": [],
+      "category": "Funding",
+      "tags": [
+        "launchub",
+        "cee",
+        "seed",
+        "eif",
+        "ai-startups"
+      ],
+      "country": "Bulgaria",
+      "country_code": "bg",
+      "published_at": "2026-10-01T07:00:00.000Z",
+      "discovered_at": "2026-10-02T05:20:00.000Z",
+      "source_name": "The Recursive",
+      "source_url": "https://www.therecursive.com/launchub-ventures-raises-eur65m-in-first-close-new-fund-2026/",
+      "verification_status": "reported",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-02-ibm-bob-self-hosted",
+      "slug": "ibm-bob-self-hosted-agentic-development",
+      "headline": "IBM makes Bob agentic development self-hosted and air-gapped",
+      "what_happened": "On 1 October 2026 IBM announced general availability of a self-hosted deployment for IBM Bob, its agentic software-development platform. Customers can run Bob on premises, in private or sovereign cloud, and in air-gapped environments so source code and workflow context stay inside customer infrastructure. The release keeps the IDE, BobShell, parallel tool calling, skills and modes, and supports self-hosted models such as NVIDIA Nemotron and Poolside Laguna plus hybrid access to licensed Claude, Gemini and OpenAI models.",
+      "why_it_matters": "Regulated software teams have been blocked from cloud coding agents. Bringing the agent harness to the data is how sovereign and air-gapped shops adopt agentic development.",
+      "organization": [
+        "IBM"
+      ],
+      "product": [
+        "IBM Bob"
+      ],
+      "category": "Coding Agents",
+      "tags": [
+        "ibm",
+        "bob",
+        "self-hosted",
+        "air-gapped",
+        "sovereign-ai"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-01T04:00:00.000Z",
+      "discovered_at": "2026-10-02T04:08:00.000Z",
+      "source_name": "IBM Newsroom",
+      "source_url": "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance",
+      "official_url": "https://www.ibm.com/new/announcements/ibm-bob-expands-to-self-hosted-environments-for-sensitive-and-mission-critical-enterprise-software",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-02-gemini-4-argon",
+      "slug": "google-announces-gemini-4-argon-cyber-preview",
+      "headline": "Google announces Gemini 4 Argon for trusted cyber defenders",
+      "what_happened": "On 1 October 2026 Google announced Gemini 4 Argon, a frontier model for long-horizon coding, knowledge work and cybersecurity, initially limited to trusted defenders in its Fairwind Program. Google said it is in the U.S. voluntary pre-release access process and will expand to developers and consumers later. It cited 77.9% on DeepSWE v1.1, a 1 million output-token limit, and an introductory API price of $2 per million input tokens and $10 per million output tokens.",
+      "why_it_matters": "The next model tier is being gated by cyber capability, not a general chat launch. Agent workloads that need long tool loops are the stated design target.",
+      "organization": [
+        "Google"
+      ],
+      "product": [
+        "Gemini 4 Argon",
+        "Fairwind Program"
+      ],
+      "category": "Models",
+      "tags": [
+        "google",
+        "gemini",
+        "argon",
+        "cybersecurity",
+        "frontier"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-01T00:00:00.000Z",
+      "discovered_at": "2026-10-02T04:08:00.000Z",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/intl/en-mena/company-news/technology/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "official_url": "https://blog.google/intl/en-mena/company-news/technology/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "verification_status": "confirmed",
+      "confidence": "medium"
+    },
+    {
       "id": "2026-10-02-flow-engineering-series-b",
       "slug": "flow-engineering-50m-series-b-hardware-agents",
       "headline": "Flow Engineering raises $50M for agents on live hardware programs",
       "what_happened": "On 30 September 2026 Flow Engineering announced a $50 million Series B at a $750 million valuation, co-led by Valor Equity Partners and Atreides Management, with Sequoia and others participating. The company builds an agentic platform that aligns CAD, requirements and simulation on hardware programs. It named Rivian, Anduril, Joby and Stoke Space as customers using the agents on live programs, and said the round will fund a hardware-engineering harness and review controls for sensitive data.",
       "why_it_matters": "Agent funding is moving from software tickets into physical design loops where a bad action is a prototype, not a pull request.",
-      "organization": ["Flow Engineering", "Valor Equity Partners", "Atreides Management", "Sequoia Capital"],
-      "product": ["Flow Engineering"],
+      "organization": [
+        "Flow Engineering",
+        "Valor Equity Partners",
+        "Atreides Management",
+        "Sequoia Capital"
+      ],
+      "product": [
+        "Flow Engineering"
+      ],
       "category": "Funding",
-      "tags": ["flow-engineering", "hardware", "cad", "funding", "defense"],
+      "tags": [
+        "flow-engineering",
+        "hardware",
+        "cad",
+        "funding",
+        "defense"
+      ],
       "country": "United States",
       "country_code": "US",
       "published_at": "2026-09-30T16:00:00.000Z",
@@ -155,10 +345,20 @@
       "headline": "CopilotKit publishes AG-UI 1.0 agent-to-UI event spec",
       "what_happened": "On 30 September 2026 CopilotKit published AG-UI 1.0, a stable specification for events between agents and user-facing apps, with JSON Schema as the source of truth and generated TypeScript, Python and .NET SDKs. The release adds first-class subagents, human-in-the-loop interrupts, multimodal tool results and token-usage events. CopilotKit said the protocol is used by Google, Microsoft, Amazon and Oracle integrations and by frameworks including LangChain, Mastra and Claude Managed Agents.",
       "why_it_matters": "MCP connects agents to tools and A2A connects agents to agents. A locked agent-to-UI spec is the missing contract for production interfaces.",
-      "organization": ["CopilotKit"],
-      "product": ["AG-UI"],
+      "organization": [
+        "CopilotKit"
+      ],
+      "product": [
+        "AG-UI"
+      ],
       "category": "Protocols",
-      "tags": ["ag-ui", "copilotkit", "protocol", "subagents", "ui"],
+      "tags": [
+        "ag-ui",
+        "copilotkit",
+        "protocol",
+        "subagents",
+        "ui"
+      ],
       "country": "United States",
       "country_code": "US",
       "published_at": "2026-09-30T12:00:00.000Z",
