@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T04:08:00.000Z",
+  "key_agent_trends": [
+    "Enterprise MCP is showing up as a governed gateway: Uber registers tools disabled by default and lets agents discover schemas only when needed.",
+    "Coding agents are being hooked to deploy telemetry. Cursor can start a cloud agent from a caught regression, but it still will not merge or roll back alone.",
+    "Physical AI pitches are shifting from robot brains to field agents that assign work across mixed fleets, as in KT\u2019s platform plan."
+  ],
+  "stories": [
+    {
+      "id": "2026-10-04-uber-mcp-gateway",
+      "slug": "uber-mcp-gateway-800-servers-5000-tools",
+      "headline": "Uber details MCP Gateway with 800-plus servers and 5,000 tools, disabled until owners enable them",
+      "what_happened": "On 1 October 2026 Uber published the design of MCP Gateway, the service that routes agent calls to internal APIs and native MCP servers. The blog says the gateway now hosts more than 800 MCP servers and more than 5,000 tools. AutoCrawler scans Uber\u2019s IDL registry, uses an LLM to write tool descriptions, and registers tools disabled by default until the owning team enables them. Omni MCP exposes discover_server, discover_tools, get_tool_schema and invoke_tool so agents do not load every schema into context.",
+      "why_it_matters": "This is a public Fortune 500 reference for MCP at production scale. Disabled-by-default registration and incremental discovery are the controls that keep thousands of tools from becoming an ungoverned agent surface.",
+      "organization": [
+        "Uber"
+      ],
+      "product": [
+        "MCP Gateway",
+        "Omni MCP",
+        "AutoCrawler"
+      ],
+      "category": "Infrastructure",
+      "tags": [
+        "uber",
+        "mcp",
+        "gateway",
+        "tool-discovery",
+        "governance"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-01T12:00:00.000Z",
+      "discovered_at": "2026-10-04T04:08:00.000Z",
+      "source_name": "Uber Engineering",
+      "source_url": "https://www.uber.com/us/en/blog/designing-mcp-gateway/",
+      "official_url": "https://www.uber.com/us/en/blog/designing-mcp-gateway/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-04-cursor-rollouts-fix",
+      "slug": "cursor-rollouts-starts-cloud-agent-on-regression",
+      "headline": "Cursor Rollouts opens an issue and can start a cloud agent when it catches a regression",
+      "what_happened": "On 2 October 2026 Cursor said Rollouts, which watches a pull request from review into production, now names the change it suspects when telemetry shows a regression and opens an issue. On that issue, Fix issue starts a cloud agent; the agent does not merge, revert or roll back on its own. Cursor docs say Rollouts checks a deploy at release and again after 20 minutes, 1 hour, 1 day and 3 days, and included usage credits ran through 3 October.",
+      "why_it_matters": "Coding agents are moving from writing the patch to being invoked by production signals. Keeping merge and rollback behind a person is the current safety boundary on that loop.",
+      "organization": [
+        "Cursor"
+      ],
+      "product": [
+        "Cursor Rollouts",
+        "Cursor cloud agents"
+      ],
+      "category": "Coding Agents",
+      "tags": [
+        "cursor",
+        "rollouts",
+        "cloud-agents",
+        "regressions",
+        "cicd"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-02T17:00:24.000Z",
+      "discovered_at": "2026-10-04T04:08:00.000Z",
+      "source_name": "Cursor",
+      "source_url": "https://x.com/cursor_ai/status/2106066782155157603",
+      "official_url": "https://cursor.com/docs/rollouts",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-04-kt-physical-ai",
+      "slug": "kt-plans-physical-ai-platform-field-agents",
+      "headline": "KT says field agents, not robot hardware, will be its physical AI platform",
+      "what_happened": "ChosunBiz on 4 October 2026 published an interview with Park Sang-won, head of KT\u2019s AX division, on a physical AI platform that connects process data, networks and robot control. Park said attaching a model to a robot is not physical AI; KT wants agents that read the site, intent and work context and assign tasks across robots and systems. KT will not build robot hardware, plans to tune outside world and robot foundation models, and aims to control mixed-vendor AGVs and AMRs under VDA 5050. The interview was conducted on 18 September.",
+      "why_it_matters": "A major Korean carrier is framing physical AI as an orchestration layer for heterogeneous robots. That puts agent identity, safety stops and process data, not the robot body, at the center of the product.",
+      "organization": [
+        "KT"
+      ],
+      "product": [],
+      "category": "Enterprise",
+      "tags": [
+        "kt",
+        "physical-ai",
+        "robots",
+        "orchestration",
+        "korea"
+      ],
+      "country": "South Korea",
+      "country_code": "KR",
+      "published_at": "2026-10-03T21:00:00.000Z",
+      "discovered_at": "2026-10-04T04:08:00.000Z",
+      "source_name": "ChosunBiz",
+      "source_url": "https://biz.chosun.com/en/en-it/2026/10/04/YTVXAQLMFJF75IZJ5Z2JDECQMQ/",
+      "verification_status": "reported",
+      "confidence": "medium"
+    }
+  ]
+}
