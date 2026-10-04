@@ -1,17 +1,19 @@
 {
   "date": "2026-10-04",
-  "generated_at": "2026-10-04T04:08:00.000Z",
+  "generated_at": "2026-10-04T05:15:00.000Z",
   "key_agent_trends": [
+    "Aleph Alpha’s Kolibri puts an open-weight German-English model on customer hardware for regulated and agentic workflows.",
+    "The Agri-Food EDIC will test shared farm identifiers and AI services for risk, traceability and carbon certification.",
     "Enterprise MCP is showing up as a governed gateway: Uber registers tools disabled by default and lets agents discover schemas only when needed.",
     "Coding agents are being hooked to deploy telemetry. Cursor can start a cloud agent from a caught regression, but it still will not merge or roll back alone.",
-    "Physical AI pitches are shifting from robot brains to field agents that assign work across mixed fleets, as in KT\u2019s platform plan."
+    "Physical AI pitches are shifting from robot brains to field agents that assign work across mixed fleets, as in KT’s platform plan."
   ],
   "stories": [
     {
       "id": "2026-10-04-uber-mcp-gateway",
       "slug": "uber-mcp-gateway-800-servers-5000-tools",
       "headline": "Uber details MCP Gateway with 800-plus servers and 5,000 tools, disabled until owners enable them",
-      "what_happened": "On 1 October 2026 Uber published the design of MCP Gateway, the service that routes agent calls to internal APIs and native MCP servers. The blog says the gateway now hosts more than 800 MCP servers and more than 5,000 tools. AutoCrawler scans Uber\u2019s IDL registry, uses an LLM to write tool descriptions, and registers tools disabled by default until the owning team enables them. Omni MCP exposes discover_server, discover_tools, get_tool_schema and invoke_tool so agents do not load every schema into context.",
+      "what_happened": "On 1 October 2026 Uber published the design of MCP Gateway, the service that routes agent calls to internal APIs and native MCP servers. The blog says the gateway now hosts more than 800 MCP servers and more than 5,000 tools. AutoCrawler scans Uber’s IDL registry, uses an LLM to write tool descriptions, and registers tools disabled by default until the owning team enables them. Omni MCP exposes discover_server, discover_tools, get_tool_schema and invoke_tool so agents do not load every schema into context.",
       "why_it_matters": "This is a public Fortune 500 reference for MCP at production scale. Disabled-by-default registration and incremental discovery are the controls that keep thousands of tools from becoming an ungoverned agent surface.",
       "organization": [
         "Uber"
@@ -74,7 +76,7 @@
       "id": "2026-10-04-kt-physical-ai",
       "slug": "kt-plans-physical-ai-platform-field-agents",
       "headline": "KT says field agents, not robot hardware, will be its physical AI platform",
-      "what_happened": "ChosunBiz on 4 October 2026 published an interview with Park Sang-won, head of KT\u2019s AX division, on a physical AI platform that connects process data, networks and robot control. Park said attaching a model to a robot is not physical AI; KT wants agents that read the site, intent and work context and assign tasks across robots and systems. KT will not build robot hardware, plans to tune outside world and robot foundation models, and aims to control mixed-vendor AGVs and AMRs under VDA 5050. The interview was conducted on 18 September.",
+      "what_happened": "ChosunBiz on 4 October 2026 published an interview with Park Sang-won, head of KT’s AX division, on a physical AI platform that connects process data, networks and robot control. Park said attaching a model to a robot is not physical AI; KT wants agents that read the site, intent and work context and assign tasks across robots and systems. KT will not build robot hardware, plans to tune outside world and robot foundation models, and aims to control mixed-vendor AGVs and AMRs under VDA 5050. The interview was conducted on 18 September.",
       "why_it_matters": "A major Korean carrier is framing physical AI as an orchestration layer for heterogeneous robots. That puts agent identity, safety stops and process data, not the robot body, at the center of the product.",
       "organization": [
         "KT"
@@ -96,6 +98,67 @@
       "source_url": "https://biz.chosun.com/en/en-it/2026/10/04/YTVXAQLMFJF75IZJ5Z2JDECQMQ/",
       "verification_status": "reported",
       "confidence": "medium"
+    },
+    {
+      "id": "2026-10-04-aleph-alpha-kolibri",
+      "slug": "aleph-alpha-releases-kolibri-open-weight-model",
+      "headline": "Aleph Alpha releases Kolibri, an open-weight German-English model for regulated use",
+      "what_happened": "On 3 October 2026 Heidelberg-based Aleph Alpha released Kolibri, a mixture-of-experts model with 78.1 billion total parameters and about 3.46 billion active per token. The company published the weights on Hugging Face under Apache 2.0 and said the model supports a context window of up to 1,048,576 tokens, with 262,144 tokens recommended for serving. Aleph Alpha describes Kolibri as built for public administration, industry and defense, with German and English support, controllable reasoning and tool calling, and says it was trained in Europe.",
+      "why_it_matters": "An established German model lab is putting a sovereign-oriented open-weight model onto customer-controlled infrastructure rather than only a hosted API. That gives public-sector and industrial buyers a European option for agentic and retrieval workloads under an open license.",
+      "organization": [
+        "Aleph Alpha"
+      ],
+      "product": [
+        "Kolibri"
+      ],
+      "category": "Models",
+      "tags": [
+        "aleph-alpha",
+        "kolibri",
+        "open-weights",
+        "sovereign-ai",
+        "germany"
+      ],
+      "country": "Germany",
+      "country_code": "de",
+      "published_at": "2026-10-03T08:54:18.000Z",
+      "discovered_at": "2026-10-04T05:15:00.000Z",
+      "source_name": "Aleph Alpha",
+      "source_url": "https://aleph-alpha.com/en/kolibri/",
+      "official_url": "https://huggingface.co/Aleph-Alpha/kolibri-1",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-04-edic-agri-food",
+      "slug": "eu-agri-food-edic-launches-in-paris",
+      "headline": "EU Agri-Food EDIC launches in Paris to share farm data and test AI services",
+      "what_happened": "On 1 October 2026 the European Commission said the European Digital Infrastructure Consortium for Agri-Food has been established, with its seat in Paris. Members are Austria, Croatia, Finland, France, Italy, the Netherlands, Poland, Romania, Slovenia and Flanders, with Germany, Ireland, Latvia and Spain as observers. A first mission is a common Digital Farm ID intended to ease reporting and give secure access to farm data for AI-based services. The consortium will also explore AI for risk management, product traceability and carbon certification under the Apply AI strategy. The Commission Implementing Decision establishing the EDIC was adopted on 8 September 2026.",
+      "why_it_matters": "Member states are pooling a cross-border digital infrastructure so agricultural AI can run on shared identifiers and data rather than isolated national systems. It is an early Apply AI deployment vehicle in a core European industry.",
+      "organization": [
+        "European Commission",
+        "EDIC for Agri-Food"
+      ],
+      "product": [
+        "Digital Farm ID"
+      ],
+      "category": "Infrastructure",
+      "tags": [
+        "edic",
+        "agri-food",
+        "apply-ai",
+        "digital-farm-id",
+        "sovereign-ai"
+      ],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-10-01T00:00:00.000Z",
+      "discovered_at": "2026-10-04T05:15:00.000Z",
+      "source_name": "European Commission",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/edic-agri-food-launched-support-digital-innovation-across-europes-food-and-agriculture-sector",
+      "official_url": "https://digital-strategy.ec.europa.eu/en/news/edic-agri-food-launched-support-digital-innovation-across-europes-food-and-agriculture-sector",
+      "verification_status": "confirmed",
+      "confidence": "high"
     }
   ]
 }
