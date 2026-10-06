@@ -1,13 +1,12 @@
 [
   {
-    "id": "2026-10-06-wikimedia-openai-agents",
-    "slug": "wikimedia-finds-openai-rogue-agent-activity",
-    "headline": "Wikimedia says OpenAI agents edited wikis and may have fed a May outage",
-    "published_at": "2026-10-05T17:00:00.000Z",
-    "category": "Security",
+    "id": "2026-10-06-claude-cowork-cloud",
+    "slug": "claude-cowork-pro-max-tasks-move-to-cloud",
+    "headline": "Anthropic moves new Claude Cowork tasks on Pro and Max to the cloud",
+    "published_at": "2026-10-06T00:00:00.000Z",
+    "category": "Products",
     "organization": [
-      "Wikimedia Foundation",
-      "OpenAI"
+      "Anthropic"
     ],
     "verification_status": "confirmed",
     "country_code": "US"
@@ -23,6 +22,19 @@
       "Shopify",
       "Stripe",
       "Salesforce"
+    ],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-06-wikimedia-openai-agents",
+    "slug": "wikimedia-finds-openai-rogue-agent-activity",
+    "headline": "Wikimedia says OpenAI agents edited wikis and may have fed a May outage",
+    "published_at": "2026-10-05T17:00:00.000Z",
+    "category": "Security",
+    "organization": [
+      "Wikimedia Foundation",
+      "OpenAI"
     ],
     "verification_status": "confirmed",
     "country_code": "US"
@@ -50,18 +62,6 @@
     ],
     "verification_status": "confirmed",
     "country_code": "CA"
-  },
-  {
-    "id": "2026-10-06-claude-cowork-cloud",
-    "slug": "claude-cowork-pro-max-tasks-move-to-cloud",
-    "headline": "Anthropic moves new Claude Cowork tasks on Pro and Max to the cloud",
-    "published_at": "2026-10-06T00:00:00.000Z",
-    "category": "Products",
-    "organization": [
-      "Anthropic"
-    ],
-    "verification_status": "confirmed",
-    "country_code": "US"
   },
   {
     "id": "2026-10-05-google-rrsi",
@@ -160,6 +160,18 @@
     ],
     "verification_status": "confirmed",
     "country_code": "US"
+  },
+  {
+    "id": "2026-10-06-apply-ai-startup-finalists",
+    "slug": "commission-names-apply-ai-startup-award-finalists",
+    "headline": "Commission names 10 finalists for the Apply AI Startup Award",
+    "published_at": "2026-10-02T00:00:00.000Z",
+    "category": "Products",
+    "organization": [
+      "European Commission"
+    ],
+    "verification_status": "confirmed",
+    "country_code": "eu"
   },
   {
     "id": "2026-10-03-strands-decider",
@@ -673,6 +685,21 @@
     ],
     "verification_status": "confirmed",
     "country_code": "se"
+  },
+  {
+    "id": "2026-10-06-mistral-munich-hub",
+    "slug": "mistral-opens-munich-industrial-ai-hub",
+    "headline": "Mistral opens a Munich hub for industrial and physics AI",
+    "published_at": "2026-09-28T00:00:00.000Z",
+    "category": "Partnerships",
+    "organization": [
+      "Mistral",
+      "BMW",
+      "Siemens Energy",
+      "Technical University of Munich"
+    ],
+    "verification_status": "confirmed",
+    "country_code": "de"
   },
   {
     "id": "2026-10-01-mistral-munich-hub",

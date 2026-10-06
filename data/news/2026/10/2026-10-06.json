@@ -1,12 +1,12 @@
 {
   "date": "2026-10-06",
-  "generated_at": "2026-10-06T04:08:00.000Z",
+  "generated_at": "2026-10-06T05:20:00.000Z",
   "key_agent_trends": [
-    "Platforms are publishing their own rogue-agent incident reports: Wikimedia tied OpenAI agent traffic to wiki edits and a possible May outage.",
-    "Enterprise agent platforms are adding budget controls and cross-session memory, shown by Cohere North 2 spend caps.",
-    "Consumer and hiring products are shipping agents that finish a transaction or an evaluation, not only a chat.",
-    "Agentic checkout is consolidating around existing commerce rails: TikTok named Shopify, Stripe and Salesforce.",
-    "Anthropic is defaulting new paid Cowork tasks to cloud execution, pulling agent work off the local machine."
+    "European industrial AI is moving onto factory floors: Mistral’s Munich hub targets physics and engineering work with BMW and Siemens Energy.",
+    "Brussels shortlisted 10 Apply AI startups from six member states for a November award, emphasising sector adoption over frontier models.",
+    "Sovereign compute remains the parallel track, with Mistral restating a 1 GW European capacity goal by 2030.",
+    "Agent products are adding spend caps, cross-session memory and default cloud execution.",
+    "Public platforms are documenting unsolicited agent traffic, including Wikimedia’s report on OpenAI agents."
   ],
   "stories": [
     {
@@ -136,8 +136,8 @@
       "id": "2026-10-06-claude-cowork-cloud",
       "slug": "claude-cowork-pro-max-tasks-move-to-cloud",
       "headline": "Anthropic moves new Claude Cowork tasks on Pro and Max to the cloud",
-      "what_happened": "Anthropic\u2019s help center says that starting 6 October 2026, new Claude Cowork tasks on Pro and Max plans run on Anthropic\u2019s servers, and the \u201cOnly on your computer\u201d option in Settings is removed. Tasks already started locally stay on the computer until finished. Connected folders remain local; Claude fetches a copy of a needed file while the desktop app is open, and those copies are deleted when the session is deleted.",
-      "why_it_matters": "A major coding-style agent product is defaulting paid knowledge work to vendor cloud execution. That shifts data-handling and availability questions from the user\u2019s machine to Anthropic\u2019s runtime.",
+      "what_happened": "Anthropic’s help center says that starting 6 October 2026, new Claude Cowork tasks on Pro and Max plans run on Anthropic’s servers, and the “Only on your computer” option in Settings is removed. Tasks already started locally stay on the computer until finished. Connected folders remain local; Claude fetches a copy of a needed file while the desktop app is open, and those copies are deleted when the session is deleted.",
+      "why_it_matters": "A major coding-style agent product is defaulting paid knowledge work to vendor cloud execution. That shifts data-handling and availability questions from the user’s machine to Anthropic’s runtime.",
       "organization": [
         "Anthropic"
       ],
@@ -159,6 +159,66 @@
       "source_name": "Claude Help Center",
       "source_url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
       "official_url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-06-apply-ai-startup-finalists",
+      "slug": "commission-names-apply-ai-startup-award-finalists",
+      "headline": "Commission names 10 finalists for the Apply AI Startup Award",
+      "what_happened": "On 2 October 2026 the European Commission confirmed the 10 finalists of the Apply AI Startup Award. National startup organisations nominated candidates, and AI and innovation experts scored the applications. The firms are based in six EU member states and cover healthcare, manufacturing, energy, electronic communications and defence. They pitch on 20 October; three winners present at the Apply AI Summit in Brussels on 17 November.",
+      "why_it_matters": "The award is the Commission’s public shortlist for applied AI under the Apply AI Strategy, not a model-lab ranking. It puts industrial and public-sector startups on the same stage as the November summit.",
+      "organization": [
+        "European Commission"
+      ],
+      "product": [
+        "Apply AI Startup Award"
+      ],
+      "category": "Products",
+      "tags": [
+        "apply-ai",
+        "startups",
+        "european-commission",
+        "award"
+      ],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-10-02T00:00:00.000Z",
+      "discovered_at": "2026-10-06T05:20:00.000Z",
+      "source_name": "European Commission",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/meet-10-finalists-apply-ai-startup-award",
+      "official_url": "https://digital-strategy.ec.europa.eu/en/news/meet-10-finalists-apply-ai-startup-award",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-06-mistral-munich-hub",
+      "slug": "mistral-opens-munich-industrial-ai-hub",
+      "headline": "Mistral opens a Munich hub for industrial and physics AI",
+      "what_happened": "On 28 September 2026 Mistral said it is opening a Munich hub for Physics AI and Industrial AI research and applied engineering. The company said it is working with BMW on crash simulation and engineering AI, with Siemens Energy on industrial AI, and with the Technical University of Munich on aerodynamic digital twins. It also restated a plan to build one gigawatt of European compute by 2030. German digital minister Karsten Wildberger and Bavarian state minister Florian Herrmann welcomed the hub in the announcement.",
+      "why_it_matters": "Europe’s main model lab is putting staff next to German industry rather than only selling a chatbot. The hub ties sovereign open-weight deployment to physics simulation in automotive and energy.",
+      "organization": [
+        "Mistral",
+        "BMW",
+        "Siemens Energy",
+        "Technical University of Munich"
+      ],
+      "product": [],
+      "category": "Partnerships",
+      "tags": [
+        "mistral",
+        "industrial-ai",
+        "physics-ai",
+        "sovereign-ai",
+        "munich"
+      ],
+      "country": "Germany",
+      "country_code": "de",
+      "published_at": "2026-09-28T00:00:00.000Z",
+      "discovered_at": "2026-10-06T05:20:00.000Z",
+      "source_name": "Mistral",
+      "source_url": "https://mistral.ai/news/hallo-deutschland/",
+      "official_url": "https://mistral.ai/news/hallo-deutschland/",
       "verification_status": "confirmed",
       "confidence": "high"
     }
