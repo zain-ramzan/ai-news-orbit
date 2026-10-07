@@ -1,5 +1,86 @@
 [
   {
+    "id": "2026-10-07-personal-agent-protocol",
+    "slug": "sierra-meta-personal-agent-protocol",
+    "headline": "Sierra, Meta, Walmart and Stripe draft a Personal Agent Protocol",
+    "published_at": "2026-10-06T17:32:00.000Z",
+    "category": "Protocols",
+    "organization": [
+      "Sierra",
+      "Meta",
+      "Walmart",
+      "Stripe",
+      "Shopify",
+      "Genesys",
+      "Instinct",
+      "Rocket"
+    ],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-07-hark-pro",
+    "slug": "hark-releases-hark-pro-computer-use-assistant",
+    "headline": "Hark releases Hark Pro, a computer-use personal assistant",
+    "published_at": "2026-10-06T18:22:00.000Z",
+    "category": "Computer Use",
+    "organization": [
+      "Hark"
+    ],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-07-sap-techwolf",
+    "slug": "sap-agrees-to-acquire-techwolf",
+    "headline": "SAP agrees to acquire TechWolf for work and skills intelligence",
+    "published_at": "2026-10-06T11:45:00.000Z",
+    "category": "Acquisitions",
+    "organization": [
+      "SAP",
+      "TechWolf"
+    ],
+    "verification_status": "confirmed",
+    "country_code": "de"
+  },
+  {
+    "id": "2026-10-07-atlassian-openai",
+    "slug": "atlassian-openai-expand-rovo-partnership",
+    "headline": "Atlassian expands its OpenAI deal to put GPT-6 models in Rovo",
+    "published_at": "2026-10-06T00:00:00.000Z",
+    "category": "Partnerships",
+    "organization": [
+      "Atlassian",
+      "OpenAI"
+    ],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-07-keysight-ads-mcp",
+    "slug": "keysight-ads-mcp-agentic-rf-design",
+    "headline": "Keysight ships MCP servers so agents can run RF design tools",
+    "published_at": "2026-10-06T15:00:00.000Z",
+    "category": "Enterprise",
+    "organization": [
+      "Keysight Technologies"
+    ],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-07-new-relic-ai-evaluation",
+    "slug": "new-relic-ai-evaluation-agent-traces",
+    "headline": "New Relic adds AI Evaluation scores onto production traces",
+    "published_at": "2026-10-06T00:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": [
+      "New Relic"
+    ],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-10-06-claude-cowork-cloud",
     "slug": "claude-cowork-pro-max-tasks-move-to-cloud",
     "headline": "Anthropic moves new Claude Cowork tasks on Pro and Max to the cloud",

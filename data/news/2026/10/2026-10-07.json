@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T04:08:00.000Z",
+  "key_agent_trends": [
+    "Personal agents are forcing a business-access standard: Sierra, Meta, Walmart, Stripe and Shopify are drafting Personal Agent Protocol so companies can authenticate agents and set limits.",
+    "Computer-use assistants keep multiplying: Hark Pro joins Muse, Instinct and Dots, with hardware planned for 2027.",
+    "Enterprise context is being bought and wired in: SAP is acquiring TechWolf\u2019s work graph, and Atlassian is putting GPT-6 models into Rovo without making one model the default.",
+    "Specialist tools are exposing MCP endpoints, with Keysight shipping servers for RF circuit design.",
+    "Agent production still needs evaluation: New Relic is scoring prompt and completion quality on the same traces as ordinary telemetry."
+  ],
+  "stories": [
+    {
+      "id": "2026-10-07-personal-agent-protocol",
+      "slug": "sierra-meta-personal-agent-protocol",
+      "headline": "Sierra, Meta, Walmart and Stripe draft a Personal Agent Protocol",
+      "what_happened": "On 6 October 2026 Sierra said it is developing Personal Agent Protocol with Meta, Genesys, Instinct, Rocket, Shopify, Stripe and Walmart. The open standard is meant to cover authentication, consumer control of what a personal agent may do, and business limits on access through websites, APIs or a company\u2019s own agent. Sierra said the protocol will be open for anyone to implement and is set to be published by the end of the month. CNBC reported the same group framing it as a way for companies to tell a personal agent from a person.",
+      "why_it_matters": "Consumer agents such as Muse and Instinct are already hitting merchant sites without a shared handshake. A cross-industry protocol would move agent commerce off scraped web flows and onto explicit permissions.",
+      "organization": [
+        "Sierra",
+        "Meta",
+        "Walmart",
+        "Stripe",
+        "Shopify",
+        "Genesys",
+        "Instinct",
+        "Rocket"
+      ],
+      "product": [
+        "Personal Agent Protocol"
+      ],
+      "category": "Protocols",
+      "tags": [
+        "personal-agent-protocol",
+        "sierra",
+        "meta",
+        "walmart",
+        "stripe",
+        "agent-commerce"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-06T17:32:00.000Z",
+      "discovered_at": "2026-10-07T04:08:00.000Z",
+      "source_name": "Sierra",
+      "source_url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
+      "official_url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-07-hark-pro",
+      "slug": "hark-releases-hark-pro-computer-use-assistant",
+      "headline": "Hark releases Hark Pro, a computer-use personal assistant",
+      "what_happened": "On 6 October 2026 Hark, founded by Brett Adcock, widely released Hark Pro, a personal assistant built on a model trained for computer use. TechCrunch reported a free tier and a paid tier for heavier use; Bloomberg reported web, iOS and Android apps, with $20 and $100 monthly plans for higher limits, and a hardware device planned for 2027. The product is positioned as an interface layer that operates the user\u2019s computer, not as a general AGI system.",
+      "why_it_matters": "Another well-funded hardware founder is shipping a proactive computer-use agent into a market already occupied by Muse, Instinct and OpenAI\u2019s Dots. The near-term contest is desktop control and privacy, not a new frontier model.",
+      "organization": [
+        "Hark"
+      ],
+      "product": [
+        "Hark Pro"
+      ],
+      "category": "Computer Use",
+      "tags": [
+        "hark",
+        "computer-use",
+        "personal-assistant",
+        "brett-adcock"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-06T18:22:00.000Z",
+      "discovered_at": "2026-10-07T04:08:00.000Z",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+      "official_url": "https://www.bloomberg.com/news/articles/2026-10-06/ai-startup-hark-debuts-proactive-hark-pro-app-ahead-of-2027-hardware-launch",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-07-sap-techwolf",
+      "slug": "sap-agrees-to-acquire-techwolf",
+      "headline": "SAP agrees to acquire TechWolf for work and skills intelligence",
+      "what_happened": "On 6 October 2026 SAP and TechWolf said they have agreed that SAP will acquire the Belgian work-intelligence company. TechWolf builds a context graph of tasks, skills and labor-market signals from connected HR and business systems. SAP said the deal is expected to close in the fourth quarter of 2026, subject to regulatory approval, and that terms were not disclosed. Plans call for TechWolf to remain an independent entity under CEO Andreas De Neve and to keep serving non-SAP customers.",
+      "why_it_matters": "Workforce agents need a current map of who does which tasks. SAP is buying that graph rather than inferring skills only from its own HR records, which should ground later hiring and reskilling agents.",
+      "organization": [
+        "SAP",
+        "TechWolf"
+      ],
+      "product": [
+        "TechWolf"
+      ],
+      "category": "Acquisitions",
+      "tags": [
+        "sap",
+        "techwolf",
+        "work-intelligence",
+        "skills",
+        "acquisition"
+      ],
+      "country": "Germany",
+      "country_code": "de",
+      "published_at": "2026-10-06T11:45:00.000Z",
+      "discovered_at": "2026-10-07T04:08:00.000Z",
+      "source_name": "SAP News Center",
+      "source_url": "https://news.sap.com/2026/10/sap-to-acquire-techwolf-evidence-based-work-age-of-ai/",
+      "official_url": "https://news.sap.com/2026/10/sap-to-acquire-techwolf-evidence-based-work-age-of-ai/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-07-atlassian-openai",
+      "slug": "atlassian-openai-expand-rovo-partnership",
+      "headline": "Atlassian expands its OpenAI deal to put GPT-6 models in Rovo",
+      "what_happened": "On 6 October 2026 OpenAI and Atlassian said they are expanding a partnership so GPT-6 family models, including GPT-6 Astra and the GPT-5.6 series, power agents across Atlassian\u2019s platform and Rovo. Rovo is to combine those models with Atlassian\u2019s Teamwork Graph. VentureBeat reported the commercial piece as a spend commitment and said Atlassian will not make GPT-6 Astra Rovo\u2019s default model; an internal gateway will keep routing across providers.",
+      "why_it_matters": "A core work system is wiring frontier models into multi-step agents without a single-vendor lock-in. That is the pattern enterprise buyers are asking for after a year of agent pilots.",
+      "organization": [
+        "Atlassian",
+        "OpenAI"
+      ],
+      "product": [
+        "Rovo",
+        "GPT-6 Astra"
+      ],
+      "category": "Partnerships",
+      "tags": [
+        "atlassian",
+        "openai",
+        "rovo",
+        "gpt-6",
+        "teamwork-graph"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-06T00:00:00.000Z",
+      "discovered_at": "2026-10-07T04:08:00.000Z",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/atlassian-partnership/",
+      "official_url": "https://openai.com/index/atlassian-partnership/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-07-keysight-ads-mcp",
+      "slug": "keysight-ads-mcp-agentic-rf-design",
+      "headline": "Keysight ships MCP servers so agents can run RF design tools",
+      "what_happened": "On 6 October 2026 Keysight said Advanced Design System 2027 and RF Circuit Simulation Professional now expose Model Context Protocol servers, macro recording and Python script generation. Engineers can direct an agent in natural language to generate, verify and optimize radio-frequency circuits inside ADS. Keysight said the servers call documented skills so results are less dependent on statistical model guesses about schematics the model cannot read reliably.",
+      "why_it_matters": "Specialist engineering software is becoming an agent tool surface rather than a GUI only. MCP is showing up in regulated design workflows, not just developer IDEs.",
+      "organization": [
+        "Keysight Technologies"
+      ],
+      "product": [
+        "Advanced Design System",
+        "RF Circuit Simulation Professional"
+      ],
+      "category": "Enterprise",
+      "tags": [
+        "keysight",
+        "mcp",
+        "rf-design",
+        "ads",
+        "engineering-agents"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-06T15:00:00.000Z",
+      "discovered_at": "2026-10-07T04:08:00.000Z",
+      "source_name": "Business Wire",
+      "source_url": "https://markets.ft.com/data/announce/detail?dockey=600-202610061100BIZWIRE_USPRX____20261006_BW539221-1",
+      "official_url": "https://www.keysight.com/us/en/products/software/pathwave-design-software/pathwave-advanced-design-system.html",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-07-new-relic-ai-evaluation",
+      "slug": "new-relic-ai-evaluation-agent-traces",
+      "headline": "New Relic adds AI Evaluation scores onto production traces",
+      "what_happened": "On 6 October 2026 New Relic introduced AI Evaluation inside its AI observability product. An asynchronous LLM-as-a-judge service scores sampled prompts and completions for safety and accuracy, attaches a 0-to-1 score, pass/fail status and a reason to distributed traces, and separates retrieval from generation failures in RAG and agent systems.",
+      "why_it_matters": "Production agents fail quietly. Tying qualitative checks to the same traces as latency and errors is how operators will decide when an agent action should be blocked or reviewed.",
+      "organization": [
+        "New Relic"
+      ],
+      "product": [
+        "AI Evaluation",
+        "New Relic AI Observability"
+      ],
+      "category": "Infrastructure",
+      "tags": [
+        "new-relic",
+        "observability",
+        "evaluation",
+        "agent-traces"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-06T00:00:00.000Z",
+      "discovered_at": "2026-10-07T04:08:00.000Z",
+      "source_name": "New Relic",
+      "source_url": "https://newrelic.com/blog/news/introducing-ai-evaluation",
+      "official_url": "https://newrelic.com/blog/news/introducing-ai-evaluation",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    }
+  ]
+}
