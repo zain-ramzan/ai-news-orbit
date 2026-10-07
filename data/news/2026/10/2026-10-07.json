@@ -1,19 +1,19 @@
 {
   "date": "2026-10-07",
-  "generated_at": "2026-10-07T04:08:00.000Z",
+  "generated_at": "2026-10-07T05:15:00.000Z",
   "key_agent_trends": [
-    "Personal agents are forcing a business-access standard: Sierra, Meta, Walmart, Stripe and Shopify are drafting Personal Agent Protocol so companies can authenticate agents and set limits.",
-    "Computer-use assistants keep multiplying: Hark Pro joins Muse, Instinct and Dots, with hardware planned for 2027.",
-    "Enterprise context is being bought and wired in: SAP is acquiring TechWolf\u2019s work graph, and Atlassian is putting GPT-6 models into Rovo without making one model the default.",
-    "Specialist tools are exposing MCP endpoints, with Keysight shipping servers for RF circuit design.",
-    "Agent production still needs evaluation: New Relic is scoring prompt and completion quality on the same traces as ordinary telemetry."
+    "Mistral is previewing a 1-trillion-parameter open-weight model trained in its own European datacenters, with weights held until month-end cyber red-teaming.",
+    "Parliament is pressing member states to enforce the 2 December nudifier ban after sexualised deepfakes targeted 60 MEPs.",
+    "Europol’s planned AI expansion is drawing privacy warnings from the EDPS, which says supervision is not scaling with new data powers.",
+    "Personal agents are forcing a business-access standard: Sierra, Meta, Walmart, Stripe and Shopify are drafting Personal Agent Protocol.",
+    "Enterprise context is being bought and wired in: SAP is acquiring TechWolf’s work graph, and Atlassian is putting GPT-6 models into Rovo."
   ],
   "stories": [
     {
       "id": "2026-10-07-personal-agent-protocol",
       "slug": "sierra-meta-personal-agent-protocol",
       "headline": "Sierra, Meta, Walmart and Stripe draft a Personal Agent Protocol",
-      "what_happened": "On 6 October 2026 Sierra said it is developing Personal Agent Protocol with Meta, Genesys, Instinct, Rocket, Shopify, Stripe and Walmart. The open standard is meant to cover authentication, consumer control of what a personal agent may do, and business limits on access through websites, APIs or a company\u2019s own agent. Sierra said the protocol will be open for anyone to implement and is set to be published by the end of the month. CNBC reported the same group framing it as a way for companies to tell a personal agent from a person.",
+      "what_happened": "On 6 October 2026 Sierra said it is developing Personal Agent Protocol with Meta, Genesys, Instinct, Rocket, Shopify, Stripe and Walmart. The open standard is meant to cover authentication, consumer control of what a personal agent may do, and business limits on access through websites, APIs or a company’s own agent. Sierra said the protocol will be open for anyone to implement and is set to be published by the end of the month. CNBC reported the same group framing it as a way for companies to tell a personal agent from a person.",
       "why_it_matters": "Consumer agents such as Muse and Instinct are already hitting merchant sites without a shared handshake. A cross-industry protocol would move agent commerce off scraped web flows and onto explicit permissions.",
       "organization": [
         "Sierra",
@@ -51,8 +51,8 @@
       "id": "2026-10-07-hark-pro",
       "slug": "hark-releases-hark-pro-computer-use-assistant",
       "headline": "Hark releases Hark Pro, a computer-use personal assistant",
-      "what_happened": "On 6 October 2026 Hark, founded by Brett Adcock, widely released Hark Pro, a personal assistant built on a model trained for computer use. TechCrunch reported a free tier and a paid tier for heavier use; Bloomberg reported web, iOS and Android apps, with $20 and $100 monthly plans for higher limits, and a hardware device planned for 2027. The product is positioned as an interface layer that operates the user\u2019s computer, not as a general AGI system.",
-      "why_it_matters": "Another well-funded hardware founder is shipping a proactive computer-use agent into a market already occupied by Muse, Instinct and OpenAI\u2019s Dots. The near-term contest is desktop control and privacy, not a new frontier model.",
+      "what_happened": "On 6 October 2026 Hark, founded by Brett Adcock, widely released Hark Pro, a personal assistant built on a model trained for computer use. TechCrunch reported a free tier and a paid tier for heavier use; Bloomberg reported web, iOS and Android apps, with $20 and $100 monthly plans for higher limits, and a hardware device planned for 2027. The product is positioned as an interface layer that operates the user’s computer, not as a general AGI system.",
+      "why_it_matters": "Another well-funded hardware founder is shipping a proactive computer-use agent into a market already occupied by Muse, Instinct and OpenAI’s Dots. The near-term contest is desktop control and privacy, not a new frontier model.",
       "organization": [
         "Hark"
       ],
@@ -111,7 +111,7 @@
       "id": "2026-10-07-atlassian-openai",
       "slug": "atlassian-openai-expand-rovo-partnership",
       "headline": "Atlassian expands its OpenAI deal to put GPT-6 models in Rovo",
-      "what_happened": "On 6 October 2026 OpenAI and Atlassian said they are expanding a partnership so GPT-6 family models, including GPT-6 Astra and the GPT-5.6 series, power agents across Atlassian\u2019s platform and Rovo. Rovo is to combine those models with Atlassian\u2019s Teamwork Graph. VentureBeat reported the commercial piece as a spend commitment and said Atlassian will not make GPT-6 Astra Rovo\u2019s default model; an internal gateway will keep routing across providers.",
+      "what_happened": "On 6 October 2026 OpenAI and Atlassian said they are expanding a partnership so GPT-6 family models, including GPT-6 Astra and the GPT-5.6 series, power agents across Atlassian’s platform and Rovo. Rovo is to combine those models with Atlassian’s Teamwork Graph. VentureBeat reported the commercial piece as a spend commitment and said Atlassian will not make GPT-6 Astra Rovo’s default model; an internal gateway will keep routing across providers.",
       "why_it_matters": "A core work system is wiring frontier models into multi-step agents without a single-vendor lock-in. That is the pattern enterprise buyers are asking for after a year of agent pilots.",
       "organization": [
         "Atlassian",
@@ -199,6 +199,94 @@
       "official_url": "https://newrelic.com/blog/news/introducing-ai-evaluation",
       "verification_status": "confirmed",
       "confidence": "high"
+    },
+    {
+      "id": "2026-10-07-mistral-large-4",
+      "slug": "mistral-previews-large-4-open-weight-model",
+      "headline": "Mistral previews Large 4, a 1-trillion-parameter model trained in Europe",
+      "what_happened": "On 6 October 2026 Mistral opened a public preview of Mistral Large 4, nicknamed Le Chonk, on Mistral Studio. The company said the natively multimodal model has 1 trillion parameters and 49 billion active parameters, and that it was trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral’s own European datacenters. Mistral said weights will be released by the end of the month, after red-teaming with cybersecurity partners and public authorities that can test a less moderated version. It claimed competitive open-weight results on coding, agentic work and cybersecurity, finance and law.",
+      "why_it_matters": "Europe’s main model lab is shipping a frontier open-weight system from capacity it controls, rather than only reselling third-party models. The delayed weight release is a direct response to cyber and agent misuse concerns.",
+      "organization": [
+        "Mistral"
+      ],
+      "product": [
+        "Mistral Large 4"
+      ],
+      "category": "Models",
+      "tags": [
+        "mistral",
+        "open-weight",
+        "sovereign-ai",
+        "cybersecurity",
+        "le-chonk"
+      ],
+      "country": "France",
+      "country_code": "fr",
+      "published_at": "2026-10-06T12:00:00.000Z",
+      "discovered_at": "2026-10-07T05:15:00.000Z",
+      "source_name": "Mistral",
+      "source_url": "https://mistral.ai/news/mistral-large-4/",
+      "official_url": "https://mistral.ai/news/mistral-large-4/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-07-meps-deepfake-ban",
+      "slug": "metsola-says-60-meps-targeted-by-sexualised-deepfakes",
+      "headline": "Metsola says 60 MEPs were targeted by sexualised deepfakes",
+      "what_happened": "On 5 October 2026 European Parliament President Roberta Metsola told the Strasbourg plenary that 60 MEPs from across political groups had been targeted by deepfake pornography sites publishing false and altered images, mainly of women members. She called the material both violence against women and an attempt to prey on elected politicians. Metsola urged member states to prepare now to enforce the ban on nudifier apps that takes effect on 2 December 2026, and to apply the Digital Services Act and the directive on violence against women.",
+      "why_it_matters": "The December prohibition on AI systems that generate non-consensual intimate imagery is moving from a legal date to an enforcement problem. Parliament is treating sexualised deepfakes of lawmakers as both a safety issue and a threat to political participation.",
+      "organization": [
+        "European Parliament"
+      ],
+      "product": [],
+      "category": "Safety",
+      "tags": [
+        "deepfakes",
+        "nudifier",
+        "ai-act",
+        "european-parliament",
+        "metsola"
+      ],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-10-05T16:26:00.000Z",
+      "discovered_at": "2026-10-07T05:15:00.000Z",
+      "source_name": "European Parliament",
+      "source_url": "https://www.europarl.europa.eu/news/en/press-room/20261002IPR47891/president-metsola-opened-the-5-8-october-plenary-session",
+      "official_url": "https://www.europarl.europa.eu/news/en/press-room/20261002IPR47891/president-metsola-opened-the-5-8-october-plenary-session",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-07-europol-ai-privacy",
+      "slug": "edps-warns-europol-ai-expansion-lacks-oversight",
+      "headline": "EDPS warns Europol’s AI expansion lacks matching oversight",
+      "what_happened": "On 5 October 2026 POLITICO reported warnings from senior EU officials about plans to expand Europol for AI-era crime. The plans, announced this summer, would double the agency’s budget to €3 billion and give it a larger role with more data and advanced technology. European Data Protection Supervisor Wojciech Wiewiórowski said he supports AI tools for Europol but asked why the proposal does not strengthen supervision, and he has previously said the reform would let the agency keep data on people with no link to crime for an unspecified period. Incoming executive director Jürgen Ebner said AI makes crime faster and easier at scale, and that investigators need timely electronic evidence.",
+      "why_it_matters": "Europe is trying to use agents and models in policing while the supervisor of EU bodies says oversight is not scaling with the new powers. That clash will shape how far AI-driven law enforcement can go under EU data-protection rules.",
+      "organization": [
+        "Europol",
+        "European Data Protection Supervisor",
+        "European Commission"
+      ],
+      "product": [],
+      "category": "Safety",
+      "tags": [
+        "europol",
+        "edps",
+        "policing",
+        "privacy",
+        "ai-act"
+      ],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-10-05T17:28:00.000Z",
+      "discovered_at": "2026-10-07T05:15:00.000Z",
+      "source_name": "POLITICO",
+      "source_url": "https://www.politico.eu/article/europol-ai-new-weapons-new-privacy-risks-reboots-for-the-era/",
+      "official_url": "https://www.politico.eu/article/europol-ai-new-weapons-new-privacy-risks-reboots-for-the-era/",
+      "verification_status": "reported",
+      "confidence": "medium"
     }
   ]
 }
