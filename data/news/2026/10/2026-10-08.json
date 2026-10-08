@@ -1,50 +1,19 @@
 {
   "date": "2026-10-08",
-  "generated_at": "2026-10-08T04:08:00.000Z",
+  "generated_at": "2026-10-08T05:14:00.000Z",
   "key_agent_trends": [
-    "Cheap fast models are being priced for subagent work: Haiku 5.5 undercuts Haiku 4.5 by about 75% on typical loads and matches GPT-6 Luna on short requests.",
-    "Agent harnesses are gaining runtime control. Deep Agents can pin skills, bind tools without busting the prompt cache, and schedule their own follow-ups.",
-    "Personal agents are expanding surface area. Muse is on iPad with small-business connectors a month after launch and past 6.6 million installs.",
-    "Enterprise money is going to narrow agents with a cash metric: Stuut\u2019s $52.5M Series B is for order-to-cash execution, not a general copilot.",
-    "Credential and post-launch control are becoming product categories, from Tuskira\u2019s local agent gateway to Kore.ai\u2019s Autoloop optimizer."
+    "European offensive-security funding is going to agentic pentesting: Amsterdam’s Hadrian raised $40 million to run continuous exposure checks and on-demand agent tests.",
+    "France is funding domain models, not only chat: Paris-based Rivercell raised $25 million to build a cell-response model from its own lab data.",
+    "Sovereign model choice is being tested in production. Berlin’s Ecosia is dropping Mistral for open-weight models, including Chinese ones, citing quality.",
+    "Human-rights bodies are formalising industry ties: the Council of Europe signed an AI cooperation memorandum with Microsoft in Strasbourg.",
+    "Agent cost and runtime control remain the product layer, from cheaper small models to skill pinning and post-launch optimizers."
   ],
   "stories": [
-    {
-      "id": "2026-10-08-claude-haiku-55",
-      "slug": "anthropic-releases-claude-haiku-5-5",
-      "headline": "Anthropic releases Claude Haiku 5.5 at about 75% lower average cost",
-      "what_happened": "On 7 October 2026 Anthropic released Claude Haiku 5.5, which it called its cheapest, fastest, and most capable small model. For prompts up to 100,000 tokens it costs $0.10 per million input tokens and $0.50 per million output tokens, a 90% cut versus Haiku 4.5; above that threshold the cut is 50%. Anthropic said typical workloads run about 75% cheaper once request size and token use are included, and that it is the first Haiku-class model with an adjustable effort level. It also halved Sonnet 5.5 cache-read prices, which it said makes most agentic Sonnet work about 20% cheaper.",
-      "why_it_matters": "High-volume subagent steps such as summaries, classification, compaction, and browser actions are where agent bills accumulate. A cheaper fast model that Anthropic pairs with Opus 5.5 and Sonnet 5.5 changes the cost of multi-agent coding and support loops.",
-      "organization": [
-        "Anthropic"
-      ],
-      "product": [
-        "Claude Haiku 5.5",
-        "Claude Sonnet 5.5"
-      ],
-      "category": "Models",
-      "tags": [
-        "anthropic",
-        "haiku",
-        "pricing",
-        "subagents",
-        "sonnet"
-      ],
-      "country": "United States",
-      "country_code": "US",
-      "published_at": "2026-10-07T12:00:00.000Z",
-      "discovered_at": "2026-10-08T04:08:00.000Z",
-      "source_name": "Anthropic",
-      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
-      "official_url": "https://www.anthropic.com/claude-haiku-5-5",
-      "verification_status": "confirmed",
-      "confidence": "high"
-    },
     {
       "id": "2026-10-08-deep-agents-skills",
       "slug": "langchain-deep-agents-runtime-skills-and-schedules",
       "headline": "LangChain lets Deep Agents pin skills, bind tools, and schedule their own runs",
-      "what_happened": "On 7 October 2026 LangChain updated skills in Deep Agents so tools bound to a skill stay out of context until the agent reads that skill, and apps can pin a skill before the first model call. Skills can also be reloaded mid-thread without starting a new conversation. On models that accept tools mid-conversation, including newer Anthropic and OpenAI models, adding a skill\u2019s tools keeps the prompt cache intact. The same day, Managed Deep Agents v0.9 added agent-created schedules, per-run choice of model, skills, and tools, and Slack reactions before a reply.",
+      "what_happened": "On 7 October 2026 LangChain updated skills in Deep Agents so tools bound to a skill stay out of context until the agent reads that skill, and apps can pin a skill before the first model call. Skills can also be reloaded mid-thread without starting a new conversation. On models that accept tools mid-conversation, including newer Anthropic and OpenAI models, adding a skill’s tools keeps the prompt cache intact. The same day, Managed Deep Agents v0.9 added agent-created schedules, per-run choice of model, skills, and tools, and Slack reactions before a reply.",
       "why_it_matters": "Agent harnesses are moving from static tool lists to runtime control of skills, tools, and recurrence. That is the layer enterprises use to keep long-running agents from loading every connector on every turn.",
       "organization": [
         "LangChain"
@@ -75,7 +44,7 @@
       "id": "2026-10-08-muse-ipad",
       "slug": "meta-muse-ipad-and-small-business-connectors",
       "headline": "Meta ships Muse on iPad and adds small-business connectors",
-      "what_happened": "On 7 October 2026 Meta\u2019s Muse assistant gained a dedicated iPad app, about a month after its 8 September iPhone and Android launch. TechCrunch reported Sensor Tower estimates of more than 6.6 million installs. The update adds connectors aimed at small businesses, including Asana, Canva, Dropbox, Figma, QuickBooks, GitHub, Klaviyo, and Zoom, plus Meta ad accounts, Notion, and Granola. The Verge said users can give Muse a business goal that it uses to plan marketing, client pitches, and product pages.",
+      "what_happened": "On 7 October 2026 Meta’s Muse assistant gained a dedicated iPad app, about a month after its 8 September iPhone and Android launch. TechCrunch reported Sensor Tower estimates of more than 6.6 million installs. The update adds connectors aimed at small businesses, including Asana, Canva, Dropbox, Figma, QuickBooks, GitHub, Klaviyo, and Zoom, plus Meta ad accounts, Notion, and Granola. The Verge said users can give Muse a business goal that it uses to plan marketing, client pitches, and product pages.",
       "why_it_matters": "Muse is the consumer agent with the widest install base, and the new connectors push it from personal errands into small-business operations. That raises the same permission and commerce questions the Personal Agent Protocol is trying to standardize.",
       "organization": [
         "Meta"
@@ -98,6 +67,97 @@
       "source_name": "The Verge",
       "source_url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
       "official_url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-08-kore-autoloop",
+      "slug": "kore-ai-launches-autoloop-agent-optimizer",
+      "headline": "Kore.ai launches Autoloop to keep retuning live enterprise agents",
+      "what_happened": "On 7 October 2026 Kore.ai launched Autoloop, an optimization engine for agents built on its Agent Platform. Customers set goals such as task completion, rule adherence, cost, and whether answers are grounded in enterprise data, and the engine continues to adjust agents after deployment. SiliconANGLE reported that Autoloop is available to customers on the Artemis edition. Kore.ai cited its 2026 Agent Productivity Index, in which 79% of surveyed enterprises said they had reversed an agent action and 70% had hit a failure they could not trace.",
+      "why_it_matters": "Most agent programs still fix failures by hand. A closed optimization loop is an attempt to treat post-launch drift as a product problem, not a one-off prompt edit.",
+      "organization": [
+        "Kore.ai"
+      ],
+      "product": [
+        "Autoloop",
+        "Kore.ai Agent Platform"
+      ],
+      "category": "Enterprise",
+      "tags": [
+        "kore-ai",
+        "autoloop",
+        "agent-optimization",
+        "evaluation"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-07T14:00:00.000Z",
+      "discovered_at": "2026-10-08T04:08:00.000Z",
+      "source_name": "SiliconANGLE",
+      "source_url": "https://siliconangle.com/2026/10/07/kore-ai-launches-autoloop-to-keep-tuning-enterprise-ai-agents-after-they-go-live/",
+      "official_url": "https://siliconangle.com/2026/10/07/kore-ai-launches-autoloop-to-keep-tuning-enterprise-ai-agents-after-they-go-live/",
+      "verification_status": "reported",
+      "confidence": "medium"
+    },
+    {
+      "id": "2026-10-08-rivercell-seed",
+      "slug": "rivercell-raises-25m-cell-response-ai",
+      "headline": "Rivercell raises $25 million to model how cells respond to drugs",
+      "what_happened": "On 7 October 2026 The Next Web reported that Paris-based Rivercell raised a $25 million seed round led by HV, with HCVC, Alven and Bpifrance Digital Venture participating. The company, founded in 2025 by Cardiologs founder Yann Fleureau and former Owkin executive Eric Durand, said it will use the capital for a data platform, a larger Paris wet lab and an AI Virtual Cell programme. Rivercell said the model is meant to predict how human cells change after a treatment, using video of living cells and gene-activity readouts from its own experiments.",
+      "why_it_matters": "European biotech funding is moving from general chat models to domain foundation models that need proprietary experimental data. Rivercell is pairing a Paris lab with an AI model of cell response.",
+      "organization": [
+        "Rivercell",
+        "HV",
+        "Bpifrance Digital Venture"
+      ],
+      "product": [
+        "AI Virtual Cell"
+      ],
+      "category": "Funding",
+      "tags": [
+        "rivercell",
+        "drug-discovery",
+        "foundation-model",
+        "seed"
+      ],
+      "country": "France",
+      "country_code": "fr",
+      "published_at": "2026-10-07T13:37:00.000Z",
+      "discovered_at": "2026-10-08T05:14:00.000Z",
+      "source_name": "The Next Web",
+      "source_url": "https://thenextweb.com/news/rivercell-25m-seed-hv-ai-virtual-cell",
+      "verification_status": "reported",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-08-claude-haiku-55",
+      "slug": "anthropic-releases-claude-haiku-5-5",
+      "headline": "Anthropic releases Claude Haiku 5.5 at about 75% lower average cost",
+      "what_happened": "On 7 October 2026 Anthropic released Claude Haiku 5.5, which it called its cheapest, fastest, and most capable small model. For prompts up to 100,000 tokens it costs $0.10 per million input tokens and $0.50 per million output tokens, a 90% cut versus Haiku 4.5; above that threshold the cut is 50%. Anthropic said typical workloads run about 75% cheaper once request size and token use are included, and that it is the first Haiku-class model with an adjustable effort level. It also halved Sonnet 5.5 cache-read prices, which it said makes most agentic Sonnet work about 20% cheaper.",
+      "why_it_matters": "High-volume subagent steps such as summaries, classification, compaction, and browser actions are where agent bills accumulate. A cheaper fast model that Anthropic pairs with Opus 5.5 and Sonnet 5.5 changes the cost of multi-agent coding and support loops.",
+      "organization": [
+        "Anthropic"
+      ],
+      "product": [
+        "Claude Haiku 5.5",
+        "Claude Sonnet 5.5"
+      ],
+      "category": "Models",
+      "tags": [
+        "anthropic",
+        "haiku",
+        "pricing",
+        "subagents",
+        "sonnet"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-07T12:00:00.000Z",
+      "discovered_at": "2026-10-08T04:08:00.000Z",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "official_url": "https://www.anthropic.com/claude-haiku-5-5",
       "verification_status": "confirmed",
       "confidence": "high"
     },
@@ -134,40 +194,10 @@
       "confidence": "high"
     },
     {
-      "id": "2026-10-08-kore-autoloop",
-      "slug": "kore-ai-launches-autoloop-agent-optimizer",
-      "headline": "Kore.ai launches Autoloop to keep retuning live enterprise agents",
-      "what_happened": "On 7 October 2026 Kore.ai launched Autoloop, an optimization engine for agents built on its Agent Platform. Customers set goals such as task completion, rule adherence, cost, and whether answers are grounded in enterprise data, and the engine continues to adjust agents after deployment. SiliconANGLE reported that Autoloop is available to customers on the Artemis edition. Kore.ai cited its 2026 Agent Productivity Index, in which 79% of surveyed enterprises said they had reversed an agent action and 70% had hit a failure they could not trace.",
-      "why_it_matters": "Most agent programs still fix failures by hand. A closed optimization loop is an attempt to treat post-launch drift as a product problem, not a one-off prompt edit.",
-      "organization": [
-        "Kore.ai"
-      ],
-      "product": [
-        "Autoloop",
-        "Kore.ai Agent Platform"
-      ],
-      "category": "Enterprise",
-      "tags": [
-        "kore-ai",
-        "autoloop",
-        "agent-optimization",
-        "evaluation"
-      ],
-      "country": "United States",
-      "country_code": "US",
-      "published_at": "2026-10-07T14:00:00.000Z",
-      "discovered_at": "2026-10-08T04:08:00.000Z",
-      "source_name": "SiliconANGLE",
-      "source_url": "https://siliconangle.com/2026/10/07/kore-ai-launches-autoloop-to-keep-tuning-enterprise-ai-agents-after-they-go-live/",
-      "official_url": "https://siliconangle.com/2026/10/07/kore-ai-launches-autoloop-to-keep-tuning-enterprise-ai-agents-after-they-go-live/",
-      "verification_status": "reported",
-      "confidence": "medium"
-    },
-    {
       "id": "2026-10-08-tuskira-agent-gateway",
       "slug": "tuskira-open-sources-ai-agent-gateway",
       "headline": "Tuskira open-sources an AI Agent Gateway that keeps credentials off agents",
-      "what_happened": "On 7 October 2026 Help Net Security reported that Tuskira open-sourced AI Agent Gateway, a proxy between agents and the MCP servers and model providers they call. The gateway runs in the customer\u2019s environment, checks a tenant-scoped key and role before a tool call, and injects the real credential from an encrypted store so the agent never holds tokens for services such as GitHub or Jira. Denied calls are logged and do not reach the backend. The repository includes examples for Claude Code, Cursor, VS Code, Codex CLI, a Python agent, and Kubernetes.",
+      "what_happened": "On 7 October 2026 Help Net Security reported that Tuskira open-sourced AI Agent Gateway, a proxy between agents and the MCP servers and model providers they call. The gateway runs in the customer’s environment, checks a tenant-scoped key and role before a tool call, and injects the real credential from an encrypted store so the agent never holds tokens for services such as GitHub or Jira. Denied calls are logged and do not reach the backend. The repository includes examples for Claude Code, Cursor, VS Code, Codex CLI, a Python agent, and Kubernetes.",
       "why_it_matters": "Coding agents are collecting long-lived tokens and MCP configs on developer machines. A local gateway is a practical control for the credential sprawl those agents create.",
       "organization": [
         "Tuskira"
@@ -192,6 +222,120 @@
       "official_url": "https://www.helpnetsecurity.com/2026/10/07/open-source-ai-agent-gateway/",
       "verification_status": "reported",
       "confidence": "medium"
+    },
+    {
+      "id": "2026-10-08-ecosia-drops-mistral",
+      "slug": "ecosia-drops-mistral-for-open-weight-models",
+      "headline": "Ecosia drops Mistral and turns to open-weight models",
+      "what_happened": "On 6 October 2026 POLITICO reported that Berlin-based search engine Ecosia is dropping French model lab Mistral in favour of open-source models, including models from China. Founder and chief executive Christian Kroll told POLITICO he was disappointed with Mistral’s quality and that the models were now about a year behind the competition. Ecosia is used by public bodies including Germany’s federal environment ministry and the UK National Health Service.",
+      "why_it_matters": "A European buyer that has marketed independence from non-European tech is publicly judging Europe’s flagship lab as not good enough for production. That is a concrete test of sovereign-model adoption, not a policy slogan.",
+      "organization": [
+        "Ecosia",
+        "Mistral"
+      ],
+      "product": [],
+      "category": "Enterprise",
+      "tags": [
+        "ecosia",
+        "mistral",
+        "open-weight",
+        "sovereign-ai"
+      ],
+      "country": "Germany",
+      "country_code": "de",
+      "published_at": "2026-10-06T17:07:00.000Z",
+      "discovered_at": "2026-10-08T05:14:00.000Z",
+      "source_name": "POLITICO",
+      "source_url": "https://www.politico.eu/article/germany-ecosia-search-engine-mistral-china-open-source-ai/",
+      "verification_status": "reported",
+      "confidence": "medium"
+    },
+    {
+      "id": "2026-10-08-coe-microsoft-mou",
+      "slug": "council-of-europe-microsoft-ai-memorandum",
+      "headline": "Council of Europe and Microsoft sign an AI cooperation memorandum",
+      "what_happened": "On 6 October 2026 Council of Europe Secretary General Alain Berset and Microsoft president Brad Smith signed a memorandum of understanding in Strasbourg, Agence Europe reported. The Council said the framework is meant to address digital-world challenges, particularly those associated with artificial intelligence, and to explore cooperation, share practices and support linguistic and cultural diversity. The memorandum also covers existing work on the Register of Damage for Ukraine, which Microsoft’s AI for Good Lab already supports with AI and satellite analysis.",
+      "why_it_matters": "Europe’s main human-rights organisation is putting a formal cooperation frame around AI with a major platform company, rather than only treaty text. The Ukraine damage register is an existing AI deployment inside that frame.",
+      "organization": [
+        "Council of Europe",
+        "Microsoft"
+      ],
+      "product": [],
+      "category": "Partnerships",
+      "tags": [
+        "council-of-europe",
+        "microsoft",
+        "human-rights",
+        "memorandum"
+      ],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-10-06T12:00:00.000Z",
+      "discovered_at": "2026-10-08T05:14:00.000Z",
+      "source_name": "Agence Europe",
+      "source_url": "https://agenceurope.eu/en/bulletin/article/13954/26/council-of-europe-and-microsoft-sign-memorandum-of-understanding-to-promote-human-rights-in-ai-era",
+      "verification_status": "reported",
+      "confidence": "medium"
+    },
+    {
+      "id": "2026-10-08-procuros-series-a",
+      "slug": "procuros-raises-20m-ai-native-b2b-trade",
+      "headline": "Procuros raises €20 million for AI-native B2B trade infrastructure",
+      "what_happened": "On 6 October 2026 EU-Startups reported that Hamburg-based Procuros raised a €20 million Series A led by XAnge, with W23 joining and Point Nine, Creandum and b2venture following on. The company said it has more than 300 customers in DACH and the UK and more than €3 billion in annualised order volume on the platform. It said the round will fund go-to-market, AI-native supply-chain infrastructure and expansion beyond DACH and the UK.",
+      "why_it_matters": "Trade agents stall on unstructured orders and invoices. Procuros is raising to own the shared data layer those agents would need for autonomous B2B commerce in Europe.",
+      "organization": [
+        "Procuros",
+        "XAnge",
+        "W23"
+      ],
+      "product": [],
+      "category": "Funding",
+      "tags": [
+        "procuros",
+        "series-a",
+        "b2b",
+        "supply-chain"
+      ],
+      "country": "Germany",
+      "country_code": "de",
+      "published_at": "2026-10-06T08:01:00.000Z",
+      "discovered_at": "2026-10-08T05:14:00.000Z",
+      "source_name": "EU-Startups",
+      "source_url": "https://www.eu-startups.com/2026/10/hamburgs-procuros-raises-e20-million-series-a-to-build-ai-native-infrastructure-for-autonomous-b2b-trade/",
+      "verification_status": "reported",
+      "confidence": "medium"
+    },
+    {
+      "id": "2026-10-08-hadrian-series-b",
+      "slug": "hadrian-raises-40m-agentic-offensive-security",
+      "headline": "Hadrian raises $40 million for agentic offensive security",
+      "what_happened": "On 6 October 2026 Amsterdam-based Hadrian said it raised $40 million co-led by Forgepoint Capital International and SmartFin, with HV Capital, Motive Partners, Picus Capital and Oetker Ventures participating. The round takes total funding to $65 million and will fund expansion across EMEA and the United States plus engineering and research. Hadrian said its Atlas product uses AI agents to validate which external exposures are exploitable, and Nova runs on-demand agentic penetration tests.",
+      "why_it_matters": "Attackers are using agents to probe systems faster than manual testing. A European security firm is raising to productise the defensive counterpart: continuous discovery plus agentic validation.",
+      "organization": [
+        "Hadrian",
+        "Forgepoint Capital International",
+        "SmartFin"
+      ],
+      "product": [
+        "Atlas",
+        "Nova"
+      ],
+      "category": "Funding",
+      "tags": [
+        "hadrian",
+        "agentic-security",
+        "pentesting",
+        "series-b"
+      ],
+      "country": "Netherlands",
+      "country_code": "nl",
+      "published_at": "2026-10-06T08:00:00.000Z",
+      "discovered_at": "2026-10-08T05:14:00.000Z",
+      "source_name": "Hadrian",
+      "source_url": "https://hadrian.io/blog/hadrian-40m-raised-to-tackle-the-ai-hacking-cyber-security-crisis",
+      "official_url": "https://hadrian.io/blog/hadrian-40m-raised-to-tackle-the-ai-hacking-cyber-security-crisis",
+      "verification_status": "confirmed",
+      "confidence": "high"
     }
   ]
 }
