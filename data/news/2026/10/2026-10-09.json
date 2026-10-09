@@ -1,1 +1,326 @@
-PLACEHOLDER
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T05:20:00.000Z",
+  "key_agent_trends": [
+    "European Q3 venture funding hit $25 billion, with AI taking 75%, concentrated in a few mega-rounds.",
+    "Sovereign model work continues: Mistral previewed Large 4 trained in Europe, and Aleph Alpha shipped open-weight Kolibri.",
+    "AI Act transparency is reaching products: OpenAI will watermark EU ChatGPT and Codex text, with detection still fragile after edits.",
+    "The Commission registered a citizens’ initiative seeking a sovereign .IA domain and high-trust AI spaces.",
+    "Enterprise agents are shipping with their own identities while security teams add runtime monitors and memory-hijack research."
+  ],
+  "stories": [
+    {
+      "id": "2026-10-09-europe-q3-venture",
+      "slug": "europe-q3-venture-funding-ai-share",
+      "headline": "Europe posts a four-year venture high as AI takes 75% of Q3 funding",
+      "what_happened": "Crunchbase reported on 8 October 2026 that European startups raised $25 billion in the third quarter, the strongest quarter in four years and up 77% from $14 billion in Q3 2025. AI companies took $18.8 billion, 75% of the regional total, the highest share Crunchbase has recorded. Four rounds above $1 billion accounted for close to 40% of the total, including Mistral’s round, which Crunchbase put at about $3.5 billion, plus Nscale, Helsing and Quantum Systems. The UK led with $7.5 billion; Germany and France recorded $5 billion and $4.8 billion.",
+      "why_it_matters": "The quarter shows capital concentrating in European AI, defence and physical-tech companies rather than spreading evenly across early-stage software. It also tests whether sovereign-AI and industrial startups can keep raising at this scale without a matching base of European customers.",
+      "organization": [
+        "Crunchbase",
+        "Mistral",
+        "Nscale",
+        "Helsing",
+        "Quantum Systems"
+      ],
+      "product": [],
+      "category": "Funding",
+      "tags": [
+        "venture-capital",
+        "q3-2026",
+        "sovereign-ai",
+        "mistral",
+        "defence"
+      ],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-10-08T11:00:00.000Z",
+      "discovered_at": "2026-10-09T05:20:00.000Z",
+      "source_name": "Crunchbase News",
+      "source_url": "https://news.crunchbase.com/venture/q3-2026-europe-strong-quarter-ai-uk-germany-france/",
+      "verification_status": "reported",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-09-eci-ia-domain",
+      "slug": "commission-registers-eci-sovereign-ia-domain",
+      "headline": "Commission registers citizens’ initiative seeking a sovereign .IA domain",
+      "what_happened": "On 6 October 2026 the European Commission registered the European Citizens’ Initiative ‘Creation of a European Digital Space (.IA) for Sovereign AI Governance’. Organisers ask the Commission to propose a framework for high-trust digital spaces and AI sandboxes, and to negotiate with ISO and ICANN/IANA on reserving the .IA namespace as a European digital-sovereignty asset. They also want registration and resolution of that domain to use eIDAS 2.0 identity, AI Act auditing and GDPR. The Commission said registration only confirms legal admissibility and does not endorse the proposal.",
+      "why_it_matters": "The filing puts domain-level sovereignty and AI-governance rules into the citizens’ initiative process. If it gathers one million valid signatures from at least seven Member States, the Commission must formally respond.",
+      "organization": [
+        "European Commission"
+      ],
+      "product": [],
+      "category": "Regulation",
+      "tags": [
+        "eci",
+        "sovereign-ai",
+        "ia-domain",
+        "ai-act",
+        "eidas"
+      ],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-10-06T08:00:00.000Z",
+      "discovered_at": "2026-10-09T05:20:00.000Z",
+      "source_name": "European Commission",
+      "source_url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2064/IP_26_2064_EN.pdf",
+      "official_url": "https://germany.representation.ec.europa.eu/nachrichten-und-veranstaltungen/pressemitteilungen/kunstliche-intelligenz-eu-kommission-registriert-europaische-burgerinitiative-2026-10-06_de",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-09-openai-eu-text-watermark",
+      "slug": "openai-to-watermark-chatgpt-text-in-eu",
+      "headline": "OpenAI will watermark ChatGPT and Codex text for EU users",
+      "what_happened": "On 5 October 2026 OpenAI said it will add an invisible textGrain watermark to eligible ChatGPT and Codex text in the European Union over the coming weeks, citing AI Act rules that require generated text to be machine-readable. API customers worldwide can opt in from 5 October; the API setting stays off by default, and OpenAI is not making watermarking a global default. The company said detection fell from about 92% to 17% in one test after 25% of words were replaced with synonyms, and detector access will initially be limited to approved researchers and expert organisations.",
+      "why_it_matters": "This is one of the first frontier-lab product changes tied directly to the AI Act transparency rules that applied on 2 August 2026. The EU-only rollout also shows how uneven text provenance still is once output is edited.",
+      "organization": [
+        "OpenAI"
+      ],
+      "product": [
+        "ChatGPT",
+        "Codex",
+        "textGrain"
+      ],
+      "category": "Regulation",
+      "tags": [
+        "ai-act",
+        "transparency",
+        "watermark",
+        "chatgpt",
+        "codex"
+      ],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-10-05T20:36:00.000Z",
+      "discovered_at": "2026-10-09T05:20:00.000Z",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/eu-text-provenance/",
+      "official_url": "https://openai.com/index/eu-text-provenance/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-09-google-gemini-agent",
+      "slug": "google-cloud-launches-enterprise-gemini-agent",
+      "headline": "Google Cloud launches a Gemini agent that takes work objectives",
+      "what_happened": "At its Gemini at Work event on 8 October 2026, Google Cloud announced a single Gemini agent for enterprise customers that can be given objectives rather than step-by-step instructions. The agent plans work, uses skills and tools, and connects to systems including Google Workspace, Microsoft 365, Slack, Jira, Confluence, Git, BigQuery, Databricks, Postgres and Snowflake. Google said it can run as a coworker with its own identity and email, route steps to the model that fits the task, and include Anthropic's Claude as the first third-party model. It is in private preview for Gemini Enterprise, with wider availability planned for selected Workspace Business and Enterprise plans.",
+      "why_it_matters": "Google is putting a universal work agent in front of a product it says already reaches more than 1 billion monthly users and nearly 90% of the Fortune 100. Routing across first-party and third-party models, plus a dedicated agent identity, is the enterprise pattern competitors will have to match.",
+      "organization": [
+        "Google",
+        "Google Cloud",
+        "Anthropic"
+      ],
+      "product": [
+        "Gemini agent",
+        "Gemini Enterprise"
+      ],
+      "category": "Enterprise",
+      "tags": [
+        "google",
+        "gemini",
+        "enterprise-agent",
+        "claude",
+        "workspace"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-08T18:18:00.000Z",
+      "discovered_at": "2026-10-09T04:08:00.000Z",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "official_url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-09-manus-funding",
+      "slug": "manus-raises-over-500m-after-meta-exit",
+      "headline": "Manus parent raises more than $500 million after Meta deal unwind",
+      "what_happened": "On 8 October 2026 Butterfly Effect, parent of the Chinese AI-agent lab Manus, said it had raised more than $500 million, its first round since Beijing ordered Meta to unwind a deal valued at more than $2 billion. Boyu Capital and IDG Capital led, with Tencent, HSG and ZhenFund participating. Manus did not disclose a valuation. TechCrunch noted the company was previously said to be in talks to raise at a $4 billion valuation; Reuters reported a source saying a Hong Kong listing would not start before 2027.",
+      "why_it_matters": "Manus is the highest-profile general agent forced out of a US acquisition and back onto independent capital. The round shows Chinese agent labs can still raise at scale after export-control and investment-screening blocks, while the $4 billion figure remains unverified.",
+      "organization": [
+        "Butterfly Effect",
+        "Manus",
+        "Boyu Capital",
+        "IDG Capital"
+      ],
+      "product": [
+        "Manus"
+      ],
+      "category": "Funding",
+      "tags": [
+        "manus",
+        "funding",
+        "meta",
+        "china",
+        "agents"
+      ],
+      "country": "China",
+      "country_code": "CN",
+      "published_at": "2026-10-08T07:22:00.000Z",
+      "discovered_at": "2026-10-09T04:08:00.000Z",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/manus-raises-more-than-500-million-after-meta-exit-2026-10-08/",
+      "official_url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-09-nous-hermes-series-b",
+      "slug": "nous-research-90m-hermes-for-businesses",
+      "headline": "Nous Research raises $90 million at a $1.5 billion valuation for Hermes",
+      "what_happened": "On 7 October 2026 Nous Research said it raised a $90 million Series B at a $1.5 billion valuation to expand Hermes for Businesses. Robot Ventures led, with NVIDIA, Microsoft's M12, Samsung, Union Square Ventures, Y Combinator and Menlo Ventures among the participants. Total funding is $158 million. Nous said the MIT-licensed Hermes Agent, released in February 2026, has been cloned more than 24 million times and accounts for about 2.5% of global token usage by its own estimate. The Wall Street Journal figure of $36 million in annualized revenue by mid-September, and a path past $100 million by year-end, is company-reported via that outlet.",
+      "why_it_matters": "Hermes is the clearest open-source agent with both consumer traction and a priced enterprise edition. The round puts NVIDIA, Microsoft and Samsung behind a model-agnostic agent that enterprises can run on their own stack.",
+      "organization": [
+        "Nous Research",
+        "Robot Ventures",
+        "NVIDIA",
+        "Microsoft",
+        "Samsung"
+      ],
+      "product": [
+        "Hermes Agent",
+        "Hermes for Businesses"
+      ],
+      "category": "Funding",
+      "tags": [
+        "nous",
+        "hermes",
+        "open-source",
+        "series-b",
+        "enterprise-agents"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-07T17:00:00.000Z",
+      "discovered_at": "2026-10-09T04:08:00.000Z",
+      "source_name": "Nous Research",
+      "source_url": "https://nousresearch.com/a-note-on-our-fundraise",
+      "official_url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-09-goodfire-monitors",
+      "slug": "goodfire-inside-out-monitors-for-rogue-agents",
+      "headline": "Goodfire ships internal-state monitors to catch rogue agents cheaper",
+      "what_happened": "On 8 October 2026 Goodfire launched monitors that read a model's internal signals while an agent works, instead of paying a second model to review every output. The monitors are available to customers of Baseten and the first one targets Kimi K3. In Goodfire's tests on about 1,500 sessions, probes cost about $51 versus $233 for a cheaper over-the-shoulder model and about $10,000 for a top-tier one. The company said the probes caught 94% of malicious hacking sessions and sent 8.7% of harmless sessions for a second look.",
+      "why_it_matters": "Long-running agents make output monitoring too expensive to leave on. Internal probes are an attempt to keep a safety check in the loop without a second frontier-model bill on every step.",
+      "organization": [
+        "Goodfire",
+        "Baseten"
+      ],
+      "product": [
+        "Goodfire monitors"
+      ],
+      "category": "Safety",
+      "tags": [
+        "goodfire",
+        "interpretability",
+        "agent-monitoring",
+        "kimi",
+        "baseten"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-08T16:00:00.000Z",
+      "discovered_at": "2026-10-09T04:08:00.000Z",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+      "verification_status": "reported",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-09-rein-security-series-a",
+      "slug": "rein-security-raises-25m-agent-runtime-security",
+      "headline": "Rein Security raises $25 million for runtime defense of enterprise agents",
+      "what_happened": "On 8 October 2026 Rein Security said it raised a $25 million Series A co-led by Glilot Capital and Sienna Venture Capital, with Corner Ventures, Atlacle and RNP Capital Advisors participating. Total funding is $35 million. The New York and Tel Aviv company sells runtime security for agents that enterprises build and for agent traffic aimed at those enterprises. It said revenue is up 8x and the customer base 5x since a January 2026 launch, and named Flex and Swimlane among new customers.",
+      "why_it_matters": "Agent security funding is splitting between offensive testing and runtime controls. Rein is raising against the claim that traditional detection does not see agents acting across business systems.",
+      "organization": [
+        "Rein Security",
+        "Glilot Capital",
+        "Sienna Venture Capital"
+      ],
+      "product": [
+        "Rein Security"
+      ],
+      "category": "Funding",
+      "tags": [
+        "rein-security",
+        "series-a",
+        "runtime-security",
+        "agent-security"
+      ],
+      "country": "Israel",
+      "country_code": "IL",
+      "published_at": "2026-10-08T10:00:00.000Z",
+      "discovered_at": "2026-10-09T04:08:00.000Z",
+      "source_name": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/rein-security-raises-25-million-to-secure-the-ai-agents-enterprises-build-and-stop-the-ones-that-attack-them-302901591.html",
+      "official_url": "https://www.prnewswire.com/news-releases/rein-security-raises-25-million-to-secure-the-ai-agents-enterprises-build-and-stop-the-ones-that-attack-them-302901591.html",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-09-elastic-alertzero",
+      "slug": "elastic-alertzero-security-agent-team",
+      "headline": "Elastic ships AlertZero, a team of security agents for alert triage",
+      "what_happened": "On 8 October 2026 Elastic introduced AlertZero inside Elastic Security, a set of specialized agents for alert triage, threat hunting and forensic analysis. Customers choose how much of the work runs without a person signing off. SiliconANGLE reported four agent groups, called Watches, that write to a shared investigation record: Triage Watch closes noise with a written reason, Hunt Watch runs continuous hunting, Detection Watch proposes rule changes that still need approval, and Forensics Watch handles malware analysis and exploit-path tracing.",
+      "why_it_matters": "Security operations is one of the first places buyers will let agents close work, not only draft it. Elastic is productizing that split: autonomous triage, human approval on detection changes.",
+      "organization": [
+        "Elastic"
+      ],
+      "product": [
+        "AlertZero",
+        "Elastic Security"
+      ],
+      "category": "Security",
+      "tags": [
+        "elastic",
+        "alertzero",
+        "soc",
+        "security-agents"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-08T23:08:00.000Z",
+      "discovered_at": "2026-10-09T04:08:00.000Z",
+      "source_name": "SiliconANGLE",
+      "source_url": "https://siliconangle.com/2026/10/08/elastics-alertzero-puts-ai-agents-to-work-on-security-alert-overload/",
+      "verification_status": "reported",
+      "confidence": "medium"
+    },
+    {
+      "id": "2026-10-09-zenity-agentcorruption",
+      "slug": "zenity-agentcorruption-agentcore-memory-hijack",
+      "headline": "Zenity shows AgentCore memory can be used to persistently hijack agents",
+      "what_happened": "On 8 October 2026 Zenity Labs published AgentCorruption, a follow-up showing that credentials taken from an exposed Amazon Bedrock AgentCore agent could write events into another agent's memory in the same account and region. The planted memory record was treated as a lasting user instruction and told the agent to fetch further instructions from an attacker-controlled page before answering. The write used the bedrock-agentcore:CreateEvent permission.",
+      "why_it_matters": "Agent memory is becoming a persistence channel, not only a convenience feature. A single over-permissioned execution role can turn one prompt injection into instructions that survive the original session.",
+      "organization": [
+        "Zenity",
+        "Amazon Web Services"
+      ],
+      "product": [
+        "Amazon Bedrock AgentCore"
+      ],
+      "category": "Security",
+      "tags": [
+        "zenity",
+        "agentcore",
+        "memory",
+        "prompt-injection",
+        "aws"
+      ],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-08T14:54:00.000Z",
+      "discovered_at": "2026-10-09T04:08:00.000Z",
+      "source_name": "Zenity Labs",
+      "source_url": "https://labs.zenity.io/post/agentcorruption-weaponizing-agent-memory-for-persistent-hijacking",
+      "official_url": "https://labs.zenity.io/post/agentcorruption-weaponizing-agent-memory-for-persistent-hijacking",
+      "verification_status": "reported",
+      "confidence": "medium"
+    }
+  ]
+}
