@@ -1,1 +1,12 @@
-PLACEHOLDER
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T05:30:00.000Z",
+  "key_agent_trends": [
+    "EU AI Act enforcement procedural rules advance: Commission opens consultation on implementing act for AI Office penalties, file access and limitation periods.",
+    "Agentic AI scales in European enterprises: Orange Spain deploys 1,000+ employee-built agents; CaixaBank extends Gemini Enterprise partnership to 2033.",
+    "Sovereign AI infrastructure: Italy mobilizes major industrial consortium for AI Gigafactory candidacy under EU call closing November.",
+    "Commission President proposes AI-enabled 'Only Once' reporting to cut administrative burdens for European businesses.",
+    "Frontier and ambient agent capabilities continue to advance globally, with active memory, self-improvement loops and in-session personal agents."
+  ],
+  "stories": []
+}
