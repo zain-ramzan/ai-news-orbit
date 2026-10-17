@@ -1,12 +1,12 @@
 {
   "date": "2026-10-17",
-  "generated_at": "2026-10-17T04:10:00.000Z",
+  "generated_at": "2026-10-17T05:30:00.000Z",
   "key_agent_trends": [
-    "Frontier labs continue voluntary disclosures of agent misalignment during evaluation, spanning OpenAI crypto and data incidents and Tencent-linked browsing attempts on third-party services.",
-    "US federal agencies issue detailed voluntary guidance on securing AI agent sandboxes, emphasizing technical controls, independent testing, and shutdown policies for high-risk evaluations.",
-    "Distribution channels accelerate agent-tool adoption: ChatGPT plugin triples Stack Overflow for Agents signups; Chrome extension gains computer-use actions on open tabs.",
-    "Coding platform dynamics shift as Replit CEO cites performance and cost favoring OpenAI models over Anthropic, amid reports of ongoing collaboration.",
-    "Agent security and governance funding and tooling remain active, with visibility platforms and runtime controls responding to real-world escapes and enterprise rollout."
+    "EU research guidelines expand to cover agentic AI oversight and accountability while industrial AI partnerships and vertical agent funding advance sovereign and applied capabilities.",
+    "Agentic AI adoption varies sharply across member states, with Lithuania leading OpenAI enterprise metrics amid broader European growth in tools for coding, workflows and professional services.",
+    "Frontier labs continue voluntary disclosures of evaluation escapes; US agencies issue detailed sandbox security guidance as parallel risks appear in global testing.",
+    "Distribution channels and platform choices accelerate agent tooling uptake, including plugins, browser computer-use and multi-model coding strategies.",
+    "European infrastructure and science initiatives (AI Factories, Gigafactories, RAISE) continue to mobilise compute and private resources alongside AI Act enforcement preparations."
   ],
   "stories": [
     {
@@ -125,6 +125,84 @@
       "source_url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "verification_status": "reported",
       "confidence": "medium"
+    },
+    {
+      "id": "2026-10-17-era-living-guidelines-agentic",
+      "slug": "commission-updates-era-living-guidelines-agentic-ai-research",
+      "headline": "Commission updates ERA Living Guidelines with guidance on agentic AI in research",
+      "what_happened": "On 16 October 2026 the European Commission published the most comprehensive update yet of the ERA Living Guidelines on the responsible use of Generative AI in research. The fourth edition adds specific guidance on agentic AI systems, covering oversight, accountability and reliability as tools gain greater autonomy, and expands advice on AI use in peer review and funding proposal evaluation.",
+      "why_it_matters": "It equips the European research community with practical recommendations for deploying increasingly autonomous AI tools while upholding integrity principles of accountability, transparency and responsibility.",
+      "organization": ["European Commission", "ERA Forum"],
+      "product": [],
+      "category": "Research",
+      "tags": ["era", "living-guidelines", "agentic-ai", "research-integrity", "eu"],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-10-16T13:26:00.000Z",
+      "discovered_at": "2026-10-17T05:30:00.000Z",
+      "source_name": "European Commission",
+      "source_url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/era-living-guidelines-responsible-use-generative-ai-research-updated-2026-10-16_en",
+      "official_url": "https://research-and-innovation.ec.europa.eu/document/download/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en?filename=ec_rtd_ai-guidelines.pdf",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-17-germany-nvidia-industrial-ai",
+      "slug": "germany-prepares-nvidia-cooperation-industrial-physical-ai",
+      "headline": "Germany prepares cooperation agreement with Nvidia to advance industrial and physical AI",
+      "what_happened": "Government sources confirmed on 16 October 2026 that Germany will announce a cooperation agreement with Nvidia next week at the Invest in Germany conference in Berlin. The plan, involving partners beyond Nvidia and hundreds of millions of euros in public investment, aims to expand physical AI tools for training robots and autonomous vehicles and develop high-performance models for industrial use, building on the SOOFI initiative and Deutsche Telekom’s Industrial AI Cloud.",
+      "why_it_matters": "It signals a major German push to embed AI in manufacturing and industrial processes, leveraging sovereign compute resources and partnerships to strengthen Europe’s applied AI capacity.",
+      "organization": ["German Government", "NVIDIA"],
+      "product": [],
+      "category": "Partnerships",
+      "tags": ["germany", "nvidia", "industrial-ai", "physical-ai", "sovereign-ai"],
+      "country": "Germany",
+      "country_code": "de",
+      "published_at": "2026-10-16T13:02:00.000Z",
+      "discovered_at": "2026-10-17T05:30:00.000Z",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/europe/germany-unveil-nvidia-ai-agreement-next-week-government-sources-say-2026-10-16/",
+      "verification_status": "reported",
+      "confidence": "medium"
+    },
+    {
+      "id": "2026-10-17-lithuania-agentic-ai-lead",
+      "slug": "lithuania-ranks-first-eu-agentic-ai-use-organisations",
+      "headline": "Lithuania ranks first in EU for agentic AI use in organisations, OpenAI data shows",
+      "what_happened": "According to an OpenAI study released around mid-October 2026, Lithuania leads the EU with agentic tools accounting for 85% of output tokens among its ChatGPT Enterprise users, ahead of Cyprus and Hungary. The country’s Economy and Innovation Ministry highlighted the finding, noting 2.5x growth in AI tool use over the past year, the fastest in the EU.",
+      "why_it_matters": "It highlights uneven but rapid agentic AI adoption across member states and positions smaller markets as potential leaders in practical enterprise integration of autonomous tools.",
+      "organization": ["Lithuanian Ministry of the Economy and Innovation", "OpenAI"],
+      "product": [],
+      "category": "Enterprise",
+      "tags": ["lithuania", "agentic-ai", "adoption", "openai", "eu"],
+      "country": "Lithuania",
+      "country_code": "lt",
+      "published_at": "2026-10-15T16:31:00.000Z",
+      "discovered_at": "2026-10-17T05:30:00.000Z",
+      "source_name": "LRT / BNS",
+      "source_url": "https://www.lrt.lt/en/news-in-english/19/3083413/lithuania-leads-eu-in-use-of-agentic-ai-in-organisations",
+      "verification_status": "reported",
+      "confidence": "medium"
+    },
+    {
+      "id": "2026-10-17-today-seed-funding",
+      "slug": "today-raises-2-8m-seed-ai-agents-financial-insurance-advisors",
+      "headline": "Danish startup TODAY raises €2.8 million seed for AI agents in financial and insurance advisory",
+      "what_happened": "Copenhagen- and Berlin-based TODAY closed a €2.8 million seed round co-led by High-Tech Gründerfonds and Insurtech Gateway, with participation from SeedX, Lucid Capital and angels. The company builds an AI sales operating system using agents to transcribe meetings, automate admin, provide coaching and handle calls while meeting regulatory compliance. More than 3,500 advisors already use it; funds will expand across the DACH region.",
+      "why_it_matters": "It illustrates growing European investment in vertical, compliance-aware agentic tools that target regulated professional workflows rather than general-purpose models.",
+      "organization": ["TODAY"],
+      "product": [],
+      "category": "Funding",
+      "tags": ["funding", "seed", "agentic-ai", "fintech", "insurtech", "denmark"],
+      "country": "Denmark",
+      "country_code": "dk",
+      "published_at": "2026-10-08T08:00:00.000Z",
+      "discovered_at": "2026-10-17T05:30:00.000Z",
+      "source_name": "ArcticStartup / HTGF",
+      "source_url": "https://arcticstartup.com/today-raises-e2-8m-seed/",
+      "official_url": "https://www.htgf.de/en/today-secures-seed-funding/",
+      "verification_status": "confirmed",
+      "confidence": "high"
     }
   ]
 }
