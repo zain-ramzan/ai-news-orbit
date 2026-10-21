@@ -1,1 +1,52 @@
-$(cat /tmp/index.json)
+[
+  {
+    "id": "2026-10-21-en-18286-harmonised-standard",
+    "slug": "commission-cites-en-18286-first-ai-act-harmonised-standard",
+    "headline": "European Commission cites EN 18286 as first harmonised standard under the AI Act",
+    "published_at": "2026-10-14T00:00:00.000Z",
+    "category": "Regulation",
+    "organization": ["European Commission", "CEN", "CENELEC"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-10-21-ai-office-first-rfis",
+    "slug": "ai-office-sends-first-requests-for-information-under-ai-act",
+    "headline": "European AI Office sends first Requests for Information under the AI Act",
+    "published_at": "2026-10-14T00:00:00.000Z",
+    "category": "Regulation",
+    "organization": ["European AI Office", "European Commission"],
+    "verification_status": "reported",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-10-21-cern-mistral-flare",
+    "slug": "cern-mistral-partner-on-flare-large-physics-model",
+    "headline": "CERN and Mistral partner to develop Flare, a Large Physics Model for collider physics",
+    "published_at": "2026-10-15T00:00:00.000Z",
+    "category": "Partnerships",
+    "organization": ["CERN", "Mistral AI"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-10-21-nvidia-french-startups",
+    "slug": "nvidia-announces-minority-investments-four-french-ai-startups",
+    "headline": "NVIDIA announces planned minority investments in four French AI startups",
+    "published_at": "2026-10-13T00:00:00.000Z",
+    "category": "Funding",
+    "organization": ["NVIDIA", "Doctolib", "Entalpic", "Genesis AI", "Pigment"],
+    "verification_status": "confirmed",
+    "country_code": "fr"
+  },
+  {
+    "id": "2026-10-21-flae-robotics-seed",
+    "slug": "flae-robotics-raises-over-1m-seed-ai-hospitality-agent",
+    "headline": "Czech FL\u00c6 Robotics raises over \u20ac1 million seed for AI hospitality agent",
+    "published_at": "2026-10-14T00:00:00.000Z",
+    "category": "Funding",
+    "organization": ["FL\u00c6 Robotics"],
+    "verification_status": "reported",
+    "country_code": "cz"
+  }
+]
