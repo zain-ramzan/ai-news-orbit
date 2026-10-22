@@ -1,5 +1,35 @@
 [
   {
+    "id": "2026-10-22-pigment-series-e",
+    "slug": "pigment-raises-250m-series-e-scaleup-europe-fund",
+    "headline": "Pigment raises $250 million Series E at $2.3 billion valuation",
+    "published_at": "2026-10-21T00:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Pigment", "Scaleup Europe Fund", "EQT", "NVIDIA"],
+    "verification_status": "confirmed",
+    "country_code": "fr"
+  },
+  {
+    "id": "2026-10-22-nvidia-european-telcos-ai",
+    "slug": "nvidia-partners-european-telcos-distributed-ai-infrastructure",
+    "headline": "NVIDIA announces European telcos expanding networks into distributed AI platforms at GTC Berlin",
+    "published_at": "2026-10-21T00:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["NVIDIA", "Deutsche Telekom", "Orange", "Nokia", "BT", "Elisa"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-10-22-epc-meta-ai-terms",
+    "slug": "european-publishers-urge-commission-halt-meta-ai-terms",
+    "headline": "European Publishers Council urges Commission to halt Meta's new AI-related terms",
+    "published_at": "2026-10-21T00:00:00.000Z",
+    "category": "Regulation",
+    "organization": ["European Publishers Council", "European Commission", "Meta"],
+    "verification_status": "reported",
+    "country_code": "eu"
+  },
+  {
     "id": "2026-10-22-claude-duet",
     "slug": "anthropic-opens-claude-duet-proactive-agent-preview",
     "headline": "Anthropic opens Claude Duet research preview, a proactive agent for Pro and Max users",
