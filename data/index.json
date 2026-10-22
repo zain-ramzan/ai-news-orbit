@@ -1,5 +1,65 @@
 [
   {
+    "id": "2026-10-22-claude-duet",
+    "slug": "anthropic-opens-claude-duet-proactive-agent-preview",
+    "headline": "Anthropic opens Claude Duet research preview, a proactive agent for Pro and Max users",
+    "published_at": "2026-10-21T00:00:00.000Z",
+    "category": "Products",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-22-walmart-agent-gateway",
+    "slug": "walmart-launches-agent-gateway-mcp-for-ai-shopping-agents",
+    "headline": "Walmart launches Agent Gateway MCP server and Agent Profiles for AI shopping agents",
+    "published_at": "2026-10-21T00:00:00.000Z",
+    "category": "Protocols",
+    "organization": ["Walmart"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-22-nvidia-openshell-architecture",
+    "slug": "nvidia-launches-openshell-reference-architecture-safe-ai-agents",
+    "headline": "NVIDIA launches OpenShell Reference Architecture for safe AI agents at GTC Berlin",
+    "published_at": "2026-10-21T00:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["NVIDIA"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-22-oracle-agent-studio-industry",
+    "slug": "oracle-announces-ai-agent-studio-for-industry-applications",
+    "headline": "Oracle announces AI Agent Studio for Industry Applications",
+    "published_at": "2026-10-21T00:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Oracle"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-22-servicenow-arc-ga",
+    "slug": "servicenow-arc-personal-enterprise-agent-generally-available-nvidia",
+    "headline": "ServiceNow makes Arc personal enterprise AI agent generally available with NVIDIA OpenShell",
+    "published_at": "2026-10-21T00:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["ServiceNow", "NVIDIA"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-22-openai-patch-the-planet-php",
+    "slug": "openai-patch-the-planet-agents-find-critical-php-flaws",
+    "headline": "OpenAI says agents under Patch the Planet found critical PHP flaws before disclosure",
+    "published_at": "2026-10-21T14:04:00.000Z",
+    "category": "Security",
+    "organization": ["OpenAI"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
     "id": "2026-10-21-en-18286-harmonised-standard",
     "slug": "commission-cites-en-18286-first-ai-act-harmonised-standard",
     "headline": "European Commission cites EN 18286 as first harmonised standard under the AI Act",
