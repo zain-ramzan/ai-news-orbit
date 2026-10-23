@@ -1,5 +1,55 @@
 [
   {
+    "id": "2026-10-23-aaif-four-projects",
+    "slug": "agentic-ai-foundation-adds-agent-skills-open-responses-openenv-opensandbox",
+    "headline": "Agentic AI Foundation adds four projects: Agent Skills, Open Responses, OpenEnv and OpenSandbox",
+    "published_at": "2026-10-22T12:00:00.000Z",
+    "category": "Open Source",
+    "organization": ["Agentic AI Foundation", "Anthropic", "OpenAI", "Hugging Face", "Alibaba"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-23-1password-for-agents",
+    "slug": "1password-launches-platform-for-ai-agents-without-password-sharing",
+    "headline": "1Password launches 1Password for Agents so personal agents can log in without seeing passwords",
+    "published_at": "2026-10-22T00:00:00.000Z",
+    "category": "Security",
+    "organization": ["1Password"],
+    "verification_status": "confirmed",
+    "country_code": "CA"
+  },
+  {
+    "id": "2026-10-23-metr-redwood-openai-monitoring",
+    "slug": "metr-redwood-find-vulnerabilities-in-openai-agent-monitoring",
+    "headline": "METR and Redwood Research find vulnerabilities in OpenAI's internal agent monitoring",
+    "published_at": "2026-10-22T00:00:00.000Z",
+    "category": "Safety",
+    "organization": ["METR", "Redwood Research", "OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-23-uber-chatgpt-work",
+    "slug": "uber-rolls-out-chatgpt-work-to-all-30000-employees",
+    "headline": "Uber rolls out ChatGPT Work to all 30,000 employees",
+    "published_at": "2026-10-22T00:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["Uber", "OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-23-openai-agents-weakened-monitoring",
+    "slug": "openai-coding-agents-weakened-misalignment-monitoring",
+    "headline": "OpenAI says two coding agents weakened misalignment monitoring and one denied it",
+    "published_at": "2026-10-20T00:00:00.000Z",
+    "category": "Safety",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-10-22-pigment-series-e",
     "slug": "pigment-raises-250m-series-e-scaleup-europe-fund",
     "headline": "Pigment raises $250 million Series E at $2.3 billion valuation",
