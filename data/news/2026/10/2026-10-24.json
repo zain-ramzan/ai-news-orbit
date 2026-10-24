@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T04:08:00.000Z",
+  "key_agent_trends": [
+    "Agent infrastructure funding accelerates as Daytona reaches unicorn status for specialized cloud sandboxes tailored to short-lived, stateful agent jobs.",
+    "Open-source agent tooling matures with TanStack AI 1.0 delivering a stable, provider-agnostic toolkit including sandboxes, subagents and experimental long-running harnesses.",
+    "Specialized low-latency decision APIs become production-ready, enabling agents and apps to make high-volume classification and routing choices far more efficiently than general-purpose models."
+  ],
+  "stories": [
+    {
+      "id": "2026-10-24-daytona-series-b",
+      "slug": "daytona-raises-60m-series-b-at-1b-valuation-for-agent-cloud",
+      "headline": "Daytona raises $60M Series B at $1B valuation for agent cloud infrastructure",
+      "what_happened": "Daytona Platforms announced a $60 million Series B led by FirstMark Growth at a $1 billion valuation, bringing total funding to $91 million. The company builds specialized cloud infrastructure for AI agents that spin up thousands of short-lived, stateful sandboxes supporting Linux, Windows, macOS and GPU environments. Notable angels include Patrick Collison, Tobi L\u00fctke, Aravind Srinivas, Eric Yuan and Adam D\u2019Angelo.",
+      "why_it_matters": "It signals strong investor conviction that existing cloud primitives are insufficient for agent workloads, and that specialized, low-latency sandbox infrastructure will be a critical layer as agents move from demos to production-scale execution.",
+      "organization": ["Daytona"],
+      "product": ["Daytona Agent Cloud"],
+      "category": "Funding",
+      "tags": ["daytona", "funding", "agent-infrastructure", "sandboxes", "unicorn"],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-23T16:26:00.000Z",
+      "discovered_at": "2026-10-24T04:08:00.000Z",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+      "official_url": "https://www.daytona.io/dotfiles/daytona-raises-60m-series-b-to-build-the-agent-cloud",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-24-tanstack-ai-1-0",
+      "slug": "tanstack-ai-reaches-1-0-with-stable-agent-toolkit",
+      "headline": "TanStack AI reaches 1.0 with stable agent toolkit and experimental harness",
+      "what_happened": "TanStack published version 1.0 of its AI stack on October 23, 2026, stabilizing 76 packages. The release formally supports agents, subagents, coding-agent workflows, sandboxes, 23 provider adapters, and an experimental harness for long-running agents that persist across restarts and support mid-turn steering.",
+      "why_it_matters": "It gives developers a mature, framework- and provider-agnostic open-source alternative for building production agent applications, reducing lock-in and simplifying the embedding of tool-calling and coding agents across web apps and editors.",
+      "organization": ["TanStack"],
+      "product": ["TanStack AI"],
+      "category": "Frameworks",
+      "tags": ["tanstack", "open-source", "agent-toolkit", "harness", "sandboxes"],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-23T00:00:00.000Z",
+      "discovered_at": "2026-10-24T04:08:00.000Z",
+      "source_name": "TanStack Blog",
+      "source_url": "https://tanstack.com/blog/tanstack-ai-1-0",
+      "official_url": "https://tanstack.com/ai/latest",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-24-openai-decisions-api-ga",
+      "slug": "openai-decisions-api-generally-available-for-fast-agent-decisions",
+      "headline": "OpenAI makes Decisions API generally available for fast agent routing and classification",
+      "what_happened": "On October 22, 2026, OpenAI announced general availability of the Decisions API, powered by GPT-6 Luna. It returns probabilities, choices or scores for bounded questions up to 10x faster than the Responses API, with pricing of $0.10 per million input tokens and no output charge. Requests now support up to 400 questions, native JSON, images and prompt caching.",
+      "why_it_matters": "It provides a production-ready, low-cost primitive for the high-volume micro-decisions agents and applications make throughout workflows, such as classification, routing and next-action selection, without the latency or cost of full generative calls.",
+      "organization": ["OpenAI"],
+      "product": ["Decisions API", "GPT-6 Luna"],
+      "category": "Models",
+      "tags": ["openai", "decisions-api", "gpt-6-luna", "classification", "routing"],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-22T00:00:00.000Z",
+      "discovered_at": "2026-10-24T04:08:00.000Z",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/decisions-api/",
+      "official_url": "https://openai.com/index/decisions-api/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    }
+  ]
+}

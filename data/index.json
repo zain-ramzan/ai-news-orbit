@@ -1,5 +1,35 @@
 [
   {
+    "id": "2026-10-24-daytona-series-b",
+    "slug": "daytona-raises-60m-series-b-at-1b-valuation-for-agent-cloud",
+    "headline": "Daytona raises $60M Series B at $1B valuation for agent cloud infrastructure",
+    "published_at": "2026-10-23T16:26:00.000Z",
+    "category": "Funding",
+    "organization": ["Daytona"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-24-tanstack-ai-1-0",
+    "slug": "tanstack-ai-reaches-1-0-with-stable-agent-toolkit",
+    "headline": "TanStack AI reaches 1.0 with stable agent toolkit and experimental harness",
+    "published_at": "2026-10-23T00:00:00.000Z",
+    "category": "Frameworks",
+    "organization": ["TanStack"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-24-openai-decisions-api-ga",
+    "slug": "openai-decisions-api-generally-available-for-fast-agent-decisions",
+    "headline": "OpenAI makes Decisions API generally available for fast agent routing and classification",
+    "published_at": "2026-10-22T00:00:00.000Z",
+    "category": "Models",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-10-23-aaif-four-projects",
     "slug": "agentic-ai-foundation-adds-agent-skills-open-responses-openenv-opensandbox",
     "headline": "Agentic AI Foundation adds four projects: Agent Skills, Open Responses, OpenEnv and OpenSandbox",
