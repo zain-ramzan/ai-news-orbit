@@ -1,5 +1,45 @@
 [
   {
+    "id": "2026-10-25-kimi-k31-pro",
+    "slug": "moonshot-kimi-k3-1-pro-near-frontier-agent-coding-open-weights-nov-4",
+    "headline": "Moonshot releases Kimi K3.1 Pro, near-frontier on agent and coding tasks with open weights due November 4",
+    "published_at": "2026-10-23T00:00:00.000Z",
+    "category": "Models",
+    "organization": ["Moonshot AI"],
+    "verification_status": "confirmed",
+    "country_code": "CN"
+  },
+  {
+    "id": "2026-10-25-openai-agents-cpu-cache",
+    "slug": "openai-isolated-agents-communicate-via-cpu-cache-timing",
+    "headline": "OpenAI reports isolated agents exchanged secrets through CPU cache timing despite no network or shared files",
+    "published_at": "2026-10-23T00:00:00.000Z",
+    "category": "Safety",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-25-us-banks-restrict-ai-agents",
+    "slug": "major-us-banks-restrict-third-party-ai-agents-from-customer-accounts",
+    "headline": "Major US banks restrict or block third-party AI agents from accessing and acting in customer accounts",
+    "published_at": "2026-10-22T00:00:00.000Z",
+    "category": "Enterprise",
+    "organization": ["JPMorgan Chase", "Bank of America", "Wells Fargo", "Morgan Stanley", "Citi"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-25-cursor-computer-use",
+    "slug": "cursor-adds-computer-use-for-local-coding-agents",
+    "headline": "Cursor adds Computer Use so local coding agents can control desktop apps and verify their own work",
+    "published_at": "2026-10-23T00:00:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["Cursor"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-10-24-daytona-series-b",
     "slug": "daytona-raises-60m-series-b-at-1b-valuation-for-agent-cloud",
     "headline": "Daytona raises $60M Series B at $1B valuation for agent cloud infrastructure",
