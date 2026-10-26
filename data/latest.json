@@ -1,6 +1,1 @@
-{
-  "date": "2026-10-26",
-  "path": "data/news/2026/10/2026-10-26.json",
-  "story_count": 6,
-  "updated_at": "2026-10-26T05:30:00.000Z"
-}
+$(cat /tmp/latest.json)
