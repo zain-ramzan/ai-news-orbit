@@ -1,1 +1,122 @@
-$(cat /tmp/index.json)
+[
+  {
+    "id": "2026-10-26-nanbeige-4-3-33b",
+    "slug": "nanbeige-releases-nanbeige4-3-33b-open-33b-agentic-teacher-model",
+    "headline": "Nanbeige open-sources Nanbeige4.3-33B, a 33B dense agentic teacher model with 512K context",
+    "published_at": "2026-10-25T12:00:00.000Z",
+    "category": "Models",
+    "organization": ["Nanbeige", "BOSS Zhipin"],
+    "verification_status": "confirmed",
+    "country_code": "CN"
+  },
+  {
+    "id": "2026-10-26-openmobile-2",
+    "slug": "researchers-release-openmobile-2-open-smartphone-agents-with-110-app-environment",
+    "headline": "Researchers release OpenMobile-2 open smartphone agents and full training stack, scoring 79.9 on AndroidWorld",
+    "published_at": "2026-10-25T00:00:00.000Z",
+    "category": "Research",
+    "organization": ["Nanjing University", "SenseTime"],
+    "verification_status": "confirmed",
+    "country_code": "CN"
+  },
+  {
+    "id": "2026-10-26-microsoft-agensh",
+    "slug": "microsoft-research-open-sources-agensh-decentralized-multi-agent-harness",
+    "headline": "Microsoft Research open-sources Agensh, a decentralized harness that scales coding agents to 1,024 without a central orchestrator",
+    "published_at": "2026-10-24T00:00:00.000Z",
+    "category": "Frameworks",
+    "organization": ["Microsoft Research", "Microsoft"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-26-vals-inference-provider-index",
+    "slug": "vals-ai-releases-inference-provider-index-for-open-weight-agent-tasks",
+    "headline": "Vals AI releases Inference Provider Index showing cost and speed gaps for same open-weight models on agent tasks",
+    "published_at": "2026-10-23T21:31:00.000Z",
+    "category": "Benchmarks",
+    "organization": ["Vals AI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-25-kimi-k31-pro",
+    "slug": "moonshot-kimi-k3-1-pro-near-frontier-agent-coding-open-weights-nov-4",
+    "headline": "Moonshot releases Kimi K3.1 Pro, near-frontier on agent and coding tasks with open weights due November 4",
+    "published_at": "2026-10-23T00:00:00.000Z",
+    "category": "Models",
+    "organization": ["Moonshot AI"],
+    "verification_status": "confirmed",
+    "country_code": "CN"
+  },
+  {
+    "id": "2026-10-26-meta-muse-japan",
+    "slug": "meta-launches-muse-personal-agent-in-japan",
+    "headline": "Meta launches personal agent Muse in Japan, first market outside North America",
+    "published_at": "2026-10-23T00:00:00.000Z",
+    "category": "Products",
+    "organization": ["Meta"],
+    "verification_status": "confirmed",
+    "country_code": "JP"
+  },
+  {
+    "id": "2026-10-26-anthropic-single-agent-loop",
+    "slug": "anthropic-advises-folding-subagents-into-single-agent-with-skills",
+    "headline": "Anthropic advises teams to fold many subagents into a single agent loop with skills and tools",
+    "published_at": "2026-10-22T00:00:00.000Z",
+    "category": "Frameworks",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-26-enact-intelligence-physical-ai",
+    "slug": "enact-intelligence-exits-stealth-with-26-68m-pre-seed-for-physical-ai",
+    "headline": "Swiss Enact Intelligence exits stealth with €26.68 million pre-seed for physical AI robots",
+    "published_at": "2026-10-22T00:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Enact Intelligence"],
+    "verification_status": "reported",
+    "country_code": "ch"
+  },
+  {
+    "id": "2026-10-26-pigment-250m-series-e",
+    "slug": "pigment-raises-250m-series-e-led-by-scaleup-europe-fund",
+    "headline": "Paris-based Pigment raises $250M Series E at $2.3B valuation led by Scaleup Europe Fund",
+    "published_at": "2026-10-21T00:00:00.000Z",
+    "category": "Funding",
+    "organization": ["Pigment", "Scaleup Europe Fund", "EQT"],
+    "verification_status": "confirmed",
+    "country_code": "fr"
+  },
+  {
+    "id": "2026-10-26-raise-ai-science-pledging",
+    "slug": "european-commission-launches-raise-pledging-initiative-for-ai-in-science",
+    "headline": "European Commission launches RAISE pledging initiative to mobilise private support for AI in science",
+    "published_at": "2026-10-15T00:00:00.000Z",
+    "category": "Partnerships",
+    "organization": ["European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-10-26-eu-ai-office-first-rfis",
+    "slug": "eu-ai-office-sends-first-requests-for-information-under-ai-act",
+    "headline": "EU AI Office sends first Requests for Information under AI Act on GPAI model security and evaluation",
+    "published_at": "2026-10-14T00:00:00.000Z",
+    "category": "Regulation",
+    "organization": ["European Commission", "European AI Office"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-10-26-en-18286-first-harmonised-standard",
+    "slug": "commission-cites-en-18286-first-harmonised-standard-under-ai-act",
+    "headline": "European Commission cites EN 18286 as first harmonised standard under the AI Act",
+    "published_at": "2026-10-14T00:00:00.000Z",
+    "category": "Regulation",
+    "organization": ["European Commission", "CEN", "CENELEC"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  }
+]
