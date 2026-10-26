@@ -20,6 +20,26 @@
     "country_code": "US"
   },
   {
+    "id": "2026-10-26-microsoft-agensh",
+    "slug": "microsoft-research-open-sources-agensh-decentralized-multi-agent-harness",
+    "headline": "Microsoft Research open-sources Agensh, a decentralized harness that scales coding agents to 1,024 without a central orchestrator",
+    "published_at": "2026-10-24T00:00:00.000Z",
+    "category": "Frameworks",
+    "organization": ["Microsoft Research", "Microsoft"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-26-openmobile-2",
+    "slug": "researchers-release-openmobile-2-open-smartphone-agents-with-110-app-environment",
+    "headline": "Researchers release OpenMobile-2 open smartphone agents and full training stack, scoring 79.9 on AndroidWorld",
+    "published_at": "2026-10-25T00:00:00.000Z",
+    "category": "Research",
+    "organization": ["Nanjing University", "SenseTime"],
+    "verification_status": "confirmed",
+    "country_code": "CN"
+  },
+  {
     "id": "2026-10-26-meta-muse-japan",
     "slug": "meta-launches-muse-personal-agent-in-japan",
     "headline": "Meta launches personal agent Muse in Japan, first market outside North America",
