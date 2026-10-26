@@ -1,5 +1,45 @@
 [
   {
+    "id": "2026-10-26-nanbeige-4-3-33b",
+    "slug": "nanbeige-releases-nanbeige4-3-33b-open-33b-agentic-teacher-model",
+    "headline": "Nanbeige open-sources Nanbeige4.3-33B, a 33B dense agentic teacher model with 512K context",
+    "published_at": "2026-10-25T12:00:00.000Z",
+    "category": "Models",
+    "organization": ["Nanbeige", "BOSS Zhipin"],
+    "verification_status": "confirmed",
+    "country_code": "CN"
+  },
+  {
+    "id": "2026-10-26-anthropic-single-agent-loop",
+    "slug": "anthropic-advises-folding-subagents-into-single-agent-with-skills",
+    "headline": "Anthropic advises teams to fold many subagents into a single agent loop with skills and tools",
+    "published_at": "2026-10-22T00:00:00.000Z",
+    "category": "Frameworks",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-26-meta-muse-japan",
+    "slug": "meta-launches-muse-personal-agent-in-japan",
+    "headline": "Meta launches personal agent Muse in Japan, first market outside North America",
+    "published_at": "2026-10-23T00:00:00.000Z",
+    "category": "Products",
+    "organization": ["Meta"],
+    "verification_status": "confirmed",
+    "country_code": "JP"
+  },
+  {
+    "id": "2026-10-26-vals-inference-provider-index",
+    "slug": "vals-ai-releases-inference-provider-index-for-open-weight-agent-tasks",
+    "headline": "Vals AI releases Inference Provider Index showing cost and speed gaps for same open-weight models on agent tasks",
+    "published_at": "2026-10-23T21:31:00.000Z",
+    "category": "Benchmarks",
+    "organization": ["Vals AI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-10-25-kimi-k31-pro",
     "slug": "moonshot-kimi-k3-1-pro-near-frontier-agent-coding-open-weights-nov-4",
     "headline": "Moonshot releases Kimi K3.1 Pro, near-frontier on agent and coding tasks with open weights due November 4",
@@ -8,255 +48,5 @@
     "organization": ["Moonshot AI"],
     "verification_status": "confirmed",
     "country_code": "CN"
-  },
-  {
-    "id": "2026-10-25-openai-agents-cpu-cache",
-    "slug": "openai-isolated-agents-communicate-via-cpu-cache-timing",
-    "headline": "OpenAI reports isolated agents exchanged secrets through CPU cache timing despite no network or shared files",
-    "published_at": "2026-10-23T00:00:00.000Z",
-    "category": "Safety",
-    "organization": ["OpenAI"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-25-us-banks-restrict-ai-agents",
-    "slug": "major-us-banks-restrict-third-party-ai-agents-from-customer-accounts",
-    "headline": "Major US banks restrict or block third-party AI agents from accessing and acting in customer accounts",
-    "published_at": "2026-10-22T00:00:00.000Z",
-    "category": "Enterprise",
-    "organization": ["JPMorgan Chase", "Bank of America", "Wells Fargo", "Morgan Stanley", "Citi"],
-    "verification_status": "reported",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-25-cursor-computer-use",
-    "slug": "cursor-adds-computer-use-for-local-coding-agents",
-    "headline": "Cursor adds Computer Use so local coding agents can control desktop apps and verify their own work",
-    "published_at": "2026-10-23T00:00:00.000Z",
-    "category": "Coding Agents",
-    "organization": ["Cursor"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-24-daytona-series-b",
-    "slug": "daytona-raises-60m-series-b-at-1b-valuation-for-agent-cloud",
-    "headline": "Daytona raises $60M Series B at $1B valuation for agent cloud infrastructure",
-    "published_at": "2026-10-23T16:26:00.000Z",
-    "category": "Funding",
-    "organization": ["Daytona"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-24-tanstack-ai-1-0",
-    "slug": "tanstack-ai-reaches-1-0-with-stable-agent-toolkit",
-    "headline": "TanStack AI reaches 1.0 with stable agent toolkit and experimental harness",
-    "published_at": "2026-10-23T00:00:00.000Z",
-    "category": "Frameworks",
-    "organization": ["TanStack"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-24-openai-decisions-api-ga",
-    "slug": "openai-decisions-api-generally-available-for-fast-agent-decisions",
-    "headline": "OpenAI makes Decisions API generally available for fast agent routing and classification",
-    "published_at": "2026-10-22T00:00:00.000Z",
-    "category": "Models",
-    "organization": ["OpenAI"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-23-aaif-four-projects",
-    "slug": "agentic-ai-foundation-adds-agent-skills-open-responses-openenv-opensandbox",
-    "headline": "Agentic AI Foundation adds four projects: Agent Skills, Open Responses, OpenEnv and OpenSandbox",
-    "published_at": "2026-10-22T12:00:00.000Z",
-    "category": "Open Source",
-    "organization": ["Agentic AI Foundation", "Anthropic", "OpenAI", "Hugging Face", "Alibaba"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-23-1password-for-agents",
-    "slug": "1password-launches-platform-for-ai-agents-without-password-sharing",
-    "headline": "1Password launches 1Password for Agents so personal agents can log in without seeing passwords",
-    "published_at": "2026-10-22T00:00:00.000Z",
-    "category": "Security",
-    "organization": ["1Password"],
-    "verification_status": "confirmed",
-    "country_code": "CA"
-  },
-  {
-    "id": "2026-10-23-metr-redwood-openai-monitoring",
-    "slug": "metr-redwood-find-vulnerabilities-in-openai-agent-monitoring",
-    "headline": "METR and Redwood Research find vulnerabilities in OpenAI's internal agent monitoring",
-    "published_at": "2026-10-22T00:00:00.000Z",
-    "category": "Safety",
-    "organization": ["METR", "Redwood Research", "OpenAI"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-23-uber-chatgpt-work",
-    "slug": "uber-rolls-out-chatgpt-work-to-all-30000-employees",
-    "headline": "Uber rolls out ChatGPT Work to all 30,000 employees",
-    "published_at": "2026-10-22T00:00:00.000Z",
-    "category": "Enterprise",
-    "organization": ["Uber", "OpenAI"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-23-openai-agents-weakened-monitoring",
-    "slug": "openai-coding-agents-weakened-misalignment-monitoring",
-    "headline": "OpenAI says two coding agents weakened misalignment monitoring and one denied it",
-    "published_at": "2026-10-20T00:00:00.000Z",
-    "category": "Safety",
-    "organization": ["OpenAI"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-22-pigment-series-e",
-    "slug": "pigment-raises-250m-series-e-scaleup-europe-fund",
-    "headline": "Pigment raises $250 million Series E at $2.3 billion valuation",
-    "published_at": "2026-10-21T00:00:00.000Z",
-    "category": "Funding",
-    "organization": ["Pigment", "Scaleup Europe Fund", "EQT", "NVIDIA"],
-    "verification_status": "confirmed",
-    "country_code": "fr"
-  },
-  {
-    "id": "2026-10-22-nvidia-european-telcos-ai",
-    "slug": "nvidia-partners-european-telcos-distributed-ai-infrastructure",
-    "headline": "NVIDIA announces European telcos expanding networks into distributed AI platforms at GTC Berlin",
-    "published_at": "2026-10-21T00:00:00.000Z",
-    "category": "Infrastructure",
-    "organization": ["NVIDIA", "Deutsche Telekom", "Orange", "Nokia", "BT", "Elisa"],
-    "verification_status": "confirmed",
-    "country_code": "eu"
-  },
-  {
-    "id": "2026-10-22-epc-meta-ai-terms",
-    "slug": "european-publishers-urge-commission-halt-meta-ai-terms",
-    "headline": "European Publishers Council urges Commission to halt Meta's new AI-related terms",
-    "published_at": "2026-10-21T00:00:00.000Z",
-    "category": "Regulation",
-    "organization": ["European Publishers Council", "European Commission", "Meta"],
-    "verification_status": "reported",
-    "country_code": "eu"
-  },
-  {
-    "id": "2026-10-22-claude-duet",
-    "slug": "anthropic-opens-claude-duet-proactive-agent-preview",
-    "headline": "Anthropic opens Claude Duet research preview, a proactive agent for Pro and Max users",
-    "published_at": "2026-10-21T00:00:00.000Z",
-    "category": "Products",
-    "organization": ["Anthropic"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-22-walmart-agent-gateway",
-    "slug": "walmart-launches-agent-gateway-mcp-for-ai-shopping-agents",
-    "headline": "Walmart launches Agent Gateway MCP server and Agent Profiles for AI shopping agents",
-    "published_at": "2026-10-21T00:00:00.000Z",
-    "category": "Protocols",
-    "organization": ["Walmart"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-22-nvidia-openshell-architecture",
-    "slug": "nvidia-launches-openshell-reference-architecture-safe-ai-agents",
-    "headline": "NVIDIA launches OpenShell Reference Architecture for safe AI agents at GTC Berlin",
-    "published_at": "2026-10-21T00:00:00.000Z",
-    "category": "Infrastructure",
-    "organization": ["NVIDIA"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-22-oracle-agent-studio-industry",
-    "slug": "oracle-announces-ai-agent-studio-for-industry-applications",
-    "headline": "Oracle announces AI Agent Studio for Industry Applications",
-    "published_at": "2026-10-21T00:00:00.000Z",
-    "category": "Enterprise",
-    "organization": ["Oracle"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-22-servicenow-arc-ga",
-    "slug": "servicenow-arc-personal-enterprise-agent-generally-available-nvidia",
-    "headline": "ServiceNow makes Arc personal enterprise AI agent generally available with NVIDIA OpenShell",
-    "published_at": "2026-10-21T00:00:00.000Z",
-    "category": "Enterprise",
-    "organization": ["ServiceNow", "NVIDIA"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-22-openai-patch-the-planet-php",
-    "slug": "openai-patch-the-planet-agents-find-critical-php-flaws",
-    "headline": "OpenAI says agents under Patch the Planet found critical PHP flaws before disclosure",
-    "published_at": "2026-10-21T14:04:00.000Z",
-    "category": "Security",
-    "organization": ["OpenAI"],
-    "verification_status": "reported",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-10-21-en-18286-harmonised-standard",
-    "slug": "commission-cites-en-18286-first-ai-act-harmonised-standard",
-    "headline": "European Commission cites EN 18286 as first harmonised standard under the AI Act",
-    "published_at": "2026-10-14T00:00:00.000Z",
-    "category": "Regulation",
-    "organization": ["European Commission", "CEN", "CENELEC"],
-    "verification_status": "confirmed",
-    "country_code": "eu"
-  },
-  {
-    "id": "2026-10-21-ai-office-first-rfis",
-    "slug": "ai-office-sends-first-requests-for-information-under-ai-act",
-    "headline": "European AI Office sends first Requests for Information under the AI Act",
-    "published_at": "2026-10-14T00:00:00.000Z",
-    "category": "Regulation",
-    "organization": ["European AI Office", "European Commission"],
-    "verification_status": "reported",
-    "country_code": "eu"
-  },
-  {
-    "id": "2026-10-21-cern-mistral-flare",
-    "slug": "cern-mistral-partner-on-flare-large-physics-model",
-    "headline": "CERN and Mistral partner to develop Flare, a Large Physics Model for collider physics",
-    "published_at": "2026-10-15T00:00:00.000Z",
-    "category": "Partnerships",
-    "organization": ["CERN", "Mistral AI"],
-    "verification_status": "confirmed",
-    "country_code": "eu"
-  },
-  {
-    "id": "2026-10-21-nvidia-french-startups",
-    "slug": "nvidia-announces-minority-investments-four-french-ai-startups",
-    "headline": "NVIDIA announces planned minority investments in four French AI startups",
-    "published_at": "2026-10-13T00:00:00.000Z",
-    "category": "Funding",
-    "organization": ["NVIDIA", "Doctolib", "Entalpic", "Genesis AI", "Pigment"],
-    "verification_status": "confirmed",
-    "country_code": "fr"
-  },
-  {
-    "id": "2026-10-21-flae-robotics-seed",
-    "slug": "flae-robotics-raises-over-1m-seed-ai-hospitality-agent",
-    "headline": "Czech FL\u00c6 Robotics raises over \u20ac1 million seed for AI hospitality agent",
-    "published_at": "2026-10-14T00:00:00.000Z",
-    "category": "Funding",
-    "organization": ["FL\u00c6 Robotics"],
-    "verification_status": "reported",
-    "country_code": "cz"
   }
 ]
