@@ -1,1 +1,5 @@
-$(cat /tmp/latest.json)
+{
+  "date": "2026-10-26",
+  "path": "data/news/2026/10/2026-10-26.json",
+  "story_count": 11
+}
