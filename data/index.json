@@ -1,5 +1,45 @@
 [
   {
+    "id": "2026-10-28-uk-ai-biosecurity-package",
+    "slug": "uk-government-announces-ai-biosecurity-lab-and-sovereign-ai-investments",
+    "headline": "UK government announces \u00a3165m National AI Biosecurity Initiative and additional funding for sovereign AI and cyber tools",
+    "published_at": "2026-10-24T00:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["UK Government", "HM Treasury"],
+    "verification_status": "confirmed",
+    "country_code": "gb"
+  },
+  {
+    "id": "2026-10-28-anthropic-hg-european-consultancy",
+    "slug": "anthropic-and-hg-plan-european-ai-consultancy-with-london-berlin-hubs",
+    "headline": "Anthropic and Hg plan European AI consultancy to embed engineers in businesses",
+    "published_at": "2026-10-23T00:00:00.000Z",
+    "category": "Partnerships",
+    "organization": ["Anthropic", "Hg"],
+    "verification_status": "reported",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-10-28-eu-ai-gigafactories-deadline-extension",
+    "slug": "eurohpc-extends-ai-gigafactories-lot-1-deadline-to-february-2027",
+    "headline": "EuroHPC extends AI Gigafactories Lot 1 deadline to 4 February 2027",
+    "published_at": "2026-10-26T00:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["EuroHPC Joint Undertaking", "European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-10-28-netherlands-rotterdam-ai-gigafactory-nebius",
+    "slug": "dutch-pm-endorses-rotterdam-ai-gigafactory-with-nebius-as-anchor-tenant",
+    "headline": "Dutch PM endorses Rotterdam AI Gigafactory; Nebius signs LOI as first offtaker",
+    "published_at": "2026-10-20T00:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["Dutch Government", "Nebius", "Volt"],
+    "verification_status": "reported",
+    "country_code": "nl"
+  },
+  {
     "id": "2026-10-28-openai-oracle-chatgpt-apps",
     "slug": "openai-oracle-expand-partnership-oracle-apps-into-chatgpt",
     "headline": "OpenAI and Oracle expand partnership to bring Oracle apps and data into ChatGPT",
