@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-10-28-openai-oracle-chatgpt-apps",
+    "slug": "openai-oracle-expand-partnership-oracle-apps-into-chatgpt",
+    "headline": "OpenAI and Oracle expand partnership to bring Oracle apps and data into ChatGPT",
+    "published_at": "2026-10-27T00:00:00.000Z",
+    "category": "Partnerships",
+    "organization": ["OpenAI", "Oracle"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-28-akamai-inference-agent-sandbox",
+    "slug": "akamai-launches-inference-and-agent-sandbox-beta",
+    "headline": "Akamai launches Akamai Inference and Agent Sandbox in beta for managed models and isolated agent execution",
+    "published_at": "2026-10-27T00:00:00.000Z",
+    "category": "Infrastructure",
+    "organization": ["Akamai"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
     "id": "2026-10-27-oracle-fusion-claw",
     "slug": "oracle-launches-fusion-claw-governed-agentic-apps-at-ai-world",
     "headline": "Oracle launches Fusion Claw governed agentic runtime and 25 agentic apps for supply chain, CX and more",
@@ -112,7 +132,7 @@
   {
     "id": "2026-10-26-enact-intelligence-physical-ai",
     "slug": "enact-intelligence-exits-stealth-with-26-68m-pre-seed-for-physical-ai",
-    "headline": "Swiss Enact Intelligence exits stealth with €26.68 million pre-seed for physical AI robots",
+    "headline": "Swiss Enact Intelligence exits stealth with \u20ac26.68 million pre-seed for physical AI robots",
     "published_at": "2026-10-22T00:00:00.000Z",
     "category": "Funding",
     "organization": ["Enact Intelligence"],

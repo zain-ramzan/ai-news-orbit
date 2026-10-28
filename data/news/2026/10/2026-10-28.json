@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T05:08:48.000Z",
+  "key_agent_trends": [
+    "ChatGPT becomes a distribution surface for enterprise apps as OpenAI and Oracle expand their partnership to embed Oracle applications, data and workflows directly into ChatGPT.",
+    "Agent execution infrastructure matures with dedicated sandboxes and edge inference: Akamai launches beta Agent Sandbox (WebAssembly isolation) and managed Inference for open-weight models.",
+    "Enterprise agent governance continues to focus on identity, least-privilege credentials and containment across multi-vendor environments."
+  ],
+  "stories": [
+    {
+      "id": "2026-10-28-openai-oracle-chatgpt-apps",
+      "slug": "openai-oracle-expand-partnership-oracle-apps-into-chatgpt",
+      "headline": "OpenAI and Oracle expand partnership to bring Oracle apps and data into ChatGPT",
+      "what_happened": "On October 27, 2026, OpenAI and Oracle announced an expanded partnership that brings Oracle applications, data and workflows into ChatGPT while powering new Oracle offerings with OpenAI models. New products include Oracle AI Workspace (plugins in ChatGPT for Fusion, NetSuite, AI Database and OCI), Oracle App Composer (Codex-powered app building connected to Oracle data), Oracle AI Security Mesh (using OpenAI cyber models), and an Oracle AI SMB Bundle. U.S. customers can already purchase OpenAI services via Oracle Marketplace. The move was detailed at Oracle AI World, with OpenAI CEO Sam Altman joining Oracle leadership.",
+      "why_it_matters": "It turns ChatGPT into a major enterprise distribution channel for third-party business applications and agents, letting employees complete approved workflows across Oracle systems from a single conversational interface while preserving existing permissions and controls.",
+      "organization": ["OpenAI", "Oracle"],
+      "product": ["ChatGPT", "Oracle AI Workspace", "Oracle App Composer", "Codex"],
+      "category": "Partnerships",
+      "tags": ["openai", "oracle", "chatgpt", "enterprise", "partnership", "apps", "workspace"],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-27T00:00:00.000Z",
+      "discovered_at": "2026-10-28T05:08:48.000Z",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/oracle-apps-in-chatgpt/",
+      "official_url": "https://openai.com/index/oracle-apps-in-chatgpt/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-10-28-akamai-inference-agent-sandbox",
+      "slug": "akamai-launches-inference-and-agent-sandbox-beta",
+      "headline": "Akamai launches Akamai Inference and Agent Sandbox in beta for managed models and isolated agent execution",
+      "what_happened": "On October 27, 2026, Akamai introduced two beta products for its AI Cloud: Akamai Inference, a managed model-serving service offering OpenAI-compatible APIs to 12 open-weight models (including Nemotron 3 Ultra, gpt-oss-120b and Gemma 4) with serverless or dedicated options, and Akamai Agent Sandbox, an isolated runtime that runs agents on Akamai Functions while executing agent-generated code in a nested WebAssembly sandbox via the open-source Spin framework. The sandbox enforces limits on compute, memory, system capabilities and outbound connections (deny-by-default). Both are available in beta; dedicated NVIDIA B300 clusters require sales contact.",
+      "why_it_matters": "It addresses two practical bottlenecks for production agents—reliable low-latency inference close to users and safe containment of untrusted agent-generated code—on a global edge cloud, making agent workloads more deployable outside traditional hyperscaler environments.",
+      "organization": ["Akamai"],
+      "product": ["Akamai Inference", "Akamai Agent Sandbox"],
+      "category": "Infrastructure",
+      "tags": ["akamai", "inference", "agent-sandbox", "wasm", "spin", "edge", "security"],
+      "country": "United States",
+      "country_code": "US",
+      "published_at": "2026-10-27T00:00:00.000Z",
+      "discovered_at": "2026-10-28T05:08:48.000Z",
+      "source_name": "Akamai",
+      "source_url": "https://www.akamai.com/newsroom/press-release/akamai-launches-ai-inference-service-and-agent-execution-environment",
+      "official_url": "https://www.akamai.com/newsroom/press-release/akamai-launches-ai-inference-service-and-agent-execution-environment",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    }
+  ]
+}
