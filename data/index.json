@@ -1,5 +1,45 @@
 [
   {
+    "id": "2026-10-29-google-consumer-gemini-agent",
+    "slug": "google-to-bring-enterprise-gemini-agent-experience-to-consumers",
+    "headline": "Google to bring enterprise Gemini agent experience to consumers later this year, starting with Gemini app",
+    "published_at": "2026-10-28T00:00:00.000Z",
+    "category": "Products",
+    "organization": ["Google", "Alphabet"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-29-github-universe-agentic-delivery",
+    "slug": "github-universe-2026-agentic-workflows-fusion-computer-use",
+    "headline": "GitHub Universe 2026: Agentic Workflows GA, Copilot Fusion, Projects, and computer use previews",
+    "published_at": "2026-10-28T00:00:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["GitHub", "Microsoft"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-29-android-studio-bring-your-own-agent",
+    "slug": "google-android-studio-bring-your-own-agent-40-plus-agents",
+    "headline": "Android Studio adds Bring Your Own Agent with 40+ agents including Claude and Codex",
+    "published_at": "2026-10-28T00:00:00.000Z",
+    "category": "Coding Agents",
+    "organization": ["Google", "Android"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-10-29-anthropic-ai-for-science-expansion",
+    "slug": "anthropic-expands-ai-for-science-to-20-foundations-including-nsf",
+    "headline": "Anthropic expands AI for Science program to 20 foundations and institutions including NSF",
+    "published_at": "2026-10-28T00:00:00.000Z",
+    "category": "Partnerships",
+    "organization": ["Anthropic"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
     "id": "2026-10-28-uk-ai-biosecurity-package",
     "slug": "uk-government-announces-ai-biosecurity-lab-and-sovereign-ai-investments",
     "headline": "UK government announces \u00a3165m National AI Biosecurity Initiative and additional funding for sovereign AI and cyber tools",
