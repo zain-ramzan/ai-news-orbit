@@ -1,1 +1,74 @@
-PLACEHOLDER
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T07:30:00.000Z",
+  "key_agent_trends": [
+    "European open-weight frontier models advance sovereign AI: Mistral releases improved Mistral Large 4 weights optimized for agentic coding and cybersecurity.",
+    "AI Act enforcement progresses with Commission assessing responses to first GPAI Requests for Information on safety, security and copyright.",
+    "Commission administration explores structured AI adoption: expert group proposes central AI chief, DG officers and sandboxes for internal use."
+  ],
+  "stories": [
+    {
+      "id": "2026-10-30-mistral-large-4-open-weights",
+      "slug": "mistral-releases-open-weights-for-mistral-large-4-le-chonk",
+      "headline": "Mistral releases open weights for Mistral Large 4 (Le Chonk), its 1-trillion-parameter model",
+      "what_happened": "On 29 October 2026, Mistral released the open weights of its improved Mistral Large 4 (nicknamed Le Chonk), a natively multimodal 1-trillion-parameter model with ~52 billion active parameters. After additional reinforcement learning since the early-October preview, it leads or matches top open-weight models on agentic coding benchmarks including Terminal-Bench 4.0 (41%) and Artificial Analysis Coding Agent Index while using ~47% fewer tokens. The model was trained on European infrastructure and is positioned for sovereign deployment in coding and cybersecurity.",
+      "why_it_matters": "It strengthens Europe's open-weight frontier options for sovereign AI, letting governments and enterprises self-host capable agentic coding and cyber-defense models without relying on US or Chinese closed systems.",
+      "organization": ["Mistral AI"],
+      "product": ["Mistral Large 4", "Le Chonk"],
+      "category": "Models",
+      "tags": ["mistral", "open-weights", "sovereign-ai", "coding", "cybersecurity", "agentic"],
+      "country": "France",
+      "country_code": "fr",
+      "published_at": "2026-10-29T13:00:00.000Z",
+      "discovered_at": "2026-10-30T07:30:00.000Z",
+      "source_name": "Mistral",
+      "source_url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "official_url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "verification_status": "confirmed",
+      "confidence": "high",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/06/GettyImages-1760104305.jpg"
+    },
+    {
+      "id": "2026-10-30-commission-receives-ai-act-rfi-responses",
+      "slug": "european-commission-receives-most-responses-to-ai-act-information-requests",
+      "headline": "European Commission receives most responses to AI Act information requests as some deadlines are extended",
+      "what_happened": "On 28 October 2026, European Commission spokesperson Thomas Regnier confirmed that the Commission had received responses for all AI Act Requests for Information whose deadlines had expired. The requests, covering more than 30 companies on GPAI model safety/security and copyright, are under assessment; some deadlines were extended. No compliance findings or penalties were announced.",
+      "why_it_matters": "It marks concrete progress in the first enforcement cycle under the AI Act for general-purpose AI models, moving from information requests toward potential further action while assessment continues.",
+      "organization": ["European Commission", "European AI Office"],
+      "product": [],
+      "category": "Regulation",
+      "tags": ["ai-act", "ai-office", "enforcement", "rfi", "gpai"],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "discovered_at": "2026-10-30T07:30:00.000Z",
+      "source_name": "2EU Brussels",
+      "source_url": "https://2eu.brussels/en/news/european-commission-receives-ai-companies-responses-to-requests-whose-deadlines-have-passed-and-assesses-submissions",
+      "official_url": "https://audiovisual.ec.europa.eu/en/media/video/I-296928",
+      "verification_status": "confirmed",
+      "confidence": "high",
+      "image_url": "https://2eu.brussels/media/9174/conversions/2eu-4281-thomas-regnier-briefing-20261028-I296928-65s-800.jpg"
+    },
+    {
+      "id": "2026-10-30-catherine-day-ai-chief-proposal",
+      "slug": "catherine-day-expert-group-proposes-ai-chief-for-european-commission",
+      "headline": "Catherine Day’s expert group proposes an AI chief for the European Commission",
+      "what_happened": "On 26 October 2026, a High-Level Reflection Group chaired by former Commission Secretary-General Catherine Day published a report recommending that the European Commission appoint a central AI chief, an AI officer in every Directorate-General, and AI assistants for staff. It also proposes internal sandboxes and maintains that officials remain accountable for AI-assisted work. The advice feeds into an ongoing administrative review.",
+      "why_it_matters": "It outlines a structured path for the Commission to adopt AI internally while addressing accountability, potentially influencing how EU institutions scale agentic and generative tools.",
+      "organization": ["European Commission", "High-Level Reflection Group"],
+      "product": [],
+      "category": "Regulation",
+      "tags": ["european-commission", "ai-governance", "administration", "catherine-day"],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-10-26T00:00:00.000Z",
+      "discovered_at": "2026-10-30T07:30:00.000Z",
+      "source_name": "2EU Brussels",
+      "source_url": "https://2eu.brussels/en/news/experts-propose-eu-commission-wide-ai-chief-transparency-by-default-and-moratorium-on-new-agencies",
+      "official_url": "",
+      "verification_status": "reported",
+      "confidence": "high",
+      "image_url": "https://2eu.brussels/media/9106/conversions/ec-dati-bendo-p-070823-00-10-catherine-day-reform-800.jpg"
+    }
+  ]
+}
