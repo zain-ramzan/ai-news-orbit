@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2026-11-02-canada-eurohpc",
+    "slug": "canada-joins-eurohpc-participating-state",
+    "headline": "Canada joins EuroHPC as 39th participating state",
+    "published_at": "2026-10-30T20:29:00Z",
+    "category": "Infrastructure",
+    "organization": ["EuroHPC Joint Undertaking", "European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-02-ipcei-ai-ireland",
+    "slug": "ireland-backs-ipcei-ai-manifesto",
+    "headline": "Ireland and 18 other Member States back IPCEI-AI manifesto",
+    "published_at": "2026-10-30T14:00:00Z",
+    "category": "Infrastructure",
+    "organization": ["Department of Enterprise, Tourism and Employment (Ireland)", "European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-02-sabadell-tsystems-agentic",
+    "slug": "banco-sabadell-t-systems-agentic-ai",
+    "headline": "Banco Sabadell partners with T-Systems for sovereign agentic AI",
+    "published_at": "2026-10-28T00:00:00Z",
+    "category": "Enterprise",
+    "organization": ["Banco Sabadell", "T-Systems", "Deutsche Telekom"],
+    "verification_status": "confirmed",
+    "country_code": "es"
+  },
+  {
+    "id": "2026-11-02-agion-siros-agents",
+    "slug": "agion-siros-ai-agent-identity",
+    "headline": "Agion and SIROS partner on AI agent identity and governance",
+    "published_at": "2026-10-28T07:08:00Z",
+    "category": "Partnerships",
+    "organization": ["Agion", "SIROS Foundation"],
+    "verification_status": "confirmed",
+    "country_code": "fi"
+  }
+]
