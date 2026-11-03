@@ -30,14 +30,14 @@
     "country_code": "us"
   },
   {
-    "id": "2026-11-03-meituan-longcat-25",
-    "slug": "meituan-longcat-2-5-agentic-model",
-    "headline": "Meituan releases LongCat-2.5, 1.6T multimodal model for long-horizon agents",
-    "published_at": "2026-11-02T00:00:00Z",
-    "category": "Models",
-    "organization": ["Meituan", "LongCat"],
+    "id": "2026-11-03-marble-cognition-funding",
+    "slug": "marble-cognition-raises-3-75m-ai-coworkers",
+    "headline": "Munich's Marble Cognition raises $3.75M to build AI coworkers that learn by observing work",
+    "published_at": "2026-11-02T09:00:00Z",
+    "category": "Funding",
+    "organization": ["Marble Cognition"],
     "verification_status": "confirmed",
-    "country_code": "cn"
+    "country_code": "de"
   },
   {
     "id": "2026-11-03-hkma-project-sage",
@@ -48,6 +48,36 @@
     "organization": ["Hong Kong Monetary Authority"],
     "verification_status": "confirmed",
     "country_code": "hk"
+  },
+  {
+    "id": "2026-11-03-creandum-fund-viii",
+    "slug": "creandum-closes-750m-fund-viii-ai-focus",
+    "headline": "Swedish VC Creandum closes $750M Fund VIII targeting early-stage AI startups",
+    "published_at": "2026-11-02T07:00:00Z",
+    "category": "Funding",
+    "organization": ["Creandum"],
+    "verification_status": "confirmed",
+    "country_code": "se"
+  },
+  {
+    "id": "2026-11-03-meituan-longcat-25",
+    "slug": "meituan-longcat-2-5-agentic-model",
+    "headline": "Meituan releases LongCat-2.5, 1.6T multimodal model for long-horizon agents",
+    "published_at": "2026-11-02T00:00:00Z",
+    "category": "Models",
+    "organization": ["Meituan", "LongCat"],
+    "verification_status": "confirmed",
+    "country_code": "cn"
+  },
+  {
+    "id": "2026-11-03-bleu-robotics-funding",
+    "slug": "bleu-robotics-raises-5m-humanoid-ai",
+    "headline": "Paris-based Bleu Robotics raises €5M to teach industrial humanoids new tasks quickly",
+    "published_at": "2026-10-29T13:00:00Z",
+    "category": "Funding",
+    "organization": ["Bleu Robotics"],
+    "verification_status": "confirmed",
+    "country_code": "fr"
   },
   {
     "id": "2026-11-02-canada-eurohpc",
@@ -68,25 +98,5 @@
     "organization": ["Department of Enterprise, Tourism and Employment (Ireland)", "European Commission"],
     "verification_status": "confirmed",
     "country_code": "eu"
-  },
-  {
-    "id": "2026-11-02-sabadell-tsystems-agentic",
-    "slug": "banco-sabadell-t-systems-agentic-ai",
-    "headline": "Banco Sabadell partners with T-Systems for sovereign agentic AI",
-    "published_at": "2026-10-28T00:00:00Z",
-    "category": "Enterprise",
-    "organization": ["Banco Sabadell", "T-Systems", "Deutsche Telekom"],
-    "verification_status": "confirmed",
-    "country_code": "es"
-  },
-  {
-    "id": "2026-11-02-agion-siros-agents",
-    "slug": "agion-siros-ai-agent-identity",
-    "headline": "Agion and SIROS partner on AI agent identity and governance",
-    "published_at": "2026-10-28T07:08:00Z",
-    "category": "Partnerships",
-    "organization": ["Agion", "SIROS Foundation"],
-    "verification_status": "confirmed",
-    "country_code": "fi"
   }
 ]
