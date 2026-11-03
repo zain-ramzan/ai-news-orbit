@@ -80,6 +80,16 @@
     "country_code": "fr"
   },
   {
+    "id": "2026-11-03-pixel-systems-funding",
+    "slug": "pixel-systems-raises-3-1m-seed-ai-content-verification",
+    "headline": "Stockholm's Pixel Systems raises $3.1M seed to detect AI-generated and manipulated content",
+    "published_at": "2026-10-29T00:00:00Z",
+    "category": "Funding",
+    "organization": ["Pixel Systems"],
+    "verification_status": "confirmed",
+    "country_code": "se"
+  },
+  {
     "id": "2026-11-02-canada-eurohpc",
     "slug": "canada-joins-eurohpc-participating-state",
     "headline": "Canada joins EuroHPC as 39th participating state",

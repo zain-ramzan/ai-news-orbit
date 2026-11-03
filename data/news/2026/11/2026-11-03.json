@@ -1,12 +1,12 @@
 {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T07:17:00Z",
+  "generated_at": "2026-11-03T08:00:00Z",
   "key_agent_trends": [
     "German startups raise pre-seed for agentic AI coworkers that observe and automate business workflows",
     "European VCs close large funds targeting AI opportunities amid rapid model and agent development",
     "French robotics AI software attracts funding to accelerate industrial humanoid deployment with fewer demonstrations",
-    "Enterprise CRM platforms acquire specialized voice AI agents to unify conversation and outcome",
-    "Frontier labs optimize long-running agent sessions with server-side conversation threading to cut latency"
+    "Swedish startup raises seed for AI-generated content verification to combat digital fraud and manipulation",
+    "Enterprise CRM platforms acquire specialized voice AI agents to unify conversation and outcome"
   ],
   "stories": [
     {
@@ -66,6 +66,26 @@
       "source_name": "EU-Startups",
       "source_url": "https://www.eu-startups.com/2026/10/french-startup-bleu-robotics-secures-e5-million-to-teach-humanoid-robots-new-tasks-with-fewer-demonstrations/",
       "official_url": "https://www.theengineer.co.uk/content/news/bleu-robotics-secures-5m-for-humanoid-robot-ai",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-11-03-pixel-systems-funding",
+      "slug": "pixel-systems-raises-3-1m-seed-ai-content-verification",
+      "headline": "Stockholm's Pixel Systems raises $3.1M seed to detect AI-generated and manipulated content",
+      "what_happened": "On 29 October 2026, Stockholm-based Pixel Systems announced a $3.1 million seed round led by Unconventional Ventures. The startup develops digital forensics technology and an API to identify AI-generated or manipulated images, documents and other material. It reports $100,000 in contracted recurring revenue within three weeks of commercial launch and internal detection rates of 99.9%. Funding supports commercial expansion and technology development.",
+      "why_it_matters": "Addresses rising risks from generative AI in fraud, insurance claims and business decisions by providing European verification tools that do not rely solely on watermarks, supporting trustworthy digital processes under growing AI adoption.",
+      "organization": ["Pixel Systems"],
+      "product": [],
+      "category": "Funding",
+      "tags": ["content-verification", "ai-detection", "security", "seed", "sweden"],
+      "country": "Sweden",
+      "country_code": "se",
+      "published_at": "2026-10-29T00:00:00Z",
+      "discovered_at": "2026-11-03T08:00:00Z",
+      "source_name": "Pixel Systems",
+      "source_url": "https://pixelsystems.com/news/pixel-systems-seed-round",
+      "official_url": "https://pixelsystems.com/news/pixel-systems-seed-round",
       "verification_status": "confirmed",
       "confidence": "high"
     },
