@@ -1,5 +1,55 @@
 [
   {
+    "id": "2026-11-03-salesforce-cresta",
+    "slug": "salesforce-acquires-cresta-voice-agents",
+    "headline": "Salesforce signs definitive agreement to acquire Cresta for voice AI agents",
+    "published_at": "2026-11-02T21:00:00Z",
+    "category": "Acquisitions",
+    "organization": ["Salesforce", "Cresta"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-03-anthropic-message-threads",
+    "slug": "anthropic-claude-message-threads-beta",
+    "headline": "Anthropic launches Message Threads beta for Claude to speed long agent sessions",
+    "published_at": "2026-11-02T19:06:00Z",
+    "category": "Products",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-03-anthropic-rsi-s1",
+    "slug": "anthropic-s1-rsi-threshold-warning",
+    "headline": "Anthropic S-1/A warns of imminent RSI threshold for AI-accelerated progress",
+    "published_at": "2026-11-02T14:00:00Z",
+    "category": "Safety",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-03-meituan-longcat-25",
+    "slug": "meituan-longcat-2-5-agentic-model",
+    "headline": "Meituan releases LongCat-2.5, 1.6T multimodal model for long-horizon agents",
+    "published_at": "2026-11-02T00:00:00Z",
+    "category": "Models",
+    "organization": ["Meituan", "LongCat"],
+    "verification_status": "confirmed",
+    "country_code": "cn"
+  },
+  {
+    "id": "2026-11-03-hkma-project-sage",
+    "slug": "hkma-project-sage-agentic-finance",
+    "headline": "HKMA launches Project SAGE to govern agentic finance in Hong Kong",
+    "published_at": "2026-11-02T09:00:00Z",
+    "category": "Regulation",
+    "organization": ["Hong Kong Monetary Authority"],
+    "verification_status": "confirmed",
+    "country_code": "hk"
+  },
+  {
     "id": "2026-11-02-canada-eurohpc",
     "slug": "canada-joins-eurohpc-participating-state",
     "headline": "Canada joins EuroHPC as 39th participating state",
