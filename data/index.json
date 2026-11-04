@@ -1,5 +1,55 @@
 [
   {
+    "id": "2026-11-04-crowdstrike-ai-kill-switch",
+    "slug": "crowdstrike-falcon-guardian-ai-kill-switch",
+    "headline": "CrowdStrike launches AI Kill Switch in Falcon Guardian to stop rogue agents",
+    "published_at": "2026-11-03T08:39:00Z",
+    "category": "Security",
+    "organization": ["CrowdStrike"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-04-snowflake-coco-cowork-bots",
+    "slug": "snowflake-coco-cowork-always-on-bots",
+    "headline": "Snowflake launches always-on CoCo and CoWork Bots for background enterprise work",
+    "published_at": "2026-11-03T14:06:00Z",
+    "category": "Enterprise",
+    "organization": ["Snowflake"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-04-honeycomb-ai-sre-agents",
+    "slug": "honeycomb-personal-team-ai-sre-agents",
+    "headline": "Honeycomb ships Personal and Team AI SRE agents in early access",
+    "published_at": "2026-11-03T14:15:00Z",
+    "category": "Products",
+    "organization": ["Honeycomb"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-04-github-copilot-jetbrains-air",
+    "slug": "github-copilot-jetbrains-air-acp",
+    "headline": "GitHub Copilot becomes a native agent in JetBrains Air via ACP",
+    "published_at": "2026-11-03T16:11:00Z",
+    "category": "Coding Agents",
+    "organization": ["GitHub", "JetBrains"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-04-gitbook-ai-agent-attack",
+    "slug": "gitbook-ai-agent-infrastructure-breach",
+    "headline": "GitBook discloses AI-agent attack that reached infrastructure credentials",
+    "published_at": "2026-11-03T16:21:00Z",
+    "category": "Security",
+    "organization": ["GitBook"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
     "id": "2026-11-03-salesforce-cresta",
     "slug": "salesforce-acquires-cresta-voice-agents",
     "headline": "Salesforce signs definitive agreement to acquire Cresta for voice AI agents",
