@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-11-05-commission-ai-lawmaking-tools",
+    "slug": "european-commission-deploys-ai-tools-for-lawmaking",
+    "headline": "European Commission deploys AI tools to draft and simplify laws",
+    "published_at": "2026-11-04T12:00:00Z",
+    "category": "Regulation",
+    "organization": ["European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
     "id": "2026-11-05-meta-acquires-conductor",
     "slug": "meta-acquires-conductor-parallel-coding-agents",
     "headline": "Meta acquires Conductor, startup for running parallel teams of coding agents",

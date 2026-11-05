@@ -1,14 +1,35 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T05:12:15Z",
+  "generated_at": "2026-11-05T07:19:00Z",
   "key_agent_trends": [
+    "EU Commission deploys AI tools to identify overlaps and simplify legislation",
     "Major labs acquire specialized coding-agent infrastructure to control the full development stack",
     "Frontier models add native computer-use and vision for long-horizon agent workflows",
-    "Domain-specific agent skills accelerate scientific research cycles from days to hours",
-    "Enterprise marketplaces expand partner agents with committed-spend purchasing",
-    "Parallel multi-agent orchestration becomes a key acquisition target for coding platforms"
+    "European sovereign AI and infrastructure push continues with Gigafactories and national strategies",
+    "Domain-specific agent skills accelerate scientific research cycles from days to hours"
   ],
   "stories": [
+    {
+      "id": "2026-11-05-commission-ai-lawmaking-tools",
+      "slug": "european-commission-deploys-ai-tools-for-lawmaking",
+      "headline": "European Commission deploys AI tools to draft and simplify laws",
+      "what_happened": "On 4 November 2026, the European Commission announced in its 2026 Overview Report on Simplification that it is using internal AI tools to modernise lawmaking. The tools help staff identify overlaps, inconsistencies or duplicates across legal acts and spot simplification opportunities. This is part of the broader simplification agenda that has produced 12 omnibus packages estimated to save \u20ac22.3 billion.",
+      "why_it_matters": "Shows the Commission applying AI to its own regulatory processes while pursuing AI Act simplification, potentially improving consistency but raising questions about human oversight in law drafting.",
+      "organization": ["European Commission"],
+      "product": [],
+      "category": "Regulation",
+      "tags": ["AI-tools", "simplification", "lawmaking", "governance"],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-11-04T12:00:00Z",
+      "discovered_at": "2026-11-05T07:19:00Z",
+      "source_name": "POLITICO",
+      "source_url": "https://www.politico.eu/article/commission-turns-to-artificial-intelligence-to-write-better-laws/",
+      "official_url": "https://commission.europa.eu/publications/2026-overview-report-simplification-implementation-and-enforcement_en",
+      "verification_status": "confirmed",
+      "confidence": "high",
+      "image_url": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/05/25/GettyImages-2251643611-scaled.jpg"
+    },
     {
       "id": "2026-11-05-meta-acquires-conductor",
       "slug": "meta-acquires-conductor-parallel-coding-agents",
