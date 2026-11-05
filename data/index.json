@@ -1,5 +1,55 @@
 [
   {
+    "id": "2026-11-05-meta-acquires-conductor",
+    "slug": "meta-acquires-conductor-parallel-coding-agents",
+    "headline": "Meta acquires Conductor, startup for running parallel teams of coding agents",
+    "published_at": "2026-11-04T19:15:00Z",
+    "category": "Acquisitions",
+    "organization": ["Meta", "Conductor"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-05-openai-acquires-pierre",
+    "slug": "openai-acquires-pierre-computer-codex",
+    "headline": "OpenAI to acquire Pierre Computer to expand Codex with agent-oriented code storage",
+    "published_at": "2026-11-04T15:15:00Z",
+    "category": "Acquisitions",
+    "organization": ["OpenAI", "Pierre Computer"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-05-tencent-hy4-release",
+    "slug": "tencent-hy4-vision-computer-use",
+    "headline": "Tencent releases Hy4 with vision and computer-use for long-horizon agents",
+    "published_at": "2026-11-04T00:00:00Z",
+    "category": "Models",
+    "organization": ["Tencent"],
+    "verification_status": "confirmed",
+    "country_code": "cn"
+  },
+  {
+    "id": "2026-11-05-deepmind-antigravity-cheminformatics",
+    "slug": "google-deepmind-antigravity-cheminformatics-skills",
+    "headline": "Google DeepMind adds Cheminformatics Skills to Antigravity for agentic drug discovery",
+    "published_at": "2026-11-03T16:00:00Z",
+    "category": "Research",
+    "organization": ["Google DeepMind"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-05-anthropic-claude-marketplace-expansion",
+    "slug": "anthropic-claude-marketplace-partner-agents",
+    "headline": "Anthropic expands Claude Marketplace with over 25 partner agents and products",
+    "published_at": "2026-11-04T00:00:00Z",
+    "category": "Partnerships",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
     "id": "2026-11-04-gitbook-ai-agent-attack",
     "slug": "gitbook-ai-agent-infrastructure-breach",
     "headline": "GitBook discloses AI-agent attack that reached infrastructure credentials",
