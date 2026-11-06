@@ -1,1 +1,34 @@
-PLACEHOLDER
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T05:15:00Z",
+  "key_agent_trends": [
+    "Persistent role-based agents become productized for work, with memory, proactive monitoring and multi-agent coordination",
+    "Vertical platforms commit to AI-native agents that own full customer journeys beyond chatbots",
+    "Agentic commerce infrastructure draws strategic funding as merchants need no-code access to AI shopping channels",
+    "Cloud and coding environments ship long-running specialist bots that own ongoing responsibilities",
+    "Enterprise agent platforms acquire browser automation to complete workflows behind logins"
+  ],
+  "stories": [
+    {
+      "id": "2026-11-06-perplexity-teammates",
+      "slug": "perplexity-launches-teammates-persistent-work-agents",
+      "headline": "Perplexity launches Teammates, always-on AI agents for ongoing work",
+      "what_happened": "On November 5, 2026, Perplexity launched Teammates, persistent AI agents that own ongoing roles such as campaign management, bug triage or market research. Each teammate runs on Perplexity Computer with its own isolated desktop and browser, inherits existing projects, skills and memory, coordinates other agents, and can message humans in Slack. Available as a research preview for Max subscribers ($200/month) on the web.",
+      "why_it_matters": "Shifts agents from one-shot task runners to always-on digital coworkers with role persistence and proactive monitoring, competing directly with OpenAI and Anthropic enterprise agent offerings.",
+      "organization": ["Perplexity"],
+      "product": ["Teammates", "Perplexity Computer"],
+      "category": "Products",
+      "tags": ["persistent-agents", "multi-agent", "work-agents", "slack"],
+      "country": "United States",
+      "country_code": "us",
+      "published_at": "2026-11-05T17:05:00Z",
+      "discovered_at": "2026-11-06T05:15:00Z",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "official_url": "https://www.perplexity.ai/hub/products/teammate",
+      "verification_status": "confirmed",
+      "confidence": "high",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25472503/STK271_PERPLEXITY_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+    }
+  ]
+}
