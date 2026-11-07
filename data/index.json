@@ -1,1 +1,12 @@
-PLACEHOLDER_INDEX
+[
+  {
+    "id": "2026-11-05-capgemini-ai-office-cyber-risk",
+    "slug": "capgemini-leads-eu-ai-office-cyber-risk-consortium",
+    "headline": "Capgemini leads consortium selected by EU AI Office for GPAI cyber risk assessment",
+    "published_at": "2026-11-05T00:00:00Z",
+    "category": "Safety",
+    "organization": ["Capgemini", "European AI Office", "Wavestone", "LNE"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  }
+]
