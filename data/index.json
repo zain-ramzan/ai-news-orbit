@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-11-06-romania-black-sea-ai-gigafactory-offers",
+    "slug": "romania-two-offers-black-sea-ai-gigafactory",
+    "headline": "Romania has two offers for Black Sea AI Gigafactory; selection in final phase",
+    "published_at": "2026-11-06T00:00:00Z",
+    "category": "Infrastructure",
+    "organization": ["Romanian Ministry of Finance", "Romanian Ministry of Energy"],
+    "verification_status": "reported",
+    "country_code": "ro"
+  },
+  {
     "id": "2026-11-06-anthropic-claude-agent-memory-dreaming",
     "slug": "anthropic-details-claude-agent-memory-with-dreaming",
     "headline": "Anthropic details how Claude agents use dreaming to organize and correct memory",
