@@ -1,5 +1,55 @@
 [
   {
+    "id": "2026-11-06-anthropic-claude-agent-memory-dreaming",
+    "slug": "anthropic-details-claude-agent-memory-with-dreaming",
+    "headline": "Anthropic details how Claude agents use dreaming to organize and correct memory",
+    "published_at": "2026-11-06T00:00:00Z",
+    "category": "Research",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-06-meta-muse-active-memory-spaces",
+    "slug": "meta-rolls-active-memory-focus-to-muse-and-spaces",
+    "headline": "Meta rolls Active Memory and Active Focus into Muse and Meta AI; launches Spaces",
+    "published_at": "2026-11-06T00:00:00Z",
+    "category": "Products",
+    "organization": ["Meta"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-05-perplexity-teammates",
+    "slug": "perplexity-launches-teammates-always-on-agents",
+    "headline": "Perplexity launches Teammates, persistent always-on agents for Max subscribers",
+    "published_at": "2026-11-05T00:00:00Z",
+    "category": "Products",
+    "organization": ["Perplexity"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-06-openai-biobasicsbench",
+    "slug": "openai-ligo-release-biobasicsbench-wet-lab-agents",
+    "headline": "OpenAI and Ligo release BioBasicsBench; GPT-6 Astra scores 66.7% on wet-lab tasks",
+    "published_at": "2026-11-06T00:00:00Z",
+    "category": "Benchmarks",
+    "organization": ["OpenAI", "Ligo"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-05-palo-alto-clutch-talks",
+    "slug": "palo-alto-networks-in-talks-to-acquire-clutch",
+    "headline": "Palo Alto Networks reportedly in talks to acquire Clutch Security for about $500M",
+    "published_at": "2026-11-05T00:00:00Z",
+    "category": "Acquisitions",
+    "organization": ["Palo Alto Networks", "Clutch Security"],
+    "verification_status": "reported",
+    "country_code": "us"
+  },
+  {
     "id": "2026-11-05-capgemini-ai-office-cyber-risk",
     "slug": "capgemini-leads-eu-ai-office-cyber-risk-consortium",
     "headline": "Capgemini leads consortium selected by EU AI Office for GPAI cyber risk assessment",
