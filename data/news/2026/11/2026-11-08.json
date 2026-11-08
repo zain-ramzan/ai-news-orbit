@@ -1,14 +1,33 @@
 {
   "date": "2026-11-08",
-  "generated_at": "2026-11-08T05:12:32Z",
+  "generated_at": "2026-11-08T06:21:08Z",
   "key_agent_trends": [
     "Agent memory systems advance with offline reflection (dreaming) and specialized models for better long-horizon task completion",
     "Persistent always-on enterprise and consumer agents gain traction via dedicated roles, Spaces, and Teammates-style products",
-    "Domain-specific benchmarks like wet-lab analysis expose remaining gaps in agent reliability on real-world data",
-    "Security and identity controls for agents accelerate, including kill switches and potential acquisitions of agent-credential platforms",
-    "Consumer agents from Meta and others embed more proactive memory and focus to reduce forgotten goals and stalled plans"
+    "European sovereign AI infrastructure advances with national Gigafactory bids and EU compute calls",
+    "Security and identity controls for agents accelerate, including potential acquisitions of agent-credential platforms",
+    "Domain-specific benchmarks like wet-lab analysis expose remaining gaps in agent reliability on real-world data"
   ],
   "stories": [
+    {
+      "id": "2026-11-06-romania-black-sea-ai-gigafactory-offers",
+      "slug": "romania-two-offers-black-sea-ai-gigafactory",
+      "headline": "Romania has two offers for Black Sea AI Gigafactory; selection in final phase",
+      "what_happened": "On 6 November 2026, Romanian Finance Minister Alexandru Nazare announced at the Concordia Summit that Romania has two offers for its Black Sea AI Gigafactory project. The national selection process, coordinated by the Ministries of Finance and Energy, is in its final phase, with hopes for a decision by year-end. The process runs in parallel with the EU EuroHPC call for up to seven AI Gigafactories.",
+      "why_it_matters": "Advances national efforts to secure large-scale AI computing infrastructure as part of Europe’s broader push for sovereign compute capacity and tech resilience.",
+      "organization": ["Romanian Ministry of Finance", "Romanian Ministry of Energy"],
+      "product": [],
+      "category": "Infrastructure",
+      "tags": ["AI-Gigafactory", "sovereign-AI", "compute", "infrastructure"],
+      "country": "Romania",
+      "country_code": "ro",
+      "published_at": "2026-11-06T00:00:00Z",
+      "discovered_at": "2026-11-08T06:21:08Z",
+      "source_name": "Saptamana Financiara / multiple Romanian outlets",
+      "source_url": "https://www.sfin.ro/black-sea-ai-gigafactory/",
+      "verification_status": "reported",
+      "confidence": "medium"
+    },
     {
       "id": "2026-11-06-anthropic-claude-agent-memory-dreaming",
       "slug": "anthropic-details-claude-agent-memory-with-dreaming",
