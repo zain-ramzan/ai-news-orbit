@@ -1,5 +1,45 @@
 [
   {
+    "id": "2026-11-08-deepseek-harness-154m-dau",
+    "slug": "deepseek-harness-reaches-1-54-million-daily-users",
+    "headline": "DeepSeek Harness AI agent platform reaches 1.54 million daily users and 92 trillion tokens per day",
+    "published_at": "2026-11-08T00:00:00Z",
+    "category": "Products",
+    "organization": ["DeepSeek"],
+    "verification_status": "confirmed",
+    "country_code": "cn"
+  },
+  {
+    "id": "2026-11-08-apple-siri-agentic-push",
+    "slug": "apple-pushes-siri-toward-more-agentic-capabilities",
+    "headline": "Apple accelerates Siri toward proactive agentic behavior, per Bloomberg",
+    "published_at": "2026-11-08T00:00:00Z",
+    "category": "Products",
+    "organization": ["Apple"],
+    "verification_status": "reported",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-05-claude-code-secrets-leak",
+    "slug": "claude-code-dont-ask-again-exposes-secrets-on-github",
+    "headline": "Apiiro research: Claude Code 'Don't Ask Again' stores secrets in public GitHub files",
+    "published_at": "2026-11-05T00:00:00Z",
+    "category": "Security",
+    "organization": ["Anthropic", "Apiiro"],
+    "verification_status": "reported",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-03-crowdstrike-ai-kill-switch-fiddler",
+    "slug": "crowdstrike-launches-ai-kill-switch-agrees-to-acquire-fiddler",
+    "headline": "CrowdStrike launches AI agent Kill Switch and agrees to acquire Fiddler AI and Dreadnode",
+    "published_at": "2026-11-03T00:00:00Z",
+    "category": "Security",
+    "organization": ["CrowdStrike", "Fiddler AI", "Dreadnode"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
     "id": "2026-11-06-romania-black-sea-ai-gigafactory-offers",
     "slug": "romania-two-offers-black-sea-ai-gigafactory",
     "headline": "Romania has two offers for Black Sea AI Gigafactory; selection in final phase",
