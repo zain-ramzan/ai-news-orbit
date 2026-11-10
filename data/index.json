@@ -1,0 +1,61 @@
+[
+  {
+    "id": "2026-11-09-anthropic-claude-fable-mythos-5-2",
+    "slug": "anthropic-claude-fable-mythos-5-2",
+    "headline": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 for ambitious agentic technical work",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Models",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-08-deepseek-harness-1-54m-dau",
+    "slug": "deepseek-harness-154m-daily-users",
+    "headline": "DeepSeek Harness AI agent platform reaches 1.54 million daily active users",
+    "published_at": "2026-11-08T00:00:00Z",
+    "category": "Open Source",
+    "organization": ["DeepSeek"],
+    "verification_status": "reported",
+    "country_code": "CN"
+  },
+  {
+    "id": "2026-11-09-meta-muse-ember",
+    "slug": "meta-muse-ember-lightweight-agent-model",
+    "headline": "Meta releases Muse Ember, a low-cost model for high-volume agent tasks",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Models",
+    "organization": ["Meta"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-09-automattic-spacefast",
+    "slug": "automattic-spacefast-agent-app-hosting",
+    "headline": "Automattic launches Spacefast for deploying apps built by AI agents",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Products",
+    "organization": ["Automattic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-google-cloud-ai-native-k8s-agents",
+    "slug": "google-cloud-ai-native-kubernetes-agent-stack",
+    "headline": "Google Cloud publishes open AI-native Kubernetes stack for stateful agents",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Infrastructure",
+    "organization": ["Google Cloud"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-browser-use-1-0",
+    "slug": "browser-use-1-0-repl-cdp-agent",
+    "headline": "browser-use 1.0 rewrites agent to use Python REPL on raw Chrome DevTools Protocol",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Computer Use",
+    "organization": ["Browser Use"],
+    "verification_status": "confirmed"
+  }
+]
