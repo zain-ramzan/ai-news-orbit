@@ -10,14 +10,14 @@
     "country_code": "US"
   },
   {
-    "id": "2026-11-08-deepseek-harness-1-54m-dau",
-    "slug": "deepseek-harness-154m-daily-users",
-    "headline": "DeepSeek Harness AI agent platform reaches 1.54 million daily active users",
-    "published_at": "2026-11-08T00:00:00Z",
-    "category": "Open Source",
-    "organization": ["DeepSeek"],
+    "id": "2026-11-09-european-ai-funding-27-6bn",
+    "slug": "european-ai-funding-27-6bn-9m-2026",
+    "headline": "European AI companies raise $27.6 billion in first nine months of 2026",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Funding",
+    "organization": ["Tracxn Technologies"],
     "verification_status": "reported",
-    "country_code": "CN"
+    "country_code": "eu"
   },
   {
     "id": "2026-11-09-meta-muse-ember",
@@ -38,6 +38,56 @@
     "organization": ["Automattic"],
     "verification_status": "confirmed",
     "country_code": "US"
+  },
+  {
+    "id": "2026-11-08-deepseek-harness-1-54m-dau",
+    "slug": "deepseek-harness-154m-daily-users",
+    "headline": "DeepSeek Harness AI agent platform reaches 1.54 million daily active users",
+    "published_at": "2026-11-08T00:00:00Z",
+    "category": "Open Source",
+    "organization": ["DeepSeek"],
+    "verification_status": "reported",
+    "country_code": "CN"
+  },
+  {
+    "id": "2026-11-08-eu-member-states-ai-act-implementation-gaps",
+    "slug": "eu-member-states-ai-act-implementation-gaps",
+    "headline": "Many EU member states lag on appointing AI Act national authorities",
+    "published_at": "2026-11-08T16:00:00Z",
+    "category": "Regulation",
+    "organization": ["European Commission"],
+    "verification_status": "reported",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-06-netherlands-ai-vision-120m-ipcei",
+    "slug": "netherlands-ai-vision-120m-ipcei",
+    "headline": "Dutch cabinet publishes AI vision allocating €120 million for IPCEI-AI",
+    "published_at": "2026-11-06T13:45:00Z",
+    "category": "Funding",
+    "organization": ["Netherlands Government"],
+    "verification_status": "confirmed",
+    "country_code": "nl"
+  },
+  {
+    "id": "2026-11-05-eurohpc-ai-gigafactories-deadline-extension",
+    "slug": "eurohpc-ai-gigafactories-deadline-extension",
+    "headline": "EuroHPC extends AI Gigafactories tender deadlines",
+    "published_at": "2026-11-05T00:00:00Z",
+    "category": "Infrastructure",
+    "organization": ["EuroHPC Joint Undertaking", "European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-05-capgemini-ai-office-safety-consortium",
+    "slug": "capgemini-ai-office-safety-consortium",
+    "headline": "Capgemini leads consortium supporting European AI Office on GPAI cyber risks",
+    "published_at": "2026-11-05T00:00:00Z",
+    "category": "Safety",
+    "organization": ["Capgemini", "European AI Office"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
   },
   {
     "id": "2026-11-10-google-cloud-ai-native-k8s-agents",
