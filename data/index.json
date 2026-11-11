@@ -1,5 +1,75 @@
 [
   {
+    "id": "2026-11-10-ibm-microsoft-imagine-enterprise",
+    "slug": "ibm-microsoft-imagine-enterprise-ai-agent-platform",
+    "headline": "IBM and Microsoft announce Imagine Enterprise AI agent platform for industry processes",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Enterprise",
+    "organization": ["IBM", "Microsoft"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-google-gemini-4-carbon-swarm",
+    "slug": "google-gemini-4-carbon-antigravity-swarm",
+    "headline": "Google makes Gemini 4 Carbon available and previews agent swarm in Antigravity",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Models",
+    "organization": ["Google", "Google DeepMind"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-deepmind-alphaproof-code-signal",
+    "slug": "deepmind-alphaproof-code-verifies-signal-protocol",
+    "headline": "Google DeepMind's AlphaProof Code formally verifies key properties of Signal protocol code",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Research",
+    "organization": ["Google DeepMind"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-mercor-750m-series-d",
+    "slug": "mercor-raises-750m-20b-valuation-agent-evaluation",
+    "headline": "Mercor raises $750 million at $20 billion valuation to expand AI agent evaluation to enterprises",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Funding",
+    "organization": ["Mercor"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-openai-businesses-chatgpt-agents",
+    "slug": "openai-businesses-in-chatgpt-business-agents",
+    "headline": "OpenAI launches Businesses in ChatGPT beta with AI Business Agents",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Products",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-linux-foundation-agent-name-service",
+    "slug": "linux-foundation-launches-agent-name-service",
+    "headline": "Linux Foundation launches Agent Name Service for verifiable AI agent identities",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Protocols",
+    "organization": ["Linux Foundation"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-n8n-labs-nod-personal-agent",
+    "slug": "n8n-labs-nod-open-source-personal-agent",
+    "headline": "n8n Labs releases Nod, an open-source personal agent that runs locally",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Open Source",
+    "organization": ["n8n"],
+    "verification_status": "confirmed",
+    "country_code": "DE"
+  },
+  {
     "id": "2026-11-09-anthropic-claude-fable-mythos-5-2",
     "slug": "anthropic-claude-fable-mythos-5-2",
     "headline": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 for ambitious agentic technical work",
