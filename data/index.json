@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-11-10-denmark-dcai-gefion-investment",
+    "slug": "denmark-dcai-gefion-67m-investment-netcompany",
+    "headline": "Denmark invests €67 million in DCAI to expand Gefion AI supercomputer with Netcompany as new shareholder",
+    "published_at": "2026-11-10T07:53:00Z",
+    "category": "Infrastructure",
+    "organization": ["Danish Centre for AI Innovation", "Netcompany", "Novo Nordisk Foundation", "EIFO"],
+    "verification_status": "confirmed",
+    "country_code": "dk"
+  },
+  {
     "id": "2026-11-10-ibm-microsoft-imagine-enterprise",
     "slug": "ibm-microsoft-imagine-enterprise-ai-agent-platform",
     "headline": "IBM and Microsoft announce Imagine Enterprise AI agent platform for industry processes",
@@ -68,6 +78,16 @@
     "organization": ["n8n"],
     "verification_status": "confirmed",
     "country_code": "DE"
+  },
+  {
+    "id": "2026-11-09-paris-call-ai-safety-security",
+    "slug": "paris-call-ai-safety-security-declaration",
+    "headline": "European countries and AI firms including Mistral sign Paris Call for AI Safety and Security",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Safety",
+    "organization": ["French Presidency", "Mistral AI"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
   },
   {
     "id": "2026-11-09-anthropic-claude-fable-mythos-5-2",

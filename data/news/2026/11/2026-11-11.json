@@ -1,14 +1,54 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T05:12:00Z",
+  "generated_at": "2026-11-11T06:20:45Z",
   "key_agent_trends": [
+    "Sovereign AI infrastructure advances in Europe as Denmark expands Gefion supercomputer capacity with new private and public investment.",
+    "Frontier AI safety coordination grows with European-led Paris Call committing governments and labs including Mistral to shared evaluation, accountability and shutdown mechanisms.",
     "Major enterprises form joint agent platforms with prebuilt agents, governance, and industry blueprints to move from pilots to production.",
     "Frontier models emphasize multi-agent orchestration and long-horizon work, with Google previewing agent swarms and Anthropic's recent releases targeting agentic technical tasks.",
-    "Formal verification and identity protocols advance agent reliability and trust, as DeepMind uses agentic frameworks for cryptographic proofs and the Linux Foundation launches DNS-based agent naming.",
-    "Funding concentrates on evaluation infrastructure that lets enterprises measure and improve agent performance on their own workflows.",
-    "Personal and consumer-facing agents expand, from local open-source desktop agents to business agents inside ChatGPT."
+    "Formal verification and identity protocols advance agent reliability and trust, as DeepMind uses agentic frameworks for cryptographic proofs and the Linux Foundation launches DNS-based agent naming."
   ],
   "stories": [
+    {
+      "id": "2026-11-10-denmark-dcai-gefion-investment",
+      "slug": "denmark-dcai-gefion-67m-investment-netcompany",
+      "headline": "Denmark invests €67 million in DCAI to expand Gefion AI supercomputer with Netcompany as new shareholder",
+      "what_happened": "Danish Centre for AI Innovation (DCAI), operator of the Gefion AI supercomputer, is receiving a DKK 500 million (€67 million) investment. Netcompany is investing DKK 325 million to become a 23.7% shareholder, EIFO is adding DKK 150 million, and the Novo Nordisk Foundation is topping up to retain a 52.6% majority. The funding aims to expand sovereign AI compute capacity for public institutions, regulated industries, and businesses, supporting the shift toward AI agents and secure deployments.",
+      "why_it_matters": "It strengthens Europe's sovereign AI infrastructure beyond hyperscalers, providing trusted compute for sensitive data and agentic workloads in Denmark and potentially the wider region. Netcompany's involvement brings public-sector systems expertise to scale adoption.",
+      "organization": ["Danish Centre for AI Innovation", "Netcompany", "Novo Nordisk Foundation", "EIFO"],
+      "product": ["Gefion"],
+      "category": "Infrastructure",
+      "tags": ["sovereign-ai", "supercomputer", "compute", "funding", "denmark"],
+      "country": "Denmark",
+      "country_code": "dk",
+      "published_at": "2026-11-10T07:53:00Z",
+      "discovered_at": "2026-11-11T06:20:45Z",
+      "source_name": "Danmarks Eksport- og Investeringsfond",
+      "source_url": "https://via.ritzau.dk/pressemeddelelse/15277479/denmarks-ai-supercomputer-gefion-enters-next-chapter-strengthening-responsible-and-sovereign-ai-with-new-ownership-and-dkk-500-million-investment?publisherId=13561323&lang=en",
+      "official_url": "https://via.ritzau.dk/pressemeddelelse/15277479/denmarks-ai-supercomputer-gefion-enters-next-chapter-strengthening-responsible-and-sovereign-ai-with-new-ownership-and-dkk-500-million-investment?publisherId=13561323&lang=en",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-11-09-paris-call-ai-safety-security",
+      "slug": "paris-call-ai-safety-security-declaration",
+      "headline": "European countries and AI firms including Mistral sign Paris Call for AI Safety and Security",
+      "what_happened": "On 9 November 2026, heads of government from France, Finland, the Netherlands, Norway and others, along with companies including Mistral AI, OpenAI, Anthropic and Microsoft, signed the Paris Call for AI Safety and Security. Signatories commit to a common framework for frontier model evaluation and risk management focused on cyber, CBRN and loss-of-control risks, accountability with independent evaluation where appropriate, fail-safe shutdown mechanisms, and improved incident reporting and whistleblower channels.",
+      "why_it_matters": "It advances coordinated European and international approaches to frontier AI safety at a time when agentic systems raise new control and misuse risks. Participation by Mistral and European governments strengthens the case for practical, shared standards alongside the EU AI Act.",
+      "organization": ["French Presidency", "Mistral AI"],
+      "product": [],
+      "category": "Safety",
+      "tags": ["ai-safety", "frontier-models", "regulation", "incident-reporting", "mistral"],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-11-09T00:00:00Z",
+      "discovered_at": "2026-11-11T06:20:45Z",
+      "source_name": "Government of the Netherlands",
+      "source_url": "https://www.government.nl/documents/2026/11/10/paris-declaration-on-ai-safety-and-security",
+      "official_url": "https://www.government.nl/documents/2026/11/10/paris-declaration-on-ai-safety-and-security",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
     {
       "id": "2026-11-10-ibm-microsoft-imagine-enterprise",
       "slug": "ibm-microsoft-imagine-enterprise-ai-agent-platform",
