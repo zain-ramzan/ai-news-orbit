@@ -1,12 +1,12 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T05:13:12Z",
+  "generated_at": "2026-11-13T06:19:00Z",
   "key_agent_trends": [
-    "Frontier labs ship faster, lower-cost models optimized for everyday agentic workflows and multi-model orchestration.",
-    "Agent infrastructure funding surges as platforms for observability, evaluation, and enterprise deployment attract large rounds.",
-    "Open protocols for generative UI and agent identity mature, enabling native interactive interfaces across apps and devices.",
-    "Enterprise agents gain always-on autonomy and business ontology layers for long-running, governed work.",
-    "Coding and computer-use agents benefit from local emulators and self-hostable workspaces built for governance and rapid iteration."
+    "European Parliament calls for human-centred AI oversight in democratic processes and strategic autonomy across the AI value chain.",
+    "German physical AI robotics attracts major global capital, with Agile Robots raising at an $8.5 billion valuation.",
+    "EU Digital Fairness Act proposal introduces consumer controls on automated systems and AI agents concluding contracts.",
+    "Nordic AI accounting startup Sumary scales with a large seed round for agent-driven workflows in professional services.",
+    "Frontier models and agent infrastructure continue rapid commercialization alongside Europe's regulatory and infrastructure focus."
   ],
   "stories": [
     {
@@ -50,6 +50,46 @@
       "confidence": "high"
     },
     {
+      "id": "2026-11-12-ep-ai-democracy-resolution",
+      "slug": "european-parliament-ai-democracy-oversight-resolution",
+      "headline": "European Parliament adopts resolution calling for AI oversight in democratic processes",
+      "what_happened": "On 12 November 2026, the European Parliament adopted a resolution on the institutional aspects of AI in European integration by 405 votes to 133 with 60 abstentions. MEPs called for human-centred AI use with full oversight in EU institutions, prioritisation of European AI tools and strategic autonomy, an EU-led international agreement on AI risks modelled on nuclear non-proliferation, reform of electoral law to address AI risks, and a budget-neutral European Parliament AI observatory.",
+      "why_it_matters": "It strengthens parliamentary scrutiny of AI's impact on democracy, institutional balance and fundamental rights while reinforcing Europe's push for technological sovereignty.",
+      "organization": ["European Parliament"],
+      "product": [],
+      "category": "Regulation",
+      "tags": ["democracy", "oversight", "strategic-autonomy", "fundamental-rights"],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-11-12T00:00:00Z",
+      "discovered_at": "2026-11-13T06:19:00Z",
+      "source_name": "European Parliament",
+      "source_url": "https://www.europarl.europa.eu/news/en/press-room/20261110IPR48745/ai-in-democracy-ensuring-oversight-and-compliance-with-eu-values",
+      "official_url": "https://www.europarl.europa.eu/news/en/press-room/20261110IPR48745/ai-in-democracy-ensuring-oversight-and-compliance-with-eu-values",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-11-12-agile-robots-500m-funding",
+      "slug": "agile-robots-raises-500m-8-5b-valuation",
+      "headline": "Agile Robots raises $500 million at $8.5 billion valuation in SoftBank-led round",
+      "what_happened": "Munich-based Agile Robots closed a $500 million Series F on 12 November 2026 at an $8.5 billion valuation, led by SoftBank Group with participation from NVIDIA, Hitachi Group and T.Capital. Total funding reaches $2 billion. The company will use proceeds for US expansion, additional production capacity including in Germany, and new markets. It has deployed over 20,000 robotic solutions and operates a factory near Munich capable of producing up to 10,000 humanoids annually.",
+      "why_it_matters": "It positions a European physical AI leader among the highest-valued private robotics firms and accelerates industrial-scale deployment of intelligent robots in manufacturing and logistics.",
+      "organization": ["Agile Robots", "SoftBank", "NVIDIA"],
+      "product": ["Agile ONE"],
+      "category": "Funding",
+      "tags": ["physical-ai", "robotics", "humanoids", "funding", "manufacturing"],
+      "country": "Germany",
+      "country_code": "de",
+      "published_at": "2026-11-12T00:00:00Z",
+      "discovered_at": "2026-11-13T06:19:00Z",
+      "source_name": "Agile Robots",
+      "source_url": "https://www.agile-robots.com/en/news/detail/physical-ai-leader-agile-robots-raises-500-million-series-f-funding/",
+      "official_url": "https://www.agile-robots.com/en/news/detail/physical-ai-leader-agile-robots-raises-500-million-series-f-funding/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
       "id": "2026-11-11-databricks-genie-ontology",
       "slug": "databricks-genie-autonomous-ontology-ga",
       "headline": "Databricks launches always-on Genie with Genie Ontology for autonomous enterprise work",
@@ -90,6 +130,26 @@
       "confidence": "high"
     },
     {
+      "id": "2026-11-11-eu-digital-fairness-act-agents",
+      "slug": "eu-digital-fairness-act-proposal-ai-agents",
+      "headline": "European Commission proposes Digital Fairness Act rules for AI agents in consumer contracts",
+      "what_happened": "On 11 November 2026 the European Commission adopted a proposal for a Digital Fairness Act as part of a Consumer Package. The proposal includes rules for automated systems that conclude contracts on consumers' behalf, requiring traders to provide tools for consumers to set parameters and choose confirmation levels for contracts. It also addresses dark patterns, addictive design and other unfair online practices, aiming to save consumers up to €13.7 billion annually.",
+      "why_it_matters": "It extends EU consumer protection into agentic commerce, giving individuals explicit control over how much autonomy AI systems have when acting on their behalf.",
+      "organization": ["European Commission"],
+      "product": [],
+      "category": "Regulation",
+      "tags": ["ai-agents", "consumer-protection", "digital-fairness", "contracting"],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-11-11T00:00:00Z",
+      "discovered_at": "2026-11-13T06:19:00Z",
+      "source_name": "European Commission",
+      "source_url": "https://commission.europa.eu/news-and-media/news/making-your-online-experience-fairer-2026-11-11_en",
+      "official_url": "https://commission.europa.eu/law/law-topic/consumer-protection-law/digital-fairness-act_en",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
       "id": "2026-11-11-aws-emulator-ai-built",
       "slug": "aws-emulator-local-apis-built-by-agents",
       "headline": "AWS releases local AWS Emulator built entirely by AI agents for coding agent testing",
@@ -126,6 +186,26 @@
       "source_name": "OpenAI Developers",
       "source_url": "https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai",
       "official_url": "https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-11-10-sumary-25m-seed",
+      "slug": "sumary-raises-25m-seed-ai-accounting",
+      "headline": "Sumary raises $25 million seed to scale AI accounting platform across Europe",
+      "what_happened": "Copenhagen-based Sumary announced a $25 million seed round on 10 November 2026 led by Singular, with participation from byFounders, Partech and Tenity plus angels. The company builds AI agents for accounting workflows such as monthly closes and VAT returns on top of existing ledgers. It plans a London commercial hub with co-founders relocating, while keeping AI research in Denmark, and already serves major Nordic and UK firms including Deloitte and Grant Thornton.",
+      "why_it_matters": "It demonstrates strong demand for specialised AI agents in professional services and supports European expansion of domain-specific automation tools.",
+      "organization": ["Sumary", "Singular"],
+      "product": [],
+      "category": "Funding",
+      "tags": ["funding", "accounting", "ai-agents", "enterprise", "nordics"],
+      "country": "Denmark",
+      "country_code": "dk",
+      "published_at": "2026-11-10T00:00:00Z",
+      "discovered_at": "2026-11-13T06:19:00Z",
+      "source_name": "Sumary",
+      "source_url": "https://sumary.com/news",
+      "official_url": "https://sumary.com/news",
       "verification_status": "confirmed",
       "confidence": "high"
     }
