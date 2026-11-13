@@ -1,1 +1,311 @@
-INDEX_PLACEHOLDER
+[
+  {
+    "id": "2026-11-12-google-gemini-4-hydrogen",
+    "slug": "google-gemini-4-hydrogen-agentic-model",
+    "headline": "Google releases Gemini 4 Hydrogen, a fast low-cost model for everyday agentic workflows",
+    "published_at": "2026-11-12T00:00:00Z",
+    "category": "Models",
+    "organization": ["Google", "Google DeepMind"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-12-langchain-300m-funding",
+    "slug": "langchain-raises-300m-3b-valuation",
+    "headline": "LangChain raises $300 million at $3 billion valuation led by Alphabet's CapitalG",
+    "published_at": "2026-11-12T00:00:00Z",
+    "category": "Funding",
+    "organization": ["LangChain", "CapitalG"],
+    "verification_status": "reported",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-11-databricks-genie-ontology",
+    "slug": "databricks-genie-autonomous-ontology-ga",
+    "headline": "Databricks launches always-on Genie with Genie Ontology for autonomous enterprise work",
+    "published_at": "2026-11-11T00:00:00Z",
+    "category": "Enterprise",
+    "organization": ["Databricks"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-11-google-a2ui-1-0",
+    "slug": "google-a2ui-1-0-generative-ui-protocol",
+    "headline": "Google releases A2UI 1.0 stable open protocol for agents to return native interactive UIs",
+    "published_at": "2026-11-11T00:00:00Z",
+    "category": "Protocols",
+    "organization": ["Google"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-11-aws-emulator-ai-built",
+    "slug": "aws-emulator-local-apis-built-by-agents",
+    "headline": "AWS releases local AWS Emulator built entirely by AI agents for coding agent testing",
+    "published_at": "2026-11-11T00:00:00Z",
+    "category": "Infrastructure",
+    "organization": ["AWS"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-12-openai-openclaw-security",
+    "slug": "openai-secures-persistent-openclaw-agents",
+    "headline": "OpenAI details sandboxing and controls for hundreds of persistent OpenClaw agents",
+    "published_at": "2026-11-12T00:00:00Z",
+    "category": "Security",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-11-united-airlines-restricts-ai-agents",
+    "slug": "united-airlines-restricts-third-party-ai-agents-booking",
+    "headline": "United Airlines restricts third-party AI agents from booking flights and managing accounts",
+    "published_at": "2026-11-11T00:00:00Z",
+    "category": "Enterprise",
+    "organization": ["United Airlines"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-11-google-labs-tabletop",
+    "slug": "google-labs-tabletop-collaborative-ai-planning",
+    "headline": "Google Labs launches Tabletop experiment for AI-generated collaborative group planning tools",
+    "published_at": "2026-11-11T00:00:00Z",
+    "category": "Products",
+    "organization": ["Google Labs", "Google"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-11-plurai-13m-seed-agent-simulation",
+    "slug": "plurai-raises-13m-seed-agent-simulation",
+    "headline": "Plurai raises $13 million seed to launch simulation platform for reliable, self-improving AI agents",
+    "published_at": "2026-11-11T00:00:00Z",
+    "category": "Funding",
+    "organization": ["Plurai"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-anthropic-claude-sheets-whiteboards-data",
+    "slug": "anthropic-claude-sheets-whiteboards-data",
+    "headline": "Anthropic launches Claude Sheets and Whiteboards in beta and makes Claude Data generally available",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Products",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-cursor-projects-multiplayer",
+    "slug": "cursor-projects-multiplayer-team-agents",
+    "headline": "Cursor Projects becomes multiplayer, enabling team coordination of agents with shared context",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Coding Agents",
+    "organization": ["Cursor"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-denmark-dcai-gefion-investment",
+    "slug": "denmark-dcai-gefion-67m-investment-netcompany",
+    "headline": "Denmark invests €67 million in DCAI to expand Gefion AI supercomputer with Netcompany as new shareholder",
+    "published_at": "2026-11-10T07:53:00Z",
+    "category": "Infrastructure",
+    "organization": ["Danish Centre for AI Innovation", "Netcompany", "Novo Nordisk Foundation", "EIFO"],
+    "verification_status": "confirmed",
+    "country_code": "dk"
+  },
+  {
+    "id": "2026-11-10-ibm-microsoft-imagine-enterprise",
+    "slug": "ibm-microsoft-imagine-enterprise-ai-agent-platform",
+    "headline": "IBM and Microsoft announce Imagine Enterprise AI agent platform for industry processes",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Enterprise",
+    "organization": ["IBM", "Microsoft"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-google-gemini-4-carbon-swarm",
+    "slug": "google-gemini-4-carbon-antigravity-swarm",
+    "headline": "Google makes Gemini 4 Carbon available and previews agent swarm in Antigravity",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Models",
+    "organization": ["Google", "Google DeepMind"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-deepmind-alphaproof-code-signal",
+    "slug": "deepmind-alphaproof-code-verifies-signal-protocol",
+    "headline": "Google DeepMind's AlphaProof Code formally verifies key properties of Signal protocol code",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Research",
+    "organization": ["Google DeepMind"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-mercor-750m-series-d",
+    "slug": "mercor-raises-750m-20b-valuation-agent-evaluation",
+    "headline": "Mercor raises $750 million at $20 billion valuation to expand AI agent evaluation to enterprises",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Funding",
+    "organization": ["Mercor"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-openai-businesses-chatgpt-agents",
+    "slug": "openai-businesses-in-chatgpt-business-agents",
+    "headline": "OpenAI launches Businesses in ChatGPT beta with AI Business Agents",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Products",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-linux-foundation-agent-name-service",
+    "slug": "linux-foundation-launches-agent-name-service",
+    "headline": "Linux Foundation launches Agent Name Service for verifiable AI agent identities",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Protocols",
+    "organization": ["Linux Foundation"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-n8n-labs-nod-personal-agent",
+    "slug": "n8n-labs-nod-open-source-personal-agent",
+    "headline": "n8n Labs releases Nod, an open-source personal agent that runs locally",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Open Source",
+    "organization": ["n8n"],
+    "verification_status": "confirmed",
+    "country_code": "DE"
+  },
+  {
+    "id": "2026-11-09-paris-call-ai-safety-security",
+    "slug": "paris-call-ai-safety-security-declaration",
+    "headline": "European countries and AI firms including Mistral sign Paris Call for AI Safety and Security",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Safety",
+    "organization": ["French Presidency", "Mistral AI"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-09-anthropic-claude-fable-mythos-5-2",
+    "slug": "anthropic-claude-fable-mythos-5-2",
+    "headline": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 for ambitious agentic technical work",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Models",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-09-european-ai-funding-27-6bn",
+    "slug": "european-ai-funding-27-6bn-9m-2026",
+    "headline": "European AI companies raise $27.6 billion in first nine months of 2026",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Funding",
+    "organization": ["Tracxn Technologies"],
+    "verification_status": "reported",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-09-meta-muse-ember",
+    "slug": "meta-muse-ember-lightweight-agent-model",
+    "headline": "Meta releases Muse Ember, a low-cost model for high-volume agent tasks",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Models",
+    "organization": ["Meta"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-09-automattic-spacefast",
+    "slug": "automattic-spacefast-agent-app-hosting",
+    "headline": "Automattic launches Spacefast for deploying apps built by AI agents",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Products",
+    "organization": ["Automattic"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-08-deepseek-harness-1-54m-dau",
+    "slug": "deepseek-harness-154m-daily-users",
+    "headline": "DeepSeek Harness AI agent platform reaches 1.54 million daily active users",
+    "published_at": "2026-11-08T00:00:00Z",
+    "category": "Open Source",
+    "organization": ["DeepSeek"],
+    "verification_status": "reported",
+    "country_code": "CN"
+  },
+  {
+    "id": "2026-11-08-eu-member-states-ai-act-implementation-gaps",
+    "slug": "eu-member-states-ai-act-implementation-gaps",
+    "headline": "Many EU member states lag on appointing AI Act national authorities",
+    "published_at": "2026-11-08T16:00:00Z",
+    "category": "Regulation",
+    "organization": ["European Commission"],
+    "verification_status": "reported",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-06-netherlands-ai-vision-120m-ipcei",
+    "slug": "netherlands-ai-vision-120m-ipcei",
+    "headline": "Dutch cabinet publishes AI vision allocating €120 million for IPCEI-AI",
+    "published_at": "2026-11-06T13:45:00Z",
+    "category": "Funding",
+    "organization": ["Netherlands Government"],
+    "verification_status": "confirmed",
+    "country_code": "nl"
+  },
+  {
+    "id": "2026-11-05-eurohpc-ai-gigafactories-deadline-extension",
+    "slug": "eurohpc-ai-gigafactories-deadline-extension",
+    "headline": "EuroHPC extends AI Gigafactories tender deadlines",
+    "published_at": "2026-11-05T00:00:00Z",
+    "category": "Infrastructure",
+    "organization": ["EuroHPC Joint Undertaking", "European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-05-capgemini-ai-office-safety-consortium",
+    "slug": "capgemini-ai-office-safety-consortium",
+    "headline": "Capgemini leads consortium supporting European AI Office on GPAI cyber risks",
+    "published_at": "2026-11-05T00:00:00Z",
+    "category": "Safety",
+    "organization": ["Capgemini", "European AI Office"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-10-google-cloud-ai-native-k8s-agents",
+    "slug": "google-cloud-ai-native-kubernetes-agent-stack",
+    "headline": "Google Cloud publishes open AI-native Kubernetes stack for stateful agents",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Infrastructure",
+    "organization": ["Google Cloud"],
+    "verification_status": "confirmed",
+    "country_code": "US"
+  },
+  {
+    "id": "2026-11-10-browser-use-1-0",
+    "slug": "browser-use-1-0-repl-cdp-agent",
+    "headline": "browser-use 1.0 rewrites agent to use Python REPL on raw Chrome DevTools Protocol",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Computer Use",
+    "organization": ["Browser Use"],
+    "verification_status": "confirmed"
+  }
+]
