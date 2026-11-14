@@ -1,82 +1,32 @@
 [
   {
-    "id": "2026-11-13-openai-chatgpt-wallet",
-    "slug": "openai-chatgpt-wallet-agent-purchases",
-    "headline": "OpenAI launches ChatGPT Wallet enabling dots agents to make purchases with user approval",
+    "id": "2026-11-13-eu-dublin-ai-summit",
+    "slug": "eu-leaders-dublin-informal-european-council-ai-discussion",
+    "headline": "EU leaders hold first dedicated AI discussion at Dublin informal European Council",
     "published_at": "2026-11-13T00:00:00Z",
-    "category": "Products",
-    "organization": ["OpenAI"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-11-13-sierra-poppy-1-0",
-    "slug": "sierra-releases-poppy-1-0-personal-agent-protocol",
-    "headline": "Sierra releases Personal Agent Protocol (Poppy) 1.0 with Shopify and Meta Muse support",
-    "published_at": "2026-11-13T00:00:00Z",
-    "category": "Protocols",
-    "organization": ["Sierra", "Meta", "Shopify"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-11-12-mirendil-1b-series-a",
-    "slug": "mirendil-raises-1b-series-a-agentic-rd",
-    "headline": "Mirendil raises $1 billion Series A to democratize frontier AI R&D with agents",
-    "published_at": "2026-11-12T00:00:00Z",
-    "category": "Funding",
-    "organization": ["Mirendil", "Kleiner Perkins", "Clearlake Capital"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-11-12-nectar-creator-agent",
-    "slug": "nectar-launches-creator-agent-influencer-marketing",
-    "headline": "Nectar launches Creator Agent to automate end-to-end creator partnerships",
-    "published_at": "2026-11-12T00:00:00Z",
-    "category": "Products",
-    "organization": ["Nectar"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-11-11-microsoft-mdash-linux-kernel",
-    "slug": "microsoft-ai-agents-discover-59-linux-kernel-vulnerabilities",
-    "headline": "Microsoft AI agents uncover 59 Linux kernel vulnerabilities including decades-old bugs",
-    "published_at": "2026-11-11T00:00:00Z",
-    "category": "Research",
-    "organization": ["Microsoft"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-11-12-google-gemini-4-hydrogen",
-    "slug": "google-gemini-4-hydrogen-agentic-model",
-    "headline": "Google releases Gemini 4 Hydrogen, a fast low-cost model for everyday agentic workflows",
-    "published_at": "2026-11-12T00:00:00Z",
-    "category": "Models",
-    "organization": ["Google", "Google DeepMind"],
-    "verification_status": "confirmed",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-11-12-langchain-300m-funding",
-    "slug": "langchain-raises-300m-3b-valuation",
-    "headline": "LangChain raises $300 million at $3 billion valuation led by Alphabet's CapitalG",
-    "published_at": "2026-11-12T00:00:00Z",
-    "category": "Funding",
-    "organization": ["LangChain", "CapitalG"],
-    "verification_status": "reported",
-    "country_code": "US"
-  },
-  {
-    "id": "2026-11-12-ep-ai-democracy-resolution",
-    "slug": "european-parliament-ai-democracy-oversight-resolution",
-    "headline": "European Parliament adopts resolution calling for AI oversight in democratic processes",
-    "published_at": "2026-11-12T00:00:00Z",
     "category": "Regulation",
-    "organization": ["European Parliament"],
+    "organization": ["European Council", "European Commission", "Mistral AI"],
     "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-10-paris-call-ai-safety",
+    "slug": "paris-call-ai-safety-security-signed",
+    "headline": "Governments and AI firms including Mistral sign Paris Call for AI Safety and Security",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Safety",
+    "organization": ["French Presidency", "Mistral AI"],
+    "verification_status": "confirmed",
+    "country_code": "fr"
+  },
+  {
+    "id": "2026-11-10-eurohpc-gigafactories-resubmit",
+    "slug": "eurohpc-ai-gigafactories-tenders-resubmission-technical-issues",
+    "headline": "EuroHPC requires resubmission of AI Gigafactories tenders due to technical issues",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Infrastructure",
+    "organization": ["EuroHPC Joint Undertaking", "European Commission"],
+    "verification_status": "reported",
     "country_code": "eu"
   },
   {
@@ -90,13 +40,13 @@
     "country_code": "de"
   },
   {
-    "id": "2026-11-12-openai-openclaw-security",
-    "slug": "openai-secures-persistent-openclaw-agents",
-    "headline": "OpenAI details sandboxing and controls for hundreds of persistent OpenClaw agents",
+    "id": "2026-11-12-ep-ai-democracy-resolution",
+    "slug": "european-parliament-ai-democracy-oversight-resolution",
+    "headline": "European Parliament adopts resolution calling for AI oversight in democratic processes",
     "published_at": "2026-11-12T00:00:00Z",
-    "category": "Security",
-    "organization": ["OpenAI"],
+    "category": "Regulation",
+    "organization": ["European Parliament"],
     "verification_status": "confirmed",
-    "country_code": "US"
+    "country_code": "eu"
   }
 ]
