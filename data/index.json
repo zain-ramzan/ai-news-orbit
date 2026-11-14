@@ -68,5 +68,35 @@
     "organization": ["LangChain", "CapitalG"],
     "verification_status": "reported",
     "country_code": "US"
+  },
+  {
+    "id": "2026-11-12-ep-ai-democracy-resolution",
+    "slug": "european-parliament-ai-democracy-oversight-resolution",
+    "headline": "European Parliament adopts resolution calling for AI oversight in democratic processes",
+    "published_at": "2026-11-12T00:00:00Z",
+    "category": "Regulation",
+    "organization": ["European Parliament"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-12-agile-robots-500m-funding",
+    "slug": "agile-robots-raises-500m-8-5b-valuation",
+    "headline": "Agile Robots raises $500 million at $8.5 billion valuation in SoftBank-led round",
+    "published_at": "2026-11-12T00:00:00Z",
+    "category": "Funding",
+    "organization": ["Agile Robots", "SoftBank", "NVIDIA"],
+    "verification_status": "confirmed",
+    "country_code": "de"
+  },
+  {
+    "id": "2026-11-12-openai-openclaw-security",
+    "slug": "openai-secures-persistent-openclaw-agents",
+    "headline": "OpenAI details sandboxing and controls for hundreds of persistent OpenClaw agents",
+    "published_at": "2026-11-12T00:00:00Z",
+    "category": "Security",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "US"
   }
 ]
