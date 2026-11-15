@@ -1,5 +1,65 @@
 [
   {
+    "id": "2026-11-13-langchain-300m-series-c",
+    "slug": "langchain-raises-300m-3b-valuation",
+    "headline": "LangChain raises $300 million Series C at $3 billion valuation",
+    "published_at": "2026-11-13T00:00:00Z",
+    "category": "Funding",
+    "organization": ["LangChain", "CapitalG"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-13-openai-chatgpt-wallet",
+    "slug": "openai-launches-chatgpt-wallet-dots-agents",
+    "headline": "OpenAI launches ChatGPT Wallet so Dots agents can make secure purchases",
+    "published_at": "2026-11-13T00:00:00Z",
+    "category": "Products",
+    "organization": ["OpenAI"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-12-anthropic-self-hosted-managed-agents",
+    "slug": "anthropic-self-hosted-claude-managed-agents-beta",
+    "headline": "Anthropic opens private beta for self-hosted Claude Managed Agents",
+    "published_at": "2026-11-12T00:00:00Z",
+    "category": "Enterprise",
+    "organization": ["Anthropic"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-12-mirendil-1b-series-a",
+    "slug": "mirendil-raises-1b-series-a-lor-agents",
+    "headline": "Mirendil raises $1 billion Series A to automate AI research with agents",
+    "published_at": "2026-11-12T00:00:00Z",
+    "category": "Funding",
+    "organization": ["Mirendil", "Kleiner Perkins", "Clearlake Capital"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-14-att-500-agentic-workflows",
+    "slug": "att-nearly-500-agentic-workflows-production",
+    "headline": "AT&T runs nearly 500 agentic AI workflows in production, plans to triple them",
+    "published_at": "2026-11-14T00:00:00Z",
+    "category": "Enterprise",
+    "organization": ["AT&T"],
+    "verification_status": "reported",
+    "country_code": "us"
+  },
+  {
+    "id": "2026-11-13-cloudflare-kitesurf-open-source",
+    "slug": "cloudflare-open-sources-kitesurf-agent-browser",
+    "headline": "Cloudflare open-sources Kitesurf, its lightweight browser engine for AI agents",
+    "published_at": "2026-11-13T00:00:00Z",
+    "category": "Open Source",
+    "organization": ["Cloudflare"],
+    "verification_status": "confirmed",
+    "country_code": "us"
+  },
+  {
     "id": "2026-11-13-eu-dublin-ai-summit",
     "slug": "eu-leaders-dublin-informal-european-council-ai-discussion",
     "headline": "EU leaders hold first dedicated AI discussion at Dublin informal European Council",
