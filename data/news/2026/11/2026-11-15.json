@@ -1,14 +1,52 @@
 {
   "date": "2026-11-15",
-  "generated_at": "2026-11-15T05:13:00Z",
+  "generated_at": "2026-11-15T06:30:00Z",
   "key_agent_trends": [
+    "EU leaders quantify sovereign AI needs: ~€30 billion mobilised for seven AI Gigafactories and at least €500 billion required for tech sovereignty in chips, compute and frontier models.",
+    "UK advances AI hardware sovereignty as Fractile closes a $720 million Series C for inference chips with Sovereign AI Fund participation, targeting 2027 shipments.",
     "Major funding flows into agent infrastructure: LangChain at $3B valuation and Mirendil's $1B Series A highlight investor confidence in tools that govern and automate AI research and deployment.",
     "Agentic commerce advances with OpenAI's ChatGPT Wallet enabling secure, biometric-approved purchases by Dots agents using tokenized payments.",
-    "Enterprises demand control: Anthropic opens self-hosted Claude Managed Agents beta so companies can run agent harnesses and data on their own infrastructure.",
-    "Production scale demonstrated by AT&T running nearly 500 agentic workflows, processing massive token volumes and planning to triple capacity.",
-    "Open-source agent tooling expands as Cloudflare releases Kitesurf browser engine under Apache 2.0 for efficient, scalable agent web interactions."
+    "Enterprises demand control: Anthropic opens self-hosted Claude Managed Agents beta so companies can run agent harnesses and data on their own infrastructure."
   ],
   "stories": [
+    {
+      "id": "2026-11-13-eu-gigafactories-30bn-sovereignty",
+      "slug": "von-der-leyen-eu-30bn-ai-gigafactories-500bn-tech-sovereignty",
+      "headline": "Von der Leyen: Europe mobilising ~€30 billion for seven AI Gigafactories, needs at least €500 billion for tech sovereignty",
+      "what_happened": "After the informal European Council in Dublin on 13 November 2026, Commission President Ursula von der Leyen stated that seven AI Gigafactories are in planning, with around €30 billion being mobilised to provide computing capacity for advanced models. She estimated Europe requires at least €500 billion in investment for technological sovereignty covering chips, compute and frontier AI, and will follow up with an ambitious financing proposal.",
+      "why_it_matters": "It sets a clear scale for Europe's sovereign AI infrastructure ambitions and signals forthcoming Commission proposals to address the funding gap for compute and frontier models.",
+      "organization": ["European Commission"],
+      "product": [],
+      "category": "Infrastructure",
+      "tags": ["ai-gigafactories", "sovereign-ai", "compute", "funding"],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-11-13T00:00:00Z",
+      "discovered_at": "2026-11-15T06:30:00Z",
+      "source_name": "The Sofia Globe",
+      "source_url": "https://sofiaglobe.com/2026/11/14/eu-to-mobilise-billions-of-euro-for-ai-gigafactories-europes-tech-sovereignty/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
+    {
+      "id": "2026-11-11-fractile-720m-series-c",
+      "slug": "fractile-raises-720m-series-c-ai-inference-chips",
+      "headline": "Fractile raises $720 million Series C for AI inference chips, valued at ~$7 billion",
+      "what_happened": "On 11 November 2026, London- and Bristol-based Fractile announced a $720 million Series C led by Thrive Capital, Founders Fund, Lightspeed and Redpoint, with participation from CapitalG, the UK Sovereign AI Fund, British Business Bank and others. The round values the company at approximately $7 billion (over £5 billion per UK government). Fractile develops inference accelerators that stack DRAM on logic for higher bandwidth and plans first product-scale chips in 2027.",
+      "why_it_matters": "It strengthens European (UK) capabilities in AI hardware, reducing reliance on overseas suppliers for the inference compute that powers agents and large models.",
+      "organization": ["Fractile", "UK Sovereign AI Fund"],
+      "product": [],
+      "category": "Funding",
+      "tags": ["ai-chips", "inference", "sovereign-ai", "funding", "uk"],
+      "country": "United Kingdom",
+      "country_code": "gb",
+      "published_at": "2026-11-11T00:00:00Z",
+      "discovered_at": "2026-11-15T06:30:00Z",
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/legal/transactional/uk-backed-ai-chip-startup-fractile-hits-7-billion-valuation-funding-round-2026-11-11/",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    },
     {
       "id": "2026-11-13-langchain-300m-series-c",
       "slug": "langchain-raises-300m-3b-valuation",

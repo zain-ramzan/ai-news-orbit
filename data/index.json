@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-11-13-eu-gigafactories-30bn-sovereignty",
+    "slug": "von-der-leyen-eu-30bn-ai-gigafactories-500bn-tech-sovereignty",
+    "headline": "Von der Leyen: Europe mobilising ~€30 billion for seven AI Gigafactories, needs at least €500 billion for tech sovereignty",
+    "published_at": "2026-11-13T00:00:00Z",
+    "category": "Infrastructure",
+    "organization": ["European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-11-fractile-720m-series-c",
+    "slug": "fractile-raises-720m-series-c-ai-inference-chips",
+    "headline": "Fractile raises $720 million Series C for AI inference chips, valued at ~$7 billion",
+    "published_at": "2026-11-11T00:00:00Z",
+    "category": "Funding",
+    "organization": ["Fractile", "UK Sovereign AI Fund"],
+    "verification_status": "confirmed",
+    "country_code": "gb"
+  },
+  {
     "id": "2026-11-13-langchain-300m-series-c",
     "slug": "langchain-raises-300m-3b-valuation",
     "headline": "LangChain raises $300 million Series C at $3 billion valuation",
