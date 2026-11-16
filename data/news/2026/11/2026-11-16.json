@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T06:30:00Z",
+  "key_agent_trends": [
+    "EU implements common operational rules for AI regulatory sandboxes under the AI Act, requiring Member States to establish at least one by August 2027 and prioritising free access for SMEs and start-ups.",
+    "Sovereign AI compute and hardware remain central, with ongoing Gigafactories tenders and recent major funding for UK inference chip development.",
+    "EU leaders continue to emphasise the need for substantial investment in tech sovereignty alongside risk management following the Dublin informal summit."
+  ],
+  "stories": [
+    {
+      "id": "2026-11-11-eu-ai-regulatory-sandboxes-rules",
+      "slug": "eu-implements-common-rules-ai-regulatory-sandboxes",
+      "headline": "European Commission publishes Implementing Regulation (EU) 2026/2487 setting common rules for AI regulatory sandboxes",
+      "what_happened": "On 10 November 2026 the European Commission adopted Implementing Regulation (EU) 2026/2487, published in the Official Journal on 11 November 2026. It lays down detailed rules for the establishment, development, implementation, operation and supervision of AI regulatory sandboxes under the AI Act. Member States must ensure at least one national sandbox is operational by 2 August 2027. Participation is free of charge for SMEs including start-ups (with limited exceptions), and applicants must receive a decision within three months.",
+      "why_it_matters": "It provides legal certainty and harmonised procedures for testing innovative AI systems under supervision before market placement, supporting SME access and avoiding regulatory fragmentation across the EU.",
+      "organization": ["European Commission"],
+      "product": [],
+      "category": "Regulation",
+      "tags": ["ai-act", "regulatory-sandboxes", "innovation", "smes"],
+      "country": "European Union",
+      "country_code": "eu",
+      "published_at": "2026-11-11T00:00:00Z",
+      "discovered_at": "2026-11-16T06:30:00Z",
+      "source_name": "EUR-Lex",
+      "source_url": "https://eur-lex.europa.eu/eli/reg_impl/2026/2487/oj/eng",
+      "official_url": "https://eur-lex.europa.eu/eli/reg_impl/2026/2487/oj/eng",
+      "verification_status": "confirmed",
+      "confidence": "high"
+    }
+  ]
+}

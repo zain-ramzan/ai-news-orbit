@@ -2,7 +2,7 @@
   {
     "id": "2026-11-13-eu-gigafactories-30bn-sovereignty",
     "slug": "von-der-leyen-eu-30bn-ai-gigafactories-500bn-tech-sovereignty",
-    "headline": "Von der Leyen: Europe mobilising ~€30 billion for seven AI Gigafactories, needs at least €500 billion for tech sovereignty",
+    "headline": "Von der Leyen: Europe mobilising ~\u20ac30 billion for seven AI Gigafactories, needs at least \u20ac500 billion for tech sovereignty",
     "published_at": "2026-11-13T00:00:00Z",
     "category": "Infrastructure",
     "organization": ["European Commission"],
@@ -10,14 +10,14 @@
     "country_code": "eu"
   },
   {
-    "id": "2026-11-11-fractile-720m-series-c",
-    "slug": "fractile-raises-720m-series-c-ai-inference-chips",
-    "headline": "Fractile raises $720 million Series C for AI inference chips, valued at ~$7 billion",
-    "published_at": "2026-11-11T00:00:00Z",
-    "category": "Funding",
-    "organization": ["Fractile", "UK Sovereign AI Fund"],
-    "verification_status": "confirmed",
-    "country_code": "gb"
+    "id": "2026-11-14-att-500-agentic-workflows",
+    "slug": "att-nearly-500-agentic-workflows-production",
+    "headline": "AT&T runs nearly 500 agentic AI workflows in production, plans to triple them",
+    "published_at": "2026-11-14T00:00:00Z",
+    "category": "Enterprise",
+    "organization": ["AT&T"],
+    "verification_status": "reported",
+    "country_code": "us"
   },
   {
     "id": "2026-11-13-langchain-300m-series-c",
@@ -37,36 +37,6 @@
     "category": "Products",
     "organization": ["OpenAI"],
     "verification_status": "confirmed",
-    "country_code": "us"
-  },
-  {
-    "id": "2026-11-12-anthropic-self-hosted-managed-agents",
-    "slug": "anthropic-self-hosted-claude-managed-agents-beta",
-    "headline": "Anthropic opens private beta for self-hosted Claude Managed Agents",
-    "published_at": "2026-11-12T00:00:00Z",
-    "category": "Enterprise",
-    "organization": ["Anthropic"],
-    "verification_status": "confirmed",
-    "country_code": "us"
-  },
-  {
-    "id": "2026-11-12-mirendil-1b-series-a",
-    "slug": "mirendil-raises-1b-series-a-lor-agents",
-    "headline": "Mirendil raises $1 billion Series A to automate AI research with agents",
-    "published_at": "2026-11-12T00:00:00Z",
-    "category": "Funding",
-    "organization": ["Mirendil", "Kleiner Perkins", "Clearlake Capital"],
-    "verification_status": "confirmed",
-    "country_code": "us"
-  },
-  {
-    "id": "2026-11-14-att-500-agentic-workflows",
-    "slug": "att-nearly-500-agentic-workflows-production",
-    "headline": "AT&T runs nearly 500 agentic AI workflows in production, plans to triple them",
-    "published_at": "2026-11-14T00:00:00Z",
-    "category": "Enterprise",
-    "organization": ["AT&T"],
-    "verification_status": "reported",
     "country_code": "us"
   },
   {
@@ -90,24 +60,24 @@
     "country_code": "eu"
   },
   {
-    "id": "2026-11-10-paris-call-ai-safety",
-    "slug": "paris-call-ai-safety-security-signed",
-    "headline": "Governments and AI firms including Mistral sign Paris Call for AI Safety and Security",
-    "published_at": "2026-11-09T00:00:00Z",
-    "category": "Safety",
-    "organization": ["French Presidency", "Mistral AI"],
+    "id": "2026-11-12-anthropic-self-hosted-managed-agents",
+    "slug": "anthropic-self-hosted-claude-managed-agents-beta",
+    "headline": "Anthropic opens private beta for self-hosted Claude Managed Agents",
+    "published_at": "2026-11-12T00:00:00Z",
+    "category": "Enterprise",
+    "organization": ["Anthropic"],
     "verification_status": "confirmed",
-    "country_code": "fr"
+    "country_code": "us"
   },
   {
-    "id": "2026-11-10-eurohpc-gigafactories-resubmit",
-    "slug": "eurohpc-ai-gigafactories-tenders-resubmission-technical-issues",
-    "headline": "EuroHPC requires resubmission of AI Gigafactories tenders due to technical issues",
-    "published_at": "2026-11-10T00:00:00Z",
-    "category": "Infrastructure",
-    "organization": ["EuroHPC Joint Undertaking", "European Commission"],
-    "verification_status": "reported",
-    "country_code": "eu"
+    "id": "2026-11-12-mirendil-1b-series-a",
+    "slug": "mirendil-raises-1b-series-a-lor-agents",
+    "headline": "Mirendil raises $1 billion Series A to automate AI research with agents",
+    "published_at": "2026-11-12T00:00:00Z",
+    "category": "Funding",
+    "organization": ["Mirendil", "Kleiner Perkins", "Clearlake Capital"],
+    "verification_status": "confirmed",
+    "country_code": "us"
   },
   {
     "id": "2026-11-12-agile-robots-500m-funding",
@@ -127,6 +97,46 @@
     "category": "Regulation",
     "organization": ["European Parliament"],
     "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-11-fractile-720m-series-c",
+    "slug": "fractile-raises-720m-series-c-ai-inference-chips",
+    "headline": "Fractile raises $720 million Series C for AI inference chips, valued at ~$7 billion",
+    "published_at": "2026-11-11T00:00:00Z",
+    "category": "Funding",
+    "organization": ["Fractile", "UK Sovereign AI Fund"],
+    "verification_status": "confirmed",
+    "country_code": "gb"
+  },
+  {
+    "id": "2026-11-11-eu-ai-regulatory-sandboxes-rules",
+    "slug": "eu-implements-common-rules-ai-regulatory-sandboxes",
+    "headline": "European Commission publishes Implementing Regulation (EU) 2026/2487 setting common rules for AI regulatory sandboxes",
+    "published_at": "2026-11-11T00:00:00Z",
+    "category": "Regulation",
+    "organization": ["European Commission"],
+    "verification_status": "confirmed",
+    "country_code": "eu"
+  },
+  {
+    "id": "2026-11-10-paris-call-ai-safety",
+    "slug": "paris-call-ai-safety-security-signed",
+    "headline": "Governments and AI firms including Mistral sign Paris Call for AI Safety and Security",
+    "published_at": "2026-11-09T00:00:00Z",
+    "category": "Safety",
+    "organization": ["French Presidency", "Mistral AI"],
+    "verification_status": "confirmed",
+    "country_code": "fr"
+  },
+  {
+    "id": "2026-11-10-eurohpc-gigafactories-resubmit",
+    "slug": "eurohpc-ai-gigafactories-tenders-resubmission-technical-issues",
+    "headline": "EuroHPC requires resubmission of AI Gigafactories tenders due to technical issues",
+    "published_at": "2026-11-10T00:00:00Z",
+    "category": "Infrastructure",
+    "organization": ["EuroHPC Joint Undertaking", "European Commission"],
+    "verification_status": "reported",
     "country_code": "eu"
   }
 ]
